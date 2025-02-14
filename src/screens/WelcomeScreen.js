@@ -68,10 +68,10 @@ export default function WelcomeScreen(){
                         fontWeight:"medium"
                     }}
                     >
-                    Get Startedd
+                    Get Started
                     </Text>
             </TouchableOpacity>
-          </View>
+            </View>
         </View>
     )
 }

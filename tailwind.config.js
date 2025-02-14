@@ -1,13 +1,16 @@
+import {colors} from "./src/styles/colors";
+import {colors, fontFamily} from "./src/styles/fontFamily";
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  // NOTE: Update this to include the paths to all of your component files.
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
-  safelist: [
-    {
-      pattern: /bg-\[\#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})\]/, // Permite cores arbitrárias
-    },
-  ],
+  presets: [require("nativewind/preset")],
   theme: {
-    extend: {},
+    extend: {
+      colors,
+      fontFamily
+    },
   },
   plugins: [],
-};
+}
