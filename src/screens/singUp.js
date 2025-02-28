@@ -20,7 +20,7 @@ export default function AnimatedStyleUpadateExample(props){
            <Image className="h-full w-full absolute" source={require('../../assets/image/background_1.png')}/>
            
            <View className="flex-row justify-around w-full absolute">
-                <Animated.Image entering={FadeInUp.delay(200).duration(1000).springify()} className="h-[225] w-[90]" source={require('../../assets/image/light.png')}/>
+                <Animated.Image entering={FadeInUp.delay(200).duration(1000).springify()} className="h-[215] w-[90]" source={require('../../assets/image/light.png')}/>
                 <Animated.Image entering={FadeInUp.delay(400).duration(1000).springify()} className="h-[160] w-[65]" source={require('../../assets/image/light.png')}/>
            </View>
            {/*Title and form */}
