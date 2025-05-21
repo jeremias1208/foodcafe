@@ -24,7 +24,7 @@ export default function Menu({ title, icon: Icon, uri, color }) {
 const color = { color };
 const Styele = StyleSheet.create({
   container: {
-    height: 150,
+    height: 10,
 
     justifyContent: "center",
     alignItems: "center",

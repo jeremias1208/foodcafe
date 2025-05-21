@@ -1,22 +1,103 @@
-import React from 'react';
-import { Text, View } from 'react-native';
-import Head from '../componentes_aula/Head';
-import Body from '../componentes_aula/body';
-import { MagnifyingGlassIcon, HeartIcon, Bars4Icon, MusicalNoteIcon} from 'react-native-heroicons/solid';
+import React, { useState, useEffect } from "react";
+import {
+  View,
+  Text,
+  TextInput,
+  FlatList,
+  TouchableOpacity,
+  ActivityIndicator,
+} from "react-native";
+import {
+  MagnifyingGlassIcon,
+  HeartIcon,
+  Bars4Icon,
+  MusicalNoteIcon,
+} from "react-native-heroicons/solid";
+import Head from "../componentes_aula/Head";
+import hinos from "../database/hinario.json";
+import HTMLView from "react-native-htmlview";
 
+export default function Hinos({ navigation }) {
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState(null);
+  const [searchText, setSearchText] = useState("");
+  const [filteredHinos, setFilteredHinos] = useState([]);
 
-export default function Hinos(){
+  // Inicializa com todos os hinos
+  useEffect(() => {
+    setFilteredHinos(hinos);
+  }, []);
 
-    return(
-        <View>
-            <Head
-            title={"Hinos"}
-            leftIcon={Bars4Icon}
-            centerIcon={MusicalNoteIcon}
-            rightIcon={HeartIcon}
-            searchIcon={MagnifyingGlassIcon}
-            />
-            <Body/>
+  // Filtra os hinos conforme o texto de pesquisa
+  useEffect(() => {
+    if (searchText.trim() === "") {
+      setFilteredHinos(hinos);
+    } else {
+      const filtered = hinos.filter(
+        (hino) =>
+          hino.titulo.toLowerCase().includes(searchText) ||
+          hino.letra.toLowerCase().includes(searchText.toLowerCase()) ||
+          hino.numero.toString().includes(searchText) ||
+          hino.Idioma.nome.toLowerCase().includes(searchText)
+      );
+      setFilteredHinos(filtered);
+    }
+  }, [searchText]);
+
+  const renderHinoItem = ({ item }) => (
+    <TouchableOpacity
+      className="border-b border-gray-200 py-3 px-4 mx-4 mt-2"
+      onPress={() => navigation.navigate("HinoDetalhesScreen", { hino: item })}
+    >
+      <View className="flex-row items-center">
+        <View className="bg-blue-100 rounded-full w-8 h-8 items-center justify-center mr-3">
+          <Text className="text-blue-800 font-bold text-xl">{item.numero}</Text>
         </View>
-    )
+        <Text className="text-gray-800 flex-1 text-xl" numberOfLines={1}>
+          {item.letra.replace(/<[^>]*>/g, "")}
+        </Text>
+        <MusicalNoteIcon size={25} color="#3b82f6" />
+      </View>
+    </TouchableOpacity>
+  );
+
+  return (
+    <View >
+      <Head
+        title={"Hinário"}
+        leftIcon={Bars4Icon}
+        centerIcon={MusicalNoteIcon}
+        rightIcon={HeartIcon}
+        searchIcon={MagnifyingGlassIcon}
+        acao={setSearchText}
+        value={searchText}
+        placeholder="Pesquisar por número, título ou letra..."
+      />
+
+      {/* Barra de pesquisa */}
+
+      {/* Contador de resultados */}
+      <Text className="text-gray-500 text-sm px-4 mx-4 py-2">
+        {filteredHinos.length} hinos encontrados
+      </Text>
+
+      {/* Lista de hinos */}
+      {loading ? (
+        <ActivityIndicator size="large" className="mt-8" />
+      ) : error ? (
+        <Text className="text-red-500 text-center mt-8">{error}</Text>
+      ) : (
+        <FlatList
+          data={filteredHinos}
+          keyExtractor={(item) => item.id.toString()}
+          renderItem={renderHinoItem}
+          ListEmptyComponent={
+            <Text className="text-gray-500 text-center mt-8">
+              Nenhum hino encontrado
+            </Text>
+          }
+        />
+      )}
+    </View>
+  );
 }

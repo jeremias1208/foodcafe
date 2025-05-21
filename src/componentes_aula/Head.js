@@ -6,21 +6,30 @@ import {
   TextInput,
   TouchableOpacity,
 } from "react-native";
+import { useNavigation } from "@react-navigation/native";
 
+const placeholderTxt = "Pesquisar por número ou letra";
 export default function Head({
   title,
   leftIcon: LeftIcon,
   centerIcon: CenterIcon,
   rightIcon: RightIcon,
   searchIcon: SearchIcon,
+  value,
+  acao,
+  favorites,
+  placeholder,
 }) {
+  const navigation = useNavigation();
   return (
     <View style={Styles.container_1}>
       {/* Linha do cabeçalho */}
       <View style={Styles.container}>
         {/* Ícone Esquerdo */}
         <View style={Styles.text}>
-          {LeftIcon && <LeftIcon size={30} color="white" />}
+          <TouchableOpacity onPress={() => navigation.navigate("Home")}>
+            {LeftIcon && <LeftIcon size={30} color="white" />}
+          </TouchableOpacity>
         </View>
 
         {/* Ícone Central + Título */}
@@ -31,19 +40,23 @@ export default function Head({
 
         {/* Ícone Direito */}
         <View style={Styles.text}>
-          <TouchableOpacity>
+          <TouchableOpacity onPress={() => navigation.navigate("Favorito")}>
             {RightIcon && <RightIcon size={30} color="white" />}
           </TouchableOpacity>
         </View>
       </View>
 
       {/* Campo de Pesquisa */}
-      <View style={Styles.containerSearch}>
-        {SearchIcon && <SearchIcon size={30} color="gray" />}
-        <TextInput
-          placeholder="Pesquisar por número ou letra..."
-          placeholderTextColor="#828282"
-        />
+      <View className="px-4 py-2 " style={{ backgroundColor: "#FF7E82" }}>
+        <View className="flex-row items-center mx-4 bg-white rounded-lg px-3 py-2 border border-gray-200">
+          {SearchIcon && <SearchIcon size={30} color="#9ca3af" />}
+          <TextInput
+            className="flex-1 ml-2 text-gray-700"
+            placeholder="Pesquisar por número, título ou letra..."
+            value={value}
+            onChangeText={acao}
+          />
+        </View>
       </View>
     </View>
   );
@@ -53,19 +66,16 @@ const Styles = StyleSheet.create({
   container_1: {
     height: 145,
     backgroundColor: "#FF7E82",
+    position: "static",
   },
   container: {
     marginTop: 49,
-    paddingHorizontal: 10,
     flexDirection: "row",
-    justifyContent: "center",
-    alignItems: "center",
-    alignSelf: "flex-start",
+    justifyContent: "space-between",
+    marginHorizontal: 24,
   },
   text: {
-    marginHorizontal: 55,
     flexDirection: "row",
-    justifyContent: "center",
     alignContent: "center",
   },
   text1: {
@@ -82,5 +92,8 @@ const Styles = StyleSheet.create({
     alignItems: "center",
     paddingHorizontal: 24,
     backgroundColor: "rgba(255, 255, 255, 0.7)",
+  },
+  textPlaceholder: {
+    fontSize: 18,
   },
 });

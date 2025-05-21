@@ -10,6 +10,7 @@ import {
 } from "react-native-heroicons/solid";
 import { useNavigation } from "@react-navigation/native";
 import Menu from "../componentes_aula/Menu";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 export default function Home() {
   const navigation = useNavigation();
@@ -48,34 +49,34 @@ export default function Home() {
     },
     {
       icon: InformationCircleIcon,
-      title: "Sobre",
-      uri: "Sobre",
+      title: "Hinos List",
+      uri: "HinoList",
       color: "#F19A9D",
     },
   ];
 
   return (
-    <View style={Styele.container}>
+    <View style={{flex:1}}>
       <View style={Styele.containerImage}>
         <Image
           source={require("../../assets/image/liry.png")}
-          className="absolute w-full"
-        />
+          className="absolute w-full h-full"
+          />
       </View>
       <View style={Styele.containerMenu}>
         {MenuItemsList.map((itemsList, index) => {
           return (
             <Menu
-              key={index}
-              title={itemsList.title}
-              icon={itemsList.icon}
-              uri={itemsList.uri}
-              color={itemsList.color}
+            key={index}
+            title={itemsList.title}
+            icon={itemsList.icon}
+            uri={itemsList.uri}
+            color={itemsList.color}
             />
           );
         })}
       </View>
-    </View>
+        </View>
   );
 }
 
@@ -85,7 +86,6 @@ const Styele = StyleSheet.create({
   },
   containerImage: {
     height: "45%",
-    backgroundColor: "#F7BABC",
   },
   containerMenu: {
     flexDirection: "row",
