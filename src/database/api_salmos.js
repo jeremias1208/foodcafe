@@ -2,21 +2,21 @@ const axios = require("axios");
 const fs = require("fs");
 
 // Configuração
-const API_URL = "http://localhost:5500/hinos";
-const JSON_FILE = "hinario_1.json";
+const API_URL = "http://localhost:5500/salmos";
+const JSON_FILE = "Salmos.json";
 
 async function main() {
   try {
-    // 1. Buscar hinos da API
-    console.log(`Buscando hinos de ${API_URL}...`);
+    // 1. Buscar salmosda API
+    console.log(`Buscando salmosde ${API_URL}...`);
     const response = await axios.get(API_URL);
-    const hinos = Array.isArray(response.data)
+    const salmos= Array.isArray(response.data)
       ? response.data
       : [response.data];
 
-    // 2. Processar e salvar os hinos no ficheiro JSON
-    console.log(`Processando ${hinos.length} hinos...`);
-    salvarHinos(hinos);
+    // 2. Processar e salvar os salmosno ficheiro JSON
+    console.log(`Processando ${salmos.length} hinos...`);
+    salvarHinos(salmos);
 
     console.log("Dados salvos com sucesso!");
 
@@ -27,7 +27,7 @@ async function main() {
   }
 }
 
-function salvarHinos(hinos) {
+function salvarHinos(salmos) {
   // Carregar os dados existentes, se houver
   let dadosExistentes = [];
   if (fs.existsSync(JSON_FILE)) {
@@ -36,11 +36,11 @@ function salvarHinos(hinos) {
   }
 
   // Adicionar os novos hinos
-  const dadosAtualizados = [...dadosExistentes, ...hinos];
+  const dadosAtualizados = [...dadosExistentes, ...salmos];
 
   // Salvar no ficheiro JSON
   fs.writeFileSync(JSON_FILE, JSON.stringify(dadosAtualizados, null, 2));
-  console.log("Hinos salvos no ficheiro JSON.");
+  console.log("salmossalvos no ficheiro JSON.");
 }
 
 function mostrarEstatisticas() {
@@ -50,14 +50,14 @@ function mostrarEstatisticas() {
   }
 
   const rawData = fs.readFileSync(JSON_FILE);
-  const hinos = JSON.parse(rawData);
+  const salmos= JSON.parse(rawData);
 
   console.log("\nEstatísticas:");
-  console.log(`- Total de hinos: ${hinos.length}`);
+  console.log(`- Total de hinos: ${salmos.length}`);
 
-  // Mostrar alguns hinos como exemplo
-  console.log("\nAlguns hinos armazenados:");
-  hinos.slice(0, 3).forEach((h) => console.log(`#${h.numero} - ${h.titulo}`));
+  // Mostrar alguns salmoscomo exemplo
+  console.log("\nAlguns salmosarmazenados:");
+  salmos.slice(0, 3).forEach((h) => console.log(`#${h.numero} - ${h.titulo}`));
 }
 
 // Executar o processo

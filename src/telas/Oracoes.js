@@ -1,5 +1,5 @@
-import React from "react";
 import { Text, View } from "react-native";
+import MenuLateral from "../componentes_aula/MenuLateral";
 import Head from "../componentes_aula/Head";
 
 import {
@@ -9,8 +9,11 @@ import {
   MagnifyingGlassIcon,
 } from "react-native-heroicons/solid";
 import ListItem from "../componentes_aula/ListItem";
+import { useEffect, useState } from "react";
 
-export default function Oracoes() {
+export default function Oracoes({navigation}) {
+    const [menuVisible, setMenuVisible] = useState(false);
+
   return (
     <View>
       <Head
@@ -20,8 +23,17 @@ export default function Oracoes() {
         rightIcon={HeartIcon}
         searchIcon={MagnifyingGlassIcon}
         placeholder
+        acaoLeft={()=>setMenuVisible(true) }
       />
       <ListItem />
+      <ListItem />
+      <ListItem />
+      <ListItem />
+      <MenuLateral
+        visible={menuVisible}
+        onClose={() => setMenuVisible(false)}
+        navigation={navigation}
+      />
     </View>
   );
 }

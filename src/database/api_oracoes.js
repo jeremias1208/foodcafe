@@ -2,21 +2,21 @@ const axios = require("axios");
 const fs = require("fs");
 
 // Configuração
-const API_URL = "http://localhost:5500/hinos";
-const JSON_FILE = "hinario_1.json";
+const API_URL = "http://localhost:5500/oracoes";
+const JSON_FILE = "Oracoes.json";
 
 async function main() {
   try {
-    // 1. Buscar hinos da API
-    console.log(`Buscando hinos de ${API_URL}...`);
+    // 1. Buscar oracoes da API
+    console.log(`Buscando oracoes de ${API_URL}...`);
     const response = await axios.get(API_URL);
-    const hinos = Array.isArray(response.data)
+    const oracoes = Array.isArray(response.data)
       ? response.data
       : [response.data];
 
-    // 2. Processar e salvar os hinos no ficheiro JSON
-    console.log(`Processando ${hinos.length} hinos...`);
-    salvarHinos(hinos);
+    // 2. Processar e salvar os oracoes no ficheiro JSON
+    console.log(`Processando ${oracoes.length} oracoes...`);
+    salvaroracoes(oracoes);
 
     console.log("Dados salvos com sucesso!");
 
@@ -27,7 +27,7 @@ async function main() {
   }
 }
 
-function salvarHinos(hinos) {
+function salvaroracoes(oracoes) {
   // Carregar os dados existentes, se houver
   let dadosExistentes = [];
   if (fs.existsSync(JSON_FILE)) {
@@ -35,12 +35,12 @@ function salvarHinos(hinos) {
     dadosExistentes = JSON.parse(rawData);
   }
 
-  // Adicionar os novos hinos
-  const dadosAtualizados = [...dadosExistentes, ...hinos];
+  // Adicionar os novos oracoes
+  const dadosAtualizados = [...dadosExistentes, ...oracoes];
 
   // Salvar no ficheiro JSON
   fs.writeFileSync(JSON_FILE, JSON.stringify(dadosAtualizados, null, 2));
-  console.log("Hinos salvos no ficheiro JSON.");
+  console.log("oracoes salvos no ficheiro JSON.");
 }
 
 function mostrarEstatisticas() {
@@ -50,14 +50,14 @@ function mostrarEstatisticas() {
   }
 
   const rawData = fs.readFileSync(JSON_FILE);
-  const hinos = JSON.parse(rawData);
+  const oracoes = JSON.parse(rawData);
 
   console.log("\nEstatísticas:");
-  console.log(`- Total de hinos: ${hinos.length}`);
+  console.log(`- Total de oracoes: ${oracoes.length}`);
 
-  // Mostrar alguns hinos como exemplo
-  console.log("\nAlguns hinos armazenados:");
-  hinos.slice(0, 3).forEach((h) => console.log(`#${h.numero} - ${h.titulo}`));
+  // Mostrar alguns oracoes como exemplo
+  console.log("\nAlguns oracoes armazenados:");
+  oracoes.slice(0, 3).forEach((h) => console.log(`#${h.numero} - ${h.titulo}`));
 }
 
 // Executar o processo

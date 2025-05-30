@@ -49,8 +49,8 @@ export default function Home() {
     },
     {
       icon: InformationCircleIcon,
-      title: "Hinos List",
-      uri: "HinoList",
+      title: "Sobre",
+      uri: "Sobre",
       color: "#F19A9D",
     },
   ];

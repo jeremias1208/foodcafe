@@ -17,8 +17,7 @@ export default function Head({
   searchIcon: SearchIcon,
   value,
   acao,
-  favorites,
-  placeholder,
+acaoLeft
 }) {
   const navigation = useNavigation();
   return (
@@ -27,7 +26,7 @@ export default function Head({
       <View style={Styles.container}>
         {/* Ícone Esquerdo */}
         <View style={Styles.text}>
-          <TouchableOpacity onPress={() => navigation.navigate("Home")}>
+          <TouchableOpacity onPress={acaoLeft}>
             {LeftIcon && <LeftIcon size={30} color="white" />}
           </TouchableOpacity>
         </View>

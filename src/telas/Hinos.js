@@ -14,14 +14,16 @@ import {
   MusicalNoteIcon,
 } from "react-native-heroicons/solid";
 import Head from "../componentes_aula/Head";
+import MenuLateral from "../componentes_aula/MenuLateral";
 import hinos from "../database/hinario.json";
-import HTMLView from "react-native-htmlview";
+
 
 export default function Hinos({ navigation }) {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
   const [searchText, setSearchText] = useState("");
   const [filteredHinos, setFilteredHinos] = useState([]);
+  const [menuVisible, setMenuVisible] = useState(false);
 
   // Inicializa com todos os hinos
   useEffect(() => {
@@ -71,15 +73,15 @@ export default function Hinos({ navigation }) {
         searchIcon={MagnifyingGlassIcon}
         acao={setSearchText}
         value={searchText}
+        acaoLeft={()=>setMenuVisible(true)}
         placeholder="Pesquisar por número, título ou letra..."
       />
 
-      {/* Barra de pesquisa */}
-
-      {/* Contador de resultados */}
-      <Text className="text-gray-500 text-sm px-4 mx-4 py-2">
-        {filteredHinos.length} hinos encontrados
-      </Text>
+       <MenuLateral
+        visible={menuVisible}
+        onClose={() => setMenuVisible(false)}
+        navigation={navigation}
+      />
 
       {/* Lista de hinos */}
       {loading ? (

@@ -2,21 +2,21 @@ const axios = require("axios");
 const fs = require("fs");
 
 // Configuração
-const API_URL = "http://localhost:5500/hinos";
-const JSON_FILE = "hinario_1.json";
+const API_URL = "http://localhost:5500/litanias";
+const JSON_FILE = "Litanias.json";
 
 async function main() {
   try {
-    // 1. Buscar hinos da API
-    console.log(`Buscando hinos de ${API_URL}...`);
+    // 1. Buscar litanias da API
+    console.log(`Buscando litanias de ${API_URL}...`);
     const response = await axios.get(API_URL);
-    const hinos = Array.isArray(response.data)
+    const litanias = Array.isArray(response.data)
       ? response.data
       : [response.data];
 
-    // 2. Processar e salvar os hinos no ficheiro JSON
-    console.log(`Processando ${hinos.length} hinos...`);
-    salvarHinos(hinos);
+    // 2. Processar e salvar os litanias no ficheiro JSON
+    console.log(`Processando ${litanias.length} litanias...`);
+    salvarlitanias(litanias);
 
     console.log("Dados salvos com sucesso!");
 
@@ -27,7 +27,7 @@ async function main() {
   }
 }
 
-function salvarHinos(hinos) {
+function salvarlitanias(litanias) {
   // Carregar os dados existentes, se houver
   let dadosExistentes = [];
   if (fs.existsSync(JSON_FILE)) {
@@ -35,12 +35,12 @@ function salvarHinos(hinos) {
     dadosExistentes = JSON.parse(rawData);
   }
 
-  // Adicionar os novos hinos
-  const dadosAtualizados = [...dadosExistentes, ...hinos];
+  // Adicionar os novos litanias
+  const dadosAtualizados = [...dadosExistentes, ...litanias];
 
   // Salvar no ficheiro JSON
   fs.writeFileSync(JSON_FILE, JSON.stringify(dadosAtualizados, null, 2));
-  console.log("Hinos salvos no ficheiro JSON.");
+  console.log("litanias salvos no ficheiro JSON.");
 }
 
 function mostrarEstatisticas() {
@@ -50,14 +50,14 @@ function mostrarEstatisticas() {
   }
 
   const rawData = fs.readFileSync(JSON_FILE);
-  const hinos = JSON.parse(rawData);
+  const litanias = JSON.parse(rawData);
 
   console.log("\nEstatísticas:");
-  console.log(`- Total de hinos: ${hinos.length}`);
+  console.log(`- Total de litanias: ${litanias.length}`);
 
-  // Mostrar alguns hinos como exemplo
-  console.log("\nAlguns hinos armazenados:");
-  hinos.slice(0, 3).forEach((h) => console.log(`#${h.numero} - ${h.titulo}`));
+  // Mostrar alguns litanias como exemplo
+  console.log("\nAlguns litanias armazenados:");
+  litanias.slice(0, 3).forEach((h) => console.log(`#${h.numero} - ${h.titulo}`));
 }
 
 // Executar o processo
