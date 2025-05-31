@@ -19,17 +19,23 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.jeremy0208.Foodcafe"
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
     "extra": {
-      "dbPath": "./hinario.db"
+      "dbPath": "./hinario.db",
+      "router": {},
+      "eas": {
+        "projectId": "06a9c0b6-bfa0-4097-8405-daad7fe880cf"
+      }
     },
     "plugins": [
       "expo-sqlite",
       "expo-router"
-    ]
+    ],
+    "owner": "jeremy0208"
   }
 }
