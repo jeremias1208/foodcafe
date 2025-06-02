@@ -1,0 +1,977 @@
+[
+  {
+    "id": 17,
+    "numero": 1,
+    "titulo": "(Música: C.Sr. 316)",
+    "letra": "<p>1. Uhi ño! Uhi ño! </p><p>Tu fendeli ño;</p><p>Uhiño loku yeva ondaka eyi.</p><p></p><p><strong><em>Enjui loku uhã,</em></strong></p><p><strong><em>Yesu yu kulo.</em></strong></p><p><strong><em>Enjui loku uhã,</em></strong></p><p><strong><em>O tu pañinya.</em></strong></p><p></p><p>2. Uhi ño! Uhi ño!</p><p>Komangu yefendelo;</p><p>Konjo yikola, u yevi ondaka.</p><p></p><p>3. Uhi ño! Uhi ño! </p><p>Loku lomba lika;</p><p>Tu tambula ndopo ombembua yokilu.</p><p></p><p>4. Uhi ño! Uhi ño! </p><p>Sokololi etaili;</p><p>Uhi ño! Uhi ño! Talameli kokua'e.</p>",
+    "createdAt": "2025-03-20T21:44:43.498Z",
+    "updatedAt": "2025-03-20T21:44:43.498Z",
+    "idiomaId": 2,
+    "Idioma": {
+      "id": 2,
+      "nome": "Umbundu",
+      "createdAt": "2025-03-19T15:23:41.138Z",
+      "updatedAt": "2025-03-19T15:23:41.138Z"
+    }
+  },
+  {
+    "id": 18,
+    "numero": 2,
+    "titulo": "(Música: C.C. 152)",
+    "letra": "<p>1. Vosi veye lesumbilo,</p><p>Ha tu imbi etumbangiyo.</p><p>Yesu eye Onjovoli;</p><p>Tu sivayi onduko ya'e.</p><p></p><p><strong>Yesu eye o tu sole,</strong></p><p><strong>Tu siyayi onduko ya'e. (2x)</strong></p><p></p><p>2. Hati nda wa liongoluili,</p><p>Vonduko yange ndi Yesu.</p><p>Ndaño wuvañamiñami,</p><p>Ñala lene lohenda.</p><p></p><p>3. Ndaño o li lovakandu</p><p>Yesu wa ku kovonga.</p><p>Hati ndo tambule eyovo,</p><p>Akandu osi ngecela.</p><p></p><p>4. Ovisungo tu wimbili,</p><p>Tu sivaya onduko ya'e.</p><p>Eye wa tu sumuluisa</p><p>Ha tu moli esanju la'e.</p><p></p>",
+    "createdAt": "2025-03-20T21:46:17.411Z",
+    "updatedAt": "2025-03-20T21:46:17.411Z",
+    "idiomaId": 2,
+    "Idioma": {
+      "id": 2,
+      "nome": "Umbundu",
+      "createdAt": "2025-03-19T15:23:41.138Z",
+      "updatedAt": "2025-03-19T15:23:41.138Z"
+    }
+  },
+  {
+    "id": 19,
+    "numero": 3,
+    "titulo": "(Música: C.Sr.293)",
+    "letra": "<p>1. Konembele njayuila,</p><p>Haiko hu sole u Yehova;</p><p>Ha fendelamo ove fũ,</p><p>Ndi lipasula la Yesu.</p><p>Omo va sivayaila,</p><p>Onduko yove, ukuolamba,</p><p>Ame numbangiyavo,</p><p>Suku yange ukueyovo.</p><p></p><p>2. Alombelo nda lomba,</p><p>Ndo njevelele ukuahenda;</p><p>Ndo nambule a Suku,</p><p>Ndukuekolelo lia Yesu.</p><p>Ovisila viondaka,</p><p>Vi patekiwe kutima;</p><p>Ha vi muisa omuenyo,</p><p>Una kopui wenda hu.</p><p></p><p>3. Omo va imbila owanji</p><p>Wohenda yove, Opopeli;</p><p>Omo sanga elungulo,</p><p>Longecelo yakandu.</p><p>Vonjo yove nda tunda</p><p>Ndi likunda lutima;</p><p>Oco eteke liosi,</p><p>Njimba owusa ocili.</p>",
+    "createdAt": "2025-03-20T21:47:08.078Z",
+    "updatedAt": "2025-03-20T21:47:08.078Z",
+    "idiomaId": 2,
+    "Idioma": {
+      "id": 2,
+      "nome": "Umbundu",
+      "createdAt": "2025-03-19T15:23:41.138Z",
+      "updatedAt": "2025-03-19T15:23:41.138Z"
+    }
+  },
+  {
+    "id": 20,
+    "numero": 4,
+    "titulo": "(Lyra 129)",
+    "letra": "<p>1. Papita vali osimanu:</p><p>Tua liongoluila vali palo,</p><p>Ha tu fendela lolopandu</p><p>U wa tu lava locisola.</p><p></p><p>2. Tueya lesanju, tua lavoka</p><p>Oku tekuiwa kovitima,</p><p>Loku sangavo eyukinyo</p><p>Liongusu yoku yula akandu.</p><p></p><p>3. Palo tu tumbangiya vali</p><p>U wa muisa epopelo.</p><p>Palo tu sanga epuyuko</p><p>Lina liocili liovutima.</p><p></p><p>4. Tu sumuluise, a Suku yetu,</p><p>Lesanju liove ka li kumi.</p><p>Tu situluile ca velapo</p><p>Evi viusoma wove ko pui.</p><p></p><p>5. Eci tu tunda kefendelo</p><p>Tu ende locali cokaliye.</p><p>Ci tu yukinye ocipango</p><p>Coku ku vumba ove lika.</p>",
+    "createdAt": "2025-03-20T21:48:17.719Z",
+    "updatedAt": "2025-03-20T21:48:17.719Z",
+    "idiomaId": 2,
+    "Idioma": {
+      "id": 2,
+      "nome": "Umbundu",
+      "createdAt": "2025-03-19T15:23:41.138Z",
+      "updatedAt": "2025-03-19T15:23:41.138Z"
+    }
+  },
+  {
+    "id": 21,
+    "numero": 5,
+    "titulo": "(C.C.1)",
+    "letra": "<p>1. O kola, o kola, o kola, </p><p>A Yehova a Suku.</p><p>Cilo kua ca isungo </p><p>Vietu viu ku tumbangiya.</p><p>O kola, o kola, o kola, </p><p>Ove ukuahenda;</p><p>Ove lika Suku </p><p>Kilu kuenda posi.</p><p></p><p>2. O kola, o kola, o kola, </p><p>Vakuetavo vosi</p><p>Va sivaya onduko </p><p>Yove loku ku fendela.</p><p>Haico ovangelo </p><p>Vosi va ku vumba;</p><p>Wa kaile, o kasi, </p><p>Lopo enda hũ.</p><p></p><p>3. O kola, o kola, o kola, </p><p>Ove ukuonene;</p><p>Olongole vietu </p><p>Via sitika ulamba wove.</p><p>Ndaño tua kualufa, </p><p>Wa tu muisa omuenyo</p><p>Tu ku tumbangiya, </p><p>A Suku, ove Fu.</p>",
+    "createdAt": "2025-03-20T21:49:44.222Z",
+    "updatedAt": "2025-03-20T21:49:44.222Z",
+    "idiomaId": 2,
+    "Idioma": {
+      "id": 2,
+      "nome": "Umbundu",
+      "createdAt": "2025-03-19T15:23:41.138Z",
+      "updatedAt": "2025-03-19T15:23:41.138Z"
+    }
+  },
+  {
+    "id": 22,
+    "numero": 1,
+    "titulo": " (Música: C.Sr. 316)",
+    "letra": "<p>1. Silêncio! Silêncio, </p><p>Adorai a Deus.</p><p>Silêncio em ouvir, </p><p>A Sua santa voz.</p><p></p><p><strong>Oh vinde adorai a Deus,</strong></p><p><strong>Eis Jesus aqui;</strong></p><p><strong>Oh vinde em silêncio:</strong></p><p><strong>Ele vos chama.</strong></p><p></p><p>2. Silêncio! Silêncio </p><p>A hora de Oração.</p><p>Em Santa casa, </p><p>Sentirão a Sua voz.</p><p></p><p>3. Silêncio! Silêncio, </p><p>Velando em oração.</p><p>E receberemos </p><p>A Bênção do Senhor.</p><p></p><p>4. Silêncio! Silêncio, </p><p>Hoje meditai!</p><p>Silêncio! Silêncio, </p><p>A Ele só esperai.</p>",
+    "createdAt": "2025-03-20T22:14:19.786Z",
+    "updatedAt": "2025-03-20T22:14:19.786Z",
+    "idiomaId": 1,
+    "Idioma": {
+      "id": 1,
+      "nome": "Português",
+      "createdAt": "2025-03-19T15:23:32.323Z",
+      "updatedAt": "2025-03-19T15:23:32.323Z"
+    }
+  },
+  {
+    "id": 23,
+    "numero": 2,
+    "titulo": "(Música: C.C.152; Lyra 76 2ª Mús CC 221)",
+    "letra": "<p>1. Vinde todos sem demora</p><p>Ao convite do Senhor.</p><p>Ele salva e mesmo agora</p><p>Vos convida com amor.</p><p></p><p><strong>Seu convite é admirável,</strong></p><p><strong>Vem a Cristo, ó pecador.</strong></p><p><strong>Seu convite é aceitável,</strong></p><p><strong>Vem agora ao Salvador.</strong></p><p></p><p>2. Ele está-vos convidando</p><p>Para o divinal festim.</p><p>Voz eterna vos chamando:</p><p>Pecadores, vinde a Mim.</p><p></p><p>3. Aos contritos pecadores</p><p>Vestes brancas Ele dá.</p><p>Aflições, tristezas, dores,</p><p>Tudo, Cristo acabará.</p>",
+    "createdAt": "2025-03-20T22:15:27.818Z",
+    "updatedAt": "2025-03-20T22:15:27.818Z",
+    "idiomaId": 1,
+    "Idioma": {
+      "id": 1,
+      "nome": "Português",
+      "createdAt": "2025-03-19T15:23:32.323Z",
+      "updatedAt": "2025-03-19T15:23:32.323Z"
+    }
+  },
+  {
+    "id": 24,
+    "numero": 3,
+    "titulo": "(Música: Lyra 22; C.Sr.293)",
+    "letra": "<p>1. Bem cedinho ao templo eu vou,</p><p>Ao encontro do meu Deus;</p><p>Nele louvarei o Senhor,</p><p>Com meu Salvador falar.</p><p>Nele sempre exaltarei,</p><p>O Teu nome, ó Senhor,</p><p>Nele ainda eu louvarei</p><p>O meu Deus, meu Salvador.</p><p></p><p>2. Fervorosas orações,</p><p>Eu farei a Ti, Senhor;</p><p>Vem atende a petição,</p><p>Do teu servo sem valor.</p><p>Tua soberana lei,</p><p>Vou guardar no coração;</p><p>Que me dá assim vigor,</p><p>Vida sempiterna e paz.</p><p></p><p>3. Nele há mensagem real,</p><p>Do teu amor, ó Salvador;</p><p>Nele há conselho real,</p><p>Do perdão do pecador;</p><p>No final de adoração,</p><p>Sentirei consolação,</p><p>Poderei então fruir,</p><p>Gozo, paz celestiais. </p>",
+    "createdAt": "2025-03-20T22:16:50.070Z",
+    "updatedAt": "2025-03-20T22:16:50.070Z",
+    "idiomaId": 1,
+    "Idioma": {
+      "id": 1,
+      "nome": "Português",
+      "createdAt": "2025-03-19T15:23:32.323Z",
+      "updatedAt": "2025-03-19T15:23:32.323Z"
+    }
+  },
+  {
+    "id": 25,
+    "numero": 4,
+    "titulo": "(Música: Lyra 129)",
+    "letra": "<p>1. No santo dia do Senhor,</p><p>É bom com salmos de louvor,</p><p>O grande, eterno Deus honrar</p><p>E Sua graça proclamar.</p><p></p><p>2. Pela manhã me alegrarei</p><p>Da misericórdia que provei,</p><p>E à noite, ardente gratidão</p><p>Encher-me-á o coração.</p><p></p><p>3. Minha alma se levantará</p><p>Com minha voz, e cantarei</p><p>Em doces hinos o louvor,</p><p>Do meu benigno Salvador.</p><p></p><p>4. Quão sábias Tuas obras são,</p><p>Dignas de grande admiração!</p><p>Os Teus conselhos, ó Senhor,</p><p>Profundos e de alto valor.</p>",
+    "createdAt": "2025-03-20T22:17:34.635Z",
+    "updatedAt": "2025-03-20T22:17:34.635Z",
+    "idiomaId": 1,
+    "Idioma": {
+      "id": 1,
+      "nome": "Português",
+      "createdAt": "2025-03-19T15:23:32.323Z",
+      "updatedAt": "2025-03-19T15:23:32.323Z"
+    }
+  },
+  {
+    "id": 26,
+    "numero": 5,
+    "titulo": "(Música: C.C. 9; H.C.c/M.559)",
+    "letra": "<p>1. Santo! Santo! Santo! </p><p>Deus omnipotente!</p><p>Cedo de manhã </p><p>Cantaremos teu louvor.</p><p>Santo! Santo! Santo! </p><p>Justo e compassivo!</p><p>És Deus triuno, </p><p>Excelso criador!</p><p></p><p>2. Santo! Santo! Santo!</p><p>Todos os remidos</p><p>Juntos com os anjos, </p><p>Proclamam teu louvor.</p><p>Antes de formar-se </p><p>O firmamento e a terra,</p><p>Eras e sempre és, </p><p>E hás-de ser Senhor.</p><p></p><p>3. Santo! Santo! Santo! </p><p>Nós os pecadores</p><p>Não podemos ver </p><p>Tua glória sem tremor.</p><p>Tu somente és Santo, </p><p>Só Tu és perfeito</p><p>Deus soberano, </p><p>Imenso em Teu amor.</p><p></p><p>4. Santo! Santo! Santo! </p><p>Deus Omnipotente!</p><p>Tuas obras louvam </p><p>Teu nome com fervor.</p><p>Santo! Santo! Santo! </p><p>Justo e compassivo,</p><p>És um só Deus, </p><p>Supremo Criador.</p>",
+    "createdAt": "2025-03-20T22:18:38.484Z",
+    "updatedAt": "2025-03-20T22:18:38.484Z",
+    "idiomaId": 1,
+    "Idioma": {
+      "id": 1,
+      "nome": "Português",
+      "createdAt": "2025-03-19T15:23:32.323Z",
+      "updatedAt": "2025-03-19T15:23:32.323Z"
+    }
+  },
+  {
+    "id": 27,
+    "numero": 6,
+    "titulo": "(Música: H.C.c/M.510; Lyra 10)",
+    "letra": "<p>1. Louvai o eterno Deus,</p><p>O que seu Filho ao mundo enviou;</p><p>Jesus a oferta nos ofereceu,</p><p>Louvai o eterno Deus.</p><p></p><p>2. Quem nos acusará?</p><p>Jesus que foi morto e ressuscitou;</p><p>Agora está à dextra do bom Deus,</p><p>Quem nos acusará?</p><p></p><p>3. Jesus nos libertou,</p><p>Quem nos recusará ter o perdão?</p><p>Quem nos intentará acusação?</p><p>Jesus nos libertou.</p><p></p><p>4. Havemos de vencer;</p><p>O Salvador defende todos os seus;</p><p>Nosso inimigo, Jesus já venceu,</p><p>Havemos de vencer.</p>",
+    "createdAt": "2025-03-20T22:19:32.777Z",
+    "updatedAt": "2025-03-20T22:19:32.777Z",
+    "idiomaId": 1,
+    "Idioma": {
+      "id": 1,
+      "nome": "Português",
+      "createdAt": "2025-03-19T15:23:32.323Z",
+      "updatedAt": "2025-03-19T15:23:32.323Z"
+    }
+  },
+  {
+    "id": 28,
+    "numero": 7,
+    "titulo": " (Música: C.C. 135)",
+    "letra": "<p>1. Louvamos-Te, ó Deus,</p><p>Pelo Dom de Jesus,</p><p>Que por nós pecadores</p><p>Foi morto na cruz.</p><p></p><p><strong>Aleluia, toda a glória</strong></p><p><strong>Te rendemos, sem fim;</strong></p><p><strong>Aleluia, tua graça</strong></p><p><strong>Imploramos. Ámen!</strong></p><p></p><p>2. Louvamos-Te, ó Deus</p><p>E ao teu Filho de amor,</p><p>Que foi morto, mas vive,</p><p>Supremo Senhor.</p><p></p><p>3. Louvamos-Te, ó Deus,</p><p>Pelo Espírito, luz</p><p>Que nos tira das trevas</p><p>E a Cristo conduz.</p><p></p><p>4. Ó vem-nos encher</p><p>De celeste fervor,</p><p>E fazer-nos fruir</p><p>Teu afável amor!</p>",
+    "createdAt": "2025-03-20T22:20:41.348Z",
+    "updatedAt": "2025-03-20T22:20:41.348Z",
+    "idiomaId": 1,
+    "Idioma": {
+      "id": 1,
+      "nome": "Português",
+      "createdAt": "2025-03-19T15:23:32.323Z",
+      "updatedAt": "2025-03-19T15:23:32.323Z"
+    }
+  },
+  {
+    "id": 29,
+    "numero": 8,
+    "titulo": "(Música: Lyra 2; L.V.4; C.Sr.10)",
+    "letra": "<p>1. Ao Rei adorai com glória e louvor,</p><p>E graças rendei por seu grande amor.</p><p>É Deus o refúgio a defesa eternal,</p><p>Que em glória recebe louvor triunfal.</p><p></p><p>2. Falai do poder, da graça de Deus,</p><p>Em vestes de luz habita Ele os Céus.</p><p>Seu carro Ele pode das nuvens formar</p><p>Nas asas do vento faz Seu caminhar.</p><p></p><p>3. Mistérios sem fim a terra contém</p><p>Que as leis do Senhor em ordem mantém.</p><p>O mundo coberto das águas do mar,</p><p>Por Ele foi posto no espaço a girar!</p><p></p><p>4. Ó Deus, Teu poder quem pode narrar?</p><p>Está no fulgor da luz, pelo ar.</p><p>Nas fontes das rochas, no campo e na flor,</p><p>Nas gotas de orvalho, na chuva e vapor.</p><p></p><p>5. Nós filhos do pó, de frágil viver,</p><p>Em Ti temos fé, ó Deus do poder.</p><p>Mil bênçãos eternas quiseste nos dar,</p><p>Amigo, que o mundo vieste salvar!</p>",
+    "createdAt": "2025-03-20T22:22:02.190Z",
+    "updatedAt": "2025-03-20T22:22:02.190Z",
+    "idiomaId": 1,
+    "Idioma": {
+      "id": 1,
+      "nome": "Português",
+      "createdAt": "2025-03-19T15:23:32.323Z",
+      "updatedAt": "2025-03-19T15:23:32.323Z"
+    }
+  },
+  {
+    "id": 30,
+    "numero": 9,
+    "titulo": "(Música: Lyra 27, 2ª Mús.C.C.21)",
+    "letra": "<p>1. Todos bem-digam com prazer</p><p>O santo nome do Senhor.</p><p>Supremo em glória e em poder;</p><p>É Deus de graça, Deus de amor.</p><p></p><p>2. Entrai na casa do Senhor</p><p>Para com júbilo cantar.</p><p>Somos ovelhas dum Pastor,</p><p>A quem devemos adorar.</p><p></p><p>3. Sejamos servos do Senhor</p><p>E bem guardemos Sua lei.</p><p>Cantemos todos o louvor</p><p>Do nosso Salvador e Rei.</p><p></p><p>4. Tudo Seu nome louvará</p><p>Porque benigno é o Senhor;</p><p>O Seu amor sem fim será.</p><p>É sempre o mesmo o Benfeitor.</p>",
+    "createdAt": "2025-03-20T22:22:57.793Z",
+    "updatedAt": "2025-03-20T22:22:57.793Z",
+    "idiomaId": 1,
+    "Idioma": {
+      "id": 1,
+      "nome": "Português",
+      "createdAt": "2025-03-19T15:23:32.323Z",
+      "updatedAt": "2025-03-19T15:23:32.323Z"
+    }
+  },
+  {
+    "id": 31,
+    "numero": 10,
+    "titulo": "(Música: H.C.c/M.602; Lyra 4; C.Sr.356)",
+    "letra": "<p>1. A Cristo coroai!</p><p>Que por nós encarnou.</p><p>E Deus, o Santo Deus e Pai,</p><p>Aos homens revelou.</p><p>Eis Sua compaixão!</p><p>Eis Sua mansidão!</p><p>Quem vê a Cristo vê ao Pai,</p><p>Sim, vê Seu coração!</p><p></p><p>2. A Cristo coroai!</p><p>De tudo, o Criador!</p><p>O Filho do Supremo Deus;</p><p>Do mundo, o Salvador!</p><p>Jesus, Senhor e Deus</p><p>O grande Redentor,</p><p>Em busca dos perdidos vem,</p><p>O nosso bom Pastor!</p><p></p><p>3. A Cristo coroai!</p><p>Que, sobre a cruz, ganhou</p><p>Por nós eterna redenção</p><p>E para os céus voltou!</p><p>Ele é o Rei dos reis,</p><p>O príncipe da paz!</p><p>Jesus, da morte o vencedor,</p><p>Que a salvação nos traz!</p><p></p><p>4. A Cristo coroai!</p><p>De todos o Senhor,</p><p>A quem a multidão dos céus</p><p>Aclama com fervor!</p><p>Eis o Cordeiro ali,</p><p>Que sobre o trono está!</p><p>Que vive e reina lá por nós</p><p>E cedo voltará!</p>",
+    "createdAt": "2025-03-20T22:24:38.782Z",
+    "updatedAt": "2025-03-20T22:24:38.782Z",
+    "idiomaId": 1,
+    "Idioma": {
+      "id": 1,
+      "nome": "Português",
+      "createdAt": "2025-03-19T15:23:32.323Z",
+      "updatedAt": "2025-03-19T15:23:32.323Z"
+    }
+  },
+  {
+    "id": 32,
+    "numero": 6,
+    "titulo": "(Lyra 10)",
+    "letra": "<p>1. Sivayi hũ Suku,</p><p>Una wa tu tumisa Omola'e.</p><p>Yesu eye ocali coviali.</p><p>Sivayi hũ Suku.</p><p></p><p>2. O ka tu pisa helie?</p><p>Yesu wa fila yu wa pinduka.</p><p>Cilo o kasi kondio ya Suku</p><p>O ka tu pisa helie?</p><p></p><p>3. Yesu wa tu yovola.</p><p>Helie o tu timbuiya ongecelo?</p><p>Helie o tu vetela evelo?</p><p>Yesu wa tu yovola.</p><p></p><p>4. Etu tu ka yula.</p><p>Yesu wa tu tundila olunda.</p><p>Unyali wetu Yesu wo yula.</p><p>Letu tu ka yula.</p>",
+    "createdAt": "2025-03-20T22:25:57.521Z",
+    "updatedAt": "2025-03-20T22:25:57.521Z",
+    "idiomaId": 2,
+    "Idioma": {
+      "id": 2,
+      "nome": "Umbundu",
+      "createdAt": "2025-03-19T15:23:41.138Z",
+      "updatedAt": "2025-03-19T15:23:41.138Z"
+    }
+  },
+  {
+    "id": 33,
+    "numero": 7,
+    "titulo": "(CC.135)",
+    "letra": "<p>1. Sivayi! Suku, wa tu ihile Yesu,</p><p>Wa tu fila akandu, wa londa kilu.</p><p></p><p><strong>Aleluia! Ulamba wahe</strong></p><p><strong>Aleluia! Amen!</strong></p><p><strong>Aleluia! Ulamba wahe,</strong></p><p><strong>Sivayi Suku.</strong></p><p></p><p>2. Sivayi Suku, wa tu iha Espiritu</p><p>Ha tu muisa esunga vitima vietu.</p><p></p><p>3. Sivayi Suku, ka sivayi Espiritu</p><p>Imbili esivayo ku Yesu Kristu.</p>",
+    "createdAt": "2025-03-20T22:27:41.795Z",
+    "updatedAt": "2025-03-20T22:27:41.795Z",
+    "idiomaId": 2,
+    "Idioma": {
+      "id": 2,
+      "nome": "Umbundu",
+      "createdAt": "2025-03-19T15:23:41.138Z",
+      "updatedAt": "2025-03-19T15:23:41.138Z"
+    }
+  },
+  {
+    "id": 34,
+    "numero": 8,
+    "titulo": "(Lyra 2; L.V. 4)",
+    "letra": "<p>1. A Suku yocili, a Suku Tõlo,</p><p>Tu kasi kovaso ove, o kola.</p><p>Wa tu vindikiya tunde kosiahũlũ.</p><p>Tu ku sambiliya litima via lipua.</p><p></p><p>2. Ovina via fina wa vi lulika,</p><p>Vi tu komohisa eteke keteke.</p><p>Nda vievi vinene, nda vievi vitito,</p><p>Viosi wa vi tunga luloño wa piãla.</p><p></p><p>3. A Suku yohenda, o tu lemãila</p><p>Kusumba wovina vi laika oku iya.</p><p>Omo wa posuisa owangu woposi,</p><p>Omanu ca piãla, nda va ku kolela.</p><p></p><p>4. Tumãla vomanu, ka tua kolele,</p><p>Puãi Suku Isietu wa kola ocili.</p><p>A Suku, etali tua ku imba ovaso.</p><p>Ndo tu sumuluise lunene wokilu.</p>",
+    "createdAt": "2025-03-20T22:28:39.350Z",
+    "updatedAt": "2025-03-20T22:28:39.350Z",
+    "idiomaId": 2,
+    "Idioma": {
+      "id": 2,
+      "nome": "Umbundu",
+      "createdAt": "2025-03-19T15:23:41.138Z",
+      "updatedAt": "2025-03-19T15:23:41.138Z"
+    }
+  },
+  {
+    "id": 35,
+    "numero": 9,
+    "titulo": "(Lyra 3)",
+    "letra": "<p>1. Fendeli Suku, amanu vosi;</p><p>U tumbangiyi lesumbilo.</p><p>Limbuki ndomo unene waye</p><p>Wa piãla olohõlo viosi.</p><p></p><p>2. Uloño waye ko pondoka.</p><p>Wa tu lulika leve liaño.</p><p>Noke eci akandu a tu nyola,</p><p>Lohenda ya'e wa tu popela.</p><p></p><p>3. Tu iñili vovitali viaye</p><p>Letumbangiyo lolopandu.</p><p>Tu imbili Suku esivayo.</p><p>Tu kemalisi onduko yaye.</p><p></p><p>4. Uviali waye ko fulila.</p><p>Esunga liaye lia pua evelo.</p><p>Ilulikilo viosi vi pua;</p><p>Ohenda yaye puãi ka yi pui.</p>",
+    "createdAt": "2025-03-20T22:29:34.319Z",
+    "updatedAt": "2025-03-20T22:29:34.319Z",
+    "idiomaId": 2,
+    "Idioma": {
+      "id": 2,
+      "nome": "Umbundu",
+      "createdAt": "2025-03-19T15:23:41.138Z",
+      "updatedAt": "2025-03-19T15:23:41.138Z"
+    }
+  },
+  {
+    "id": 36,
+    "numero": 10,
+    "titulo": "(Lyra 4 HC c/M 602)",
+    "letra": "<p>1. Fendeli Soma yetu,</p><p>O li kocalo caye,</p><p>Yevi ovisungo viovangelo</p><p>Vioku u tumbangiya.</p><p>Amanu, sambiliyi</p><p>Yesu Onjovoli yetu.</p><p>Wimbili olopandu via lua</p><p>Loku u sivaya.</p><p></p><p>2. Fendeli Ukuahenda</p><p>Tali ovaka aye.</p><p>Amome aco a tu ivaluise</p><p>Olohali viaye.</p><p>Komindikiso yaye</p><p>Tua mola ocinyi ca tua,</p><p>Ci yula owelema wosi</p><p>Ha wi imuha olumue.</p><p></p><p>3. Fendeli Ukuamuenyo,</p><p>Okufa kuo tokoka.</p><p>Wa tukulula eyovo liaye</p><p>Kuosi ku li omanu.</p><p>A kufa unene wove</p><p>Wa taka voku yula;</p><p>Usumba wa tu lingisile</p><p>Cilo wa pua pe.</p><p></p><p>4. Fendeli Ukuambembua;</p><p>Imula uyaki wosi.</p><p>Ombembua yaye yi piñala</p><p>Konya lokesuvu.</p><p>Uviali waye ko pui,</p><p>O viala locisola.</p><p>Onduko yaye yi kemãla</p><p>Posi kuenda kilu.</p>",
+    "createdAt": "2025-03-20T22:31:29.186Z",
+    "updatedAt": "2025-03-20T22:31:29.186Z",
+    "idiomaId": 2,
+    "Idioma": {
+      "id": 2,
+      "nome": "Umbundu",
+      "createdAt": "2025-03-19T15:23:41.138Z",
+      "updatedAt": "2025-03-19T15:23:41.138Z"
+    }
+  },
+  {
+    "id": 37,
+    "numero": 11,
+    "titulo": "(Lyra 5)",
+    "letra": "<p>1. A Suku Isietu, tu ku tumbangiya.</p><p>Tua nena ulambu wolohutililo.</p><p>Tu weca kokuove ha tu ku fendela.</p><p>Onduko yove tu yi sivaya ño hũ.</p><p></p><p>2. Tu vumba Yehova yavakuasiahũlũ.</p><p>Pokati kayonjo o tu teyowaila.</p><p>Kotembo yohali eye o tu kuatisa.</p><p>Onduko yove tui sivaya ño hu.</p><p></p><p>3. Tu likutilila lutima umuamue</p><p>Kokuove, a Suku, Unekui yocili.</p><p>Lokuokuo kua pama ndo tu songowaile.</p><p>Onduko yove tu yi sivaya ño hũ.</p>",
+    "createdAt": "2025-03-24T14:50:26.226Z",
+    "updatedAt": "2025-03-24T14:50:26.226Z",
+    "idiomaId": 2,
+    "Idioma": {
+      "id": 2,
+      "nome": "Umbundu",
+      "createdAt": "2025-03-19T15:23:41.138Z",
+      "updatedAt": "2025-03-19T15:23:41.138Z"
+    }
+  },
+  {
+    "id": 46,
+    "numero": 11,
+    "titulo": "(Música: Lyra 5; L.V. 28)",
+    "letra": "<p>1. Louvores a Deus,</p><p>mui sinceros louvores,</p><p>Tributa a minha alma</p><p>com grande fervor;</p><p>Só Tu és a fonte</p><p>de graça e favores,</p><p>Divina promessa</p><p>recursos de amor.</p><p></p><p>2. Louvar-Te, Senhor,</p><p>meu desejo constante,</p><p>Meus votos ardentes</p><p>em penhor sem par.</p><p>Louvar-Te na vida,</p><p>no lar ou distante,</p><p>Sozinho ou na Igreja</p><p>por todo o lugar.</p><p></p><p>3. Aceita, Senhor,</p><p>a expressão de minha alma,</p><p>Tributo de graças,</p><p>pois tudo me dás:</p><p>Nos dias de lutas,</p><p>nas horas de calma,</p><p>Contigo, Senhor,</p><p>tenho a bênção da paz!</p>",
+    "createdAt": "2025-05-27T10:27:42.537Z",
+    "updatedAt": "2025-05-27T10:27:42.537Z",
+    "idiomaId": 2,
+    "Idioma": {
+      "id": 2,
+      "nome": "Umbundu",
+      "createdAt": "2025-03-19T15:23:41.138Z",
+      "updatedAt": "2025-03-19T15:23:41.138Z"
+    }
+  },
+  {
+    "id": 47,
+    "numero": 1,
+    "titulo": "Teste forme",
+    "letra": "<p>fdfdsf</p>",
+    "createdAt": "2025-05-27T13:53:32.457Z",
+    "updatedAt": "2025-05-27T13:53:32.457Z",
+    "idiomaId": 1,
+    "Idioma": {
+      "id": 1,
+      "nome": "Português",
+      "createdAt": "2025-03-19T15:23:32.323Z",
+      "updatedAt": "2025-03-19T15:23:32.323Z"
+    }
+  },
+  {
+    "id": 48,
+    "numero": 111,
+    "titulo": "Teste forme",
+    "letra": "<p>fdfsfafdf</p><p>fsdfsafsf</p><p></p><p>fsdfsafsdf</p><p>sffsfsfsff</p><p></p><p>fsfsdfsdfsdf</p><p>fsafdsfdsdfsd</p>",
+    "createdAt": "2025-05-30T09:42:07.918Z",
+    "updatedAt": "2025-05-30T09:42:07.918Z",
+    "idiomaId": 4,
+    "Idioma": {
+      "id": 4,
+      "nome": "Ngangela",
+      "createdAt": "2025-05-26T11:32:55.078Z",
+      "updatedAt": "2025-05-26T11:32:55.078Z"
+    }
+  },
+  {
+    "id": 49,
+    "numero": 1,
+    "titulo": "(Música: H. C. c/M. 14 ‘Amazing Grace)",
+    "letra": "<p>1. Preciosa a graça de Jesus,</p><p>Que um dia me salvou.</p><p>Perdido andei, sem ver a luz,</p><p>Mas Cristo me encontrou.</p><p></p><p>2. A graça então, meu coração</p><p>Do medo me libertou.</p><p>Oh, quão preciosa salvação</p><p>A graça me outorgou!</p><p></p><p>3. Promessas deu-me o Salvador,</p><p>E n’Ele eu posso crer.</p><p>É meu refúgio e protector</p><p>Em todo o meu viver.</p><p></p><p>4. Perigos mil atravessei</p><p>E a graça me valeu.</p><p>Eu são e salvo agora irei</p><p>Ao santo lar do céu.</p>",
+    "createdAt": "2025-05-30T21:41:03.744Z",
+    "updatedAt": "2025-05-30T21:41:03.744Z",
+    "idiomaId": 9,
+    "Idioma": {
+      "id": 9,
+      "nome": "Adicionais",
+      "createdAt": "2025-05-30T21:40:25.937Z",
+      "updatedAt": "2025-05-30T21:40:25.937Z"
+    }
+  },
+  {
+    "id": 50,
+    "numero": 2,
+    "titulo": "(Música: H. C. c/M. 355 ‘Quietude’)",
+    "letra": "<p>1. A minh’alma agora,</p><p>Vem Senhor falar;</p><p>À Teus pés, espero,</p><p>Para Te escutar.</p>",
+    "createdAt": "2025-05-30T21:43:06.048Z",
+    "updatedAt": "2025-05-30T21:43:06.048Z",
+    "idiomaId": 9,
+    "Idioma": {
+      "id": 9,
+      "nome": "Adicionais",
+      "createdAt": "2025-05-30T21:40:25.937Z",
+      "updatedAt": "2025-05-30T21:40:25.937Z"
+    }
+  },
+  {
+    "id": 51,
+    "numero": 3,
+    "titulo": "(Música: H. C. c/M. 700 ‘Faithfulness’)",
+    "letra": "<p>1. Abrindo Teu livro, Senhor,</p><p>Pedimos divina instrução;</p><p>Com fé, esperança e amor</p><p>Queremos seguir a lição.</p><p>Por Tua Palavra eternal,</p><p>Difunde abundância de luz;</p><p>Oh, dá-nos ensino vital</p><p>Da graça de nosso Jesus!</p>",
+    "createdAt": "2025-05-30T21:43:33.791Z",
+    "updatedAt": "2025-05-30T21:43:33.791Z",
+    "idiomaId": 9,
+    "Idioma": {
+      "id": 9,
+      "nome": "Adicionais",
+      "createdAt": "2025-05-30T21:40:25.937Z",
+      "updatedAt": "2025-05-30T21:40:25.937Z"
+    }
+  },
+  {
+    "id": 52,
+    "numero": 4,
+    "titulo": "(Música: C. C. 296)",
+    "letra": "<p>1. A ti seja consagrada</p><p>Minha vida, ó meu Senhor;</p><p>Meus momentos e meus dias</p><p>Sejam só em teu louvor.</p><p></p><p>2. Sempre minhas mãos se movam</p><p>Com presteza e com amor,</p><p>E meus pés velozes corram</p><p>Ao serviço do Senhor.</p><p></p><p>3. Minha voz pra sempre toma,</p><p>Para o teu louvor cantar;</p><p>Toma os lábios meus, fazendo-os</p><p>A mensagem proclamar.</p><p></p><p>4. Minha prata e ouro toma;</p><p>Nada quero te esconder;</p><p>Minha inteligência guia</p><p>Só e só por teu saber.</p><p></p><p>5. A vontade minha toma;</p><p>Sujeitando-a a ti, Senhor,</p><p>Do meu coração fazendo</p><p>O teu trono, ó Salvador.</p><p></p><p>6. Meu amor e meu desejo</p><p>Sejam só teu nome honrar;</p><p>Faze que meu corpo inteiro,</p><p>Eu te possa consagrar.</p>",
+    "createdAt": "2025-05-30T21:44:24.873Z",
+    "updatedAt": "2025-05-30T21:44:24.873Z",
+    "idiomaId": 9,
+    "Idioma": {
+      "id": 9,
+      "nome": "Adicionais",
+      "createdAt": "2025-05-30T21:40:25.937Z",
+      "updatedAt": "2025-05-30T21:40:25.937Z"
+    }
+  },
+  {
+    "id": 53,
+    "numero": 5,
+    "titulo": "(Música: C. C. 408)",
+    "letra": "<p>1. Cada coração procura</p><p>Onde possa descansar,</p><p>Mas descanso verdadeiro</p><p>Só Jesus o pode dar.</p><p></p><p><strong><em>Cristo sempre, e tão-somente</em></strong></p><p><strong><em>Cristo, Salvador e Rei;</em></strong></p><p><strong><em>Meu abrigo, meu amigo,</em></strong></p><p><strong><em>Tudo, tudo nele achei.</em></strong></p><p></p><p>2. Pois meu coração te entrego,</p><p>Ó Jesus meu Salvador!</p><p>Sejas tu pra sempre dele,</p><p>O seu Rei e o seu Senhor.</p>",
+    "createdAt": "2025-05-30T21:45:23.433Z",
+    "updatedAt": "2025-05-30T21:45:23.433Z",
+    "idiomaId": 9,
+    "Idioma": {
+      "id": 9,
+      "nome": "Adicionais",
+      "createdAt": "2025-05-30T21:40:25.937Z",
+      "updatedAt": "2025-05-30T21:40:25.937Z"
+    }
+  },
+  {
+    "id": 54,
+    "numero": 6,
+    "titulo": "(Música: S. H. 506)",
+    "letra": "<p>1. Ai! Que tempo vergonhoso,</p><p>Quando, altivo, resisti</p><p>Ao meu Salvador bondoso,</p><p>Respondendo, desdenhoso,</p><p>“Tudo Eu; nada de TI!”</p><p></p><p>2. Mas o seu amor vencia,</p><p>Quando sobre a cruz o vi,</p><p>E Jesus por mim pedia;</p><p>Já meu coraçã dizia:</p><p>“Quero o Eu, e quero a Ti!”</p><p></p><p>3. Com ternura me amparava;</p><p>Graça e força recebi;</p><p>Mais e mais eu exultava,</p><p>E, humilde, segredava:</p><p>“Menos do Eu, e mais de Ti!”</p><p></p><p>4. Por tão grande amor vencido,</p><p>Tudo ao meu Senhor cedi:</p><p>Ao meu Salvadro unido,</p><p>Este agora é meu pedido:</p><p>“Nada do Eu; tudo de Ti!”</p>",
+    "createdAt": "2025-05-30T21:46:09.488Z",
+    "updatedAt": "2025-05-30T21:46:09.488Z",
+    "idiomaId": 9,
+    "Idioma": {
+      "id": 9,
+      "nome": "Adicionais",
+      "createdAt": "2025-05-30T21:40:25.937Z",
+      "updatedAt": "2025-05-30T21:40:25.937Z"
+    }
+  },
+  {
+    "id": 55,
+    "numero": 7,
+    "titulo": "(Música: C. C. 332)",
+    "letra": "<p>1. Meu Senhor de tudo sabe,</p><p>Certamente, sim;</p><p>Com cuidados incansáveis</p><p>Me protege a mim.</p><p>Tudo quanto Deus permite,</p><p>Pra meu bem será,</p><p>E, no dia mais penoso,</p><p>Forças Deus dará.</p><p></p><p>2. Sei que Deus o meu futuro</p><p>Tem na sua mão;</p><p>Seus desvelos compassivos</p><p>Incessantes são.</p><p>Inda que eu mais tarde encontre</p><p>Provocações e dor,</p><p>Pore detrás das negras nuvens</p><p>Brilha seu amor.</p><p></p><p>3. Gosto de contar-lhe quanto</p><p>Me sucede aqui;</p><p>Sou seu filho e quer que esteja</p><p>Sempre junto a si,</p><p>Para que seus bons cuidados,</p><p>Posso aqui gozar,</p><p>Dando graças por aquilo</p><p>Que me queira dar.</p><p></p><p>4. Oh, sim, confiadamente</p><p>Quero processeguir,</p><p>Sem receios, nem cuidados</p><p>Quanto ao meu porvir;</p><p>Pois que Deus, meu Pai, me assiste</p><p>Com divino amor,</p><p>Sendo aquele que me guia,</p><p>Cristo, o Salvador</p>",
+    "createdAt": "2025-05-30T21:46:51.841Z",
+    "updatedAt": "2025-05-30T21:46:51.841Z",
+    "idiomaId": 9,
+    "Idioma": {
+      "id": 9,
+      "nome": "Adicionais",
+      "createdAt": "2025-05-30T21:40:25.937Z",
+      "updatedAt": "2025-05-30T21:40:25.937Z"
+    }
+  },
+  {
+    "id": 56,
+    "numero": 8,
+    "titulo": "(Música: C. C. 363)",
+    "letra": "<p>1. Sê Tu meu Guia,</p><p>Ó Cristo; estou medroso</p><p>De andar sozinho</p><p>Pela solidão;</p><p>Sê Tu meu Guia;</p><p>E ermo pavoroso</p><p>Já não será lugar</p><p>De escuridão.</p><p></p><p>2. Sê Tu meu Guia;</p><p>Leva-me a teu lado,</p><p>Pois junto a Ti</p><p>Desejo estar, Senhor;</p><p>Que, por teu braço</p><p>Estando assim firmado,</p><p>Não hei-de tropeçar</p><p>Nem ter temor.</p><p></p><p>3. Sê Tu meu Guia,</p><p>Em tempo radiante,</p><p>Ou na bonança,</p><p>Ou mesmo no temporal;</p><p>Sê Tu meu Guia,</p><p>Que eu prossiga avante,</p><p>Sem me afastar</p><p>Do rumo divinal.</p><p></p><p>4. Sê Tu meu Guia,</p><p>Até que tenha entrada</p><p>Na casa paternal,</p><p>No Céu além;</p><p>Ali, sem fim,</p><p>Minha alma descansada</p><p>Terá consigo</p><p>Seu eterno bem.</p>",
+    "createdAt": "2025-05-30T21:47:49.485Z",
+    "updatedAt": "2025-05-30T21:47:49.485Z",
+    "idiomaId": 9,
+    "Idioma": {
+      "id": 9,
+      "nome": "Adicionais",
+      "createdAt": "2025-05-30T21:40:25.937Z",
+      "updatedAt": "2025-05-30T21:40:25.937Z"
+    }
+  },
+  {
+    "id": 57,
+    "numero": 9,
+    "titulo": "(Música: C. S. 25)",
+    "letra": "<p>1. Toma, ó Jesus, o meu coração</p><p>Tal qual está</p><p>Purifica-o do pecado,</p><p>Santifica-o, meu Senhor.</p><p></p><p><strong><em>Quero servir-Te integralmente.</em></strong></p><p><strong><em>Habita em mim, bondoso Salvador,</em></strong></p><p><strong><em>Para que eu goze a Tua presença</em></strong></p><p><strong><em>Eu seguirei para sempre a Tua voz.</em></strong></p><p><strong><em>Eis, ó grande Deus, a minha oração.</em></strong></p><p><strong><em>Amen! Amen!</em></strong></p>",
+    "createdAt": "2025-05-30T21:48:35.992Z",
+    "updatedAt": "2025-05-30T21:48:35.992Z",
+    "idiomaId": 9,
+    "Idioma": {
+      "id": 9,
+      "nome": "Adicionais",
+      "createdAt": "2025-05-30T21:40:25.937Z",
+      "updatedAt": "2025-05-30T21:40:25.937Z"
+    }
+  },
+  {
+    "id": 58,
+    "numero": 10,
+    "titulo": "Bem alto agora",
+    "letra": "<p>1. Saudamo-vos, Irmãos em Cristo</p><p>Lembrando do que temos visto</p><p>Nesses anos pelas lutas, tentações</p><p>Foram atendidas nossas petições</p><p>Toda a glória seja ao nome</p><p>Do Senhor</p><p>Vinde a Ele todos entoar louvor!</p><p></p><p><strong><em>Bem alto agora</em></strong></p><p><strong><em>Vamos nós cantar.</em></strong></p><p><strong><em>Que a terra e os céus</em></strong></p><p><strong><em>Virão nos ajudar;</em></strong></p><p><strong><em>Até aqui</em></strong></p><p><strong><em>Deus mesmo nos guiou</em></strong></p><p><strong><em>E com a sua mão nos ajudou</em></strong></p><p></p><p>2. Um dia tão glorioso temos,</p><p>E ao nosso Pai agradecemos;</p><p>Pois é Ele que nos dá real prazer</p><p>E é fiel em nos guardar e proteger</p><p>Vinde vós, irmãos connosco</p><p>A Deus cantar</p><p>Deste gozo vinde, pois, participar!</p><p></p><p>3. Alegres hoje jubilemos,</p><p>Ao nosso Salvador cantemos</p><p>Ele como filhos seus nos escolheu,</p><p>Ricas bênçãos Ele já nos concedeu</p><p>Seja avante! O nosso lema até final</p><p>‘Té chegarmos lá ao lar celestial!</p>",
+    "createdAt": "2025-05-30T21:50:51.187Z",
+    "updatedAt": "2025-05-30T21:50:51.187Z",
+    "idiomaId": 9,
+    "Idioma": {
+      "id": 9,
+      "nome": "Adicionais",
+      "createdAt": "2025-05-30T21:40:25.937Z",
+      "updatedAt": "2025-05-30T21:40:25.937Z"
+    }
+  },
+  {
+    "id": 59,
+    "numero": 11,
+    "titulo": "Irmãos, irmãos, falemos",
+    "letra": "<p>1. Sabeis falar de tudo</p><p>Que neste mundo há,</p><p>Mas nem seguer palavra</p><p>De Deus que tudo dá?</p><p></p><p><strong><em>Irmãos, irmãos, falemos</em></strong></p><p><strong><em>Do nosso Salvador</em></strong></p><p><strong><em>Oremosa e cantemos</em></strong></p><p><strong><em>E demos-lhe louvor.</em></strong></p><p></p><p>2. Falamos do mau tempo</p><p>Do frio e do calor.</p><p>Oh! Quão melhor seria</p><p>Falar do Salvador.</p><p></p><p>3. Falemos da bondade</p><p>Do grande Salvador,</p><p>Da Sua excelsa graça,</p><p>Do Seu imenso amor.</p><p></p><p>4. Da cruz também falemos,</p><p>Onde Ele nos quis dar</p><p>Seu sangue precioso</p><p>E assim nos resgatar</p><p></p><p>5. Falemos de maneira</p><p>Que Cristo nos salvou,</p><p>Amando, amando sempre</p><p>Até que nos ganhou.</p>",
+    "createdAt": "2025-05-30T21:52:00.750Z",
+    "updatedAt": "2025-05-30T21:52:00.750Z",
+    "idiomaId": 9,
+    "Idioma": {
+      "id": 9,
+      "nome": "Adicionais",
+      "createdAt": "2025-05-30T21:40:25.937Z",
+      "updatedAt": "2025-05-30T21:40:25.937Z"
+    }
+  },
+  {
+    "id": 60,
+    "numero": 12,
+    "titulo": "Música: Hinário Ehangano 3)",
+    "letra": "<p>1. Sambiliyi Omõla a Ndaviti</p><p>U sambiliyi</p><p>Sambiliyi Omõla a Ndaviti,</p><p>Weyilila onduko ya Yehova. (2x)</p><p></p><p><strong><em>Hosana, hosana, hosana, hosana</em></strong></p><p><strong><em>Sambiliyi Omõla a Ndaviti</em></strong></p><p><strong><em>Weyilila onduko ya Yehova. (2x)</em></strong></p>",
+    "createdAt": "2025-05-30T21:52:33.227Z",
+    "updatedAt": "2025-05-30T21:52:33.227Z",
+    "idiomaId": 9,
+    "Idioma": {
+      "id": 9,
+      "nome": "Adicionais",
+      "createdAt": "2025-05-30T21:40:25.937Z",
+      "updatedAt": "2025-05-30T21:40:25.937Z"
+    }
+  },
+  {
+    "id": 61,
+    "numero": 13,
+    "titulo": "(Música: Gaudeamos igitur – Hino Internacional do Estudante)",
+    "letra": "<p>1. Tua malehe tu yoleli,</p><p>Yilo oyo otembo yiwa. (2x)</p><p>Eci kuiya oku kuka</p><p>Ka tu kambi okuivaluka</p><p>Oloneke vilo viwa,</p><p>Oloneke vilo viwa.</p><p></p><p>2. Tua malehe tu kuatiko</p><p>Ovikele vietu via lua (2x)</p><p>Kolondunge viova kulu</p><p>Tu vandeki owuya wetu</p><p>Oco ofeka yi tungiwe,</p><p>Oco ofeka yi tungiwe.</p><p></p><p>3. Oco vosi tu yoleli,</p><p>Tu lingivo vakuambili (2x)</p><p>Kovaso tuenda kuli anyala</p><p>Tu ka yoka olondui via lua</p><p>Haimo tuenda lekolelo,</p><p>Haimo tuenda lekolelo.</p>",
+    "createdAt": "2025-05-30T21:53:33.240Z",
+    "updatedAt": "2025-05-30T21:53:33.240Z",
+    "idiomaId": 9,
+    "Idioma": {
+      "id": 9,
+      "nome": "Adicionais",
+      "createdAt": "2025-05-30T21:40:25.937Z",
+      "updatedAt": "2025-05-30T21:40:25.937Z"
+    }
+  },
+  {
+    "id": 62,
+    "numero": 14,
+    "titulo": "(Música: Lyra 208)",
+    "letra": "<p>1. Ondaka yendelele,</p><p>Vosi va yi yeva veye,</p><p>Va laleki. Va laleki.</p><p>Va laleki locisola.</p><p>Oco veye, va popelue.</p><p>Va laleki. Va laleki.</p><p></p><p><strong><em>Yevalisi elaleko,</em></strong></p><p><strong><em>Elaleko lia posoka,</em></strong></p><p><strong><em>Olofeka vi limbuke</em></strong></p><p><strong><em>Ocisola conjovoli.</em></strong></p><p><strong><em>Va laleki. Va laleki.</em></strong></p><p><strong><em>Hava tava ku Ñala Yesu.</em></strong></p><p></p><p>2. Kuatisi lolondunge</p><p>Vina Suku a waveli.</p><p>Va kuatisi. Va kuatisi.</p><p>Kuatisi ava va konyoha</p><p>Oco va velepo vali.</p><p>Va kuatisi. Va kuatisi.</p><p></p><p>3. Pitisi cosi ciwa</p><p>Eci co kuatisi ene.</p><p>Ci pitisi. Ci pitisi.</p><p>Oco wu kuatisi vana</p><p>Va pekengua lovakandu.</p><p>Ci pitisi. Ci pitisi.</p>",
+    "createdAt": "2025-05-30T21:54:22.163Z",
+    "updatedAt": "2025-05-30T21:54:22.163Z",
+    "idiomaId": 9,
+    "Idioma": {
+      "id": 9,
+      "nome": "Adicionais",
+      "createdAt": "2025-05-30T21:40:25.937Z",
+      "updatedAt": "2025-05-30T21:40:25.937Z"
+    }
+  },
+  {
+    "id": 63,
+    "numero": 15,
+    "titulo": "(Música: Hinário Ehangano 3)",
+    "letra": "<p>1. Hosana Yesu Kristu</p><p>U sambiliyi.</p><p>Sambiliyi Omõla a Ndaviti</p><p>U weyilila</p><p>Vonduko ya Yehova (2x)</p><p>Hosana, Hosana,</p><p>Hosana, Hosana,</p><p>Sambiliyi Omõla a Ndaviti</p><p>U weyilila</p><p>Vonduko ya Yehova</p>",
+    "createdAt": "2025-05-30T21:54:51.536Z",
+    "updatedAt": "2025-05-30T21:54:51.536Z",
+    "idiomaId": 9,
+    "Idioma": {
+      "id": 9,
+      "nome": "Adicionais",
+      "createdAt": "2025-05-30T21:40:25.937Z",
+      "updatedAt": "2025-05-30T21:40:25.937Z"
+    }
+  },
+  {
+    "id": 64,
+    "numero": 16,
+    "titulo": "Lomue wa tu sola ndeci",
+    "letra": "<p>1. Lomue wa tu sola ndeci</p><p>Yesu a tu sola</p><p>O tu songuila eteke keteke</p><p>Locinyi ca’e.</p><p>Eci tu tambula ombolo</p><p>O tuiha ocisola ca’e.</p><p>Oyo ombolo yongongela</p><p>La Suku</p><p></p><p><strong><em>Etimba lia Yesu, lieli,</em></strong></p><p><strong><em>Osonde ya Yesu, yeyi.</em></strong></p><p><strong><em>Yesu eye omuenyo</em></strong></p><p><strong><em>Haiye ocisola</em></strong></p><p><strong><em>Viala vovitima vietu, a Ñala.</em></strong></p><p></p><p>2. Lomue wa tu sola ndeci</p><p>Yesu a tu sola,</p><p>Ocisola caye co tuala</p><p>Toke kekulusu.</p><p>Oko a tu ambatela</p><p>Ocilemo cakandu.</p><p>Noke wa pinduka,</p><p>Wa yula okufa</p><p></p><p>3. Lomue wa tu sola ndeci</p><p>Yesu a tu sola,</p><p>Kuosi koluali o lipongiyila</p><p>Omanu va’e.</p><p>O va kongela vokua’e.</p><p>Ha va lingi etimba lia’e.</p><p>Lacimue ci va tepa kocisola</p>",
+    "createdAt": "2025-05-30T21:55:44.912Z",
+    "updatedAt": "2025-05-30T21:55:44.912Z",
+    "idiomaId": 9,
+    "Idioma": {
+      "id": 9,
+      "nome": "Adicionais",
+      "createdAt": "2025-05-30T21:40:25.937Z",
+      "updatedAt": "2025-05-30T21:40:25.937Z"
+    }
+  },
+  {
+    "id": 65,
+    "numero": 17,
+    "titulo": "Ndongise evi via Yesu",
+    "letra": "<p>1. Ndongise evi via Yesu</p><p>Momo ndi vi sole.</p><p>Via lua ovina a linga</p><p>Kulo kilu lieve.</p><p>Asapulo awa,</p><p>Havo a posoka,</p><p>A ndongise osi,</p><p>Si va patekela.</p><p></p><p>2. Sapuile ciwa esanju</p><p>Liotumala tuna.</p><p>Tua sambiliya Onjovoli</p><p>Kuna konembele.</p><p>Ndaño ame haico</p><p>Ndi ci sole ca lua.</p><p>Oku tumbangiya</p><p>Onjovoli yange.</p><p></p><p>3. Ndomboluileko lutate</p><p>Ndomo kokalunga.</p><p>Vosi va kuata ohele</p><p>Vati tu nyoleha.</p><p>Lomo Ñala Yesu</p><p>A lemela ofela.</p><p>Loku tulumula</p><p>Ovakimba aço</p><p></p><p>4. Oloneleho viusenge</p><p>Wa vi sinumula.</p><p>Hati, owangu lawovo</p><p>Suku wo posuisa.</p><p>Ndaño otunjila</p><p>Tate o tu lava.</p><p>Puãi ca piãla enene</p><p>O tu tata etu.</p>",
+    "createdAt": "2025-05-30T21:56:20.289Z",
+    "updatedAt": "2025-05-30T21:56:20.289Z",
+    "idiomaId": 9,
+    "Idioma": {
+      "id": 9,
+      "nome": "Adicionais",
+      "createdAt": "2025-05-30T21:40:25.937Z",
+      "updatedAt": "2025-05-30T21:40:25.937Z"
+    }
+  },
+  {
+    "id": 66,
+    "numero": 11,
+    "titulo": "(Música: Lyra 5; L.V. 28)",
+    "letra": "<p>1. Louvores a Deus,</p><p>mui sinceros louvores,</p><p>Tributa a minha alma</p><p>com grande fervor;</p><p>Só Tu és a fonte</p><p>de graça e favores,</p><p>Divina promessa</p><p>recursos de amor.</p><p></p><p>2. Louvar-Te, Senhor,</p><p>meu desejo constante,</p><p>Meus votos ardentes</p><p>em penhor sem par.</p><p>Louvar-Te na vida,</p><p>no lar ou distante,</p><p>Sozinho ou na Igreja</p><p>por todo o lugar.</p><p></p><p>3. Aceita, Senhor,</p><p>a expressão de minha alma,</p><p>Tributo de graças,</p><p>pois tudo me dás:</p><p>Nos dias de lutas,</p><p>nas horas de calma,</p><p>Contigo, Senhor,</p><p>tenho a bênção da paz!</p>",
+    "createdAt": "2025-05-30T22:03:28.018Z",
+    "updatedAt": "2025-05-30T22:03:28.018Z",
+    "idiomaId": 1,
+    "Idioma": {
+      "id": 1,
+      "nome": "Português",
+      "createdAt": "2025-03-19T15:23:32.323Z",
+      "updatedAt": "2025-03-19T15:23:32.323Z"
+    }
+  },
+  {
+    "id": 67,
+    "numero": 12,
+    "titulo": "(Música: C.C. 261; Lyra 6)",
+    "letra": "<p>1. Ó Deus, bom Pai e Benfeitor,</p><p>A Ti rendemos com ardor,</p><p>Louvor, poder, sem fim, Senhor</p><p>De todos nós, Sustentador.</p><p></p><p>2. E Tu, Deus Filho, ó bom Jesus,</p><p>Por nós sofreste numa cruz.</p><p>De Ti nos vem a clara luz</p><p>Que nossos pés aos céus conduz.</p><p></p><p>3. Tu Deus, Espírito veraz,</p><p>As nossas almas satisfaz</p><p>Com gozo e divina paz</p><p>E as nossas aflições desfaz.</p>",
+    "createdAt": "2025-05-30T22:04:10.442Z",
+    "updatedAt": "2025-05-30T22:04:10.442Z",
+    "idiomaId": 1,
+    "Idioma": {
+      "id": 1,
+      "nome": "Português",
+      "createdAt": "2025-03-19T15:23:32.323Z",
+      "updatedAt": "2025-03-19T15:23:32.323Z"
+    }
+  },
+  {
+    "id": 68,
+    "numero": 13,
+    "titulo": "(Música: S.H. 245; Lyra 7)",
+    "letra": "<p>1. Deus está no templo!</p><p>Pai Omnipotente:</p><p>A Seus pés nos humilhamos.</p><p>Servos consagrados</p><p>Reverentemente,</p><p>Ao Santíssimo adoremos.</p><p>Por favor, com amor,</p><p>Spiritualmente,</p><p>Deus está no templo.</p><p></p><p>2. Cristo está no templo!</p><p>Sumo benefício!</p><p>Recebemos do seu sangue,</p><p>Ele, o bom Cordeiro,</p><p>Foi o sacrifício</p><p>Que o pecado todo extingue.</p><p>Escolheu e sofreu</p><p>O cabal suplício;</p><p>Cristo está no templo.</p><p></p><p>3. Vem, ocupa o templo!</p><p>Espírito divino!</p><p>Nossos corações habita.</p><p>Ó paciente Mestre,</p><p>Dá-nos Teu auxílio,</p><p>Aclarando a lei bendita.</p><p>Com prazer e poder</p><p>E graça infinita;</p><p>Ele está no templo.</p>",
+    "createdAt": "2025-05-30T22:04:38.201Z",
+    "updatedAt": "2025-05-30T22:04:38.201Z",
+    "idiomaId": 1,
+    "Idioma": {
+      "id": 1,
+      "nome": "Português",
+      "createdAt": "2025-03-19T15:23:32.323Z",
+      "updatedAt": "2025-03-19T15:23:32.323Z"
+    }
+  },
+  {
+    "id": 69,
+    "numero": 14,
+    "titulo": "Música: C.C.258; Lyra 8)",
+    "letra": "<p>1. Altamente os céus proclamam,</p><p>Seu divino Criador;</p><p>Anuncia o firmamento,</p><p>Tuas obras, ó Senhor!</p><p>Incessantes, noite e dia,</p><p>Dão sinais do Teu poder,</p><p>Sem palavras proclamando</p><p>Tua glória, teu saber.</p><p></p><p>2. Tua lei, quão preciosa,</p><p>Brilha mais que a clara luz;</p><p>Esclarece os ignorantes,</p><p>Guia as almas a Jesus.</p><p>Grande e linda recompensa,</p><p>Ganhará quem Te servir,</p><p>E Teus santos mandamentos</p><p>Bem fiel, Senhor, cumprir.</p><p></p><p>3. Da soberba vem guardar-nos,</p><p>Da impureza e transgressão;</p><p>Nossos passos conduzindo,</p><p>Em sincera rectidão.</p><p>Nesta graça meditando,</p><p>Cantarei, meu bom Senhor,</p><p>E será, na minha boca</p><p>Agradável Teu louvor.</p>",
+    "createdAt": "2025-05-30T22:05:14.973Z",
+    "updatedAt": "2025-05-30T22:05:14.973Z",
+    "idiomaId": 1,
+    "Idioma": {
+      "id": 1,
+      "nome": "Português",
+      "createdAt": "2025-03-19T15:23:32.323Z",
+      "updatedAt": "2025-03-19T15:23:32.323Z"
+    }
+  },
+  {
+    "id": 70,
+    "numero": 15,
+    "titulo": "(Música: C.C. 56; Lyra 9)",
+    "letra": "<p>1. A Jesus, o Rei da glória,</p><p>Hinos de louvor cantai;</p><p>Aos seus pés, humildemente,</p><p>Seu poder, pois exaltai.</p><p>Perdoados, resgatados,</p><p>Sua glória proclamai!</p><p></p><p>2. Seu perdão e sua graça,</p><p>Aos perdidos dispensou;</p><p>Tão paciente e mui bondoso,</p><p>Aos rebeldes se mostrou;</p><p>Libertou-os, transformou-os,</p><p>Dos castigos os salvou!</p><p></p><p>3. Nossas tentações conhece,</p><p>Pois satã o quis vencer;</p><p>Triunfante, Cristo agora,</p><p>Aos tentados quer valer.</p><p>Poderoso e tão bondoso,</p><p>Ele pode socorrer!</p><p></p><p>4. Contemplando sua face,</p><p>Ó remidos, O adorai!</p><p>Dedicados, consagrados,</p><p>Sua fama publicai.</p><p>Oh! Louvai-O, exaltai-O,</p><p>Seu amor anunciai!</p>",
+    "createdAt": "2025-05-30T22:05:56.134Z",
+    "updatedAt": "2025-05-30T22:05:56.134Z",
+    "idiomaId": 1,
+    "Idioma": {
+      "id": 1,
+      "nome": "Português",
+      "createdAt": "2025-03-19T15:23:32.323Z",
+      "updatedAt": "2025-03-19T15:23:32.323Z"
+    }
+  },
+  {
+    "id": 71,
+    "numero": 16,
+    "titulo": "(Música: Lyra 11)",
+    "letra": "<p>1. Alegre me senti,</p><p>Ao convidar-me assim:</p><p>Vamos a casa do Senhor.</p><p>De sorte que os meus pés</p><p>Caminham em direcção</p><p>A Deus e Sua santa Sião.</p><p></p><p>2. A Sua Santa Sião,</p><p>Bem edificada está:</p><p>É lá onde as tribos vão.</p><p>Louvando ao seu Deus</p><p>E seu grande poder.</p><p>Abençoados são os que O crêem.</p><p></p><p>3. Paz haja em Sião,</p><p>Cidade de Jehová,</p><p>Sua casa de adoração.</p><p>Havemos de encontrar</p><p>A habitação feliz.</p><p>Meu coração anseia Ter.</p>",
+    "createdAt": "2025-05-30T22:06:28.608Z",
+    "updatedAt": "2025-05-30T22:06:28.608Z",
+    "idiomaId": 1,
+    "Idioma": {
+      "id": 1,
+      "nome": "Português",
+      "createdAt": "2025-03-19T15:23:32.323Z",
+      "updatedAt": "2025-03-19T15:23:32.323Z"
+    }
+  },
+  {
+    "id": 72,
+    "numero": 17,
+    "titulo": "(Música: C.C. 132; Lyra 14)",
+    "letra": "<p>1. Fonte Tu de toda a bênção,</p><p>Vem o canto me inspirar;</p><p>Dons de Deus, que nunca cessam,</p><p>Quero em alto som louvar,</p><p>Oh! Ensina o novo canto</p><p>Dos remidos lá dos céus.</p><p>Ao teu servo e ao povo santo,</p><p>P’ra louvarmos-Te, ó bom Deus!</p><p></p><p>2. Cá meu «EBENEZER» ergo,</p><p>Pois Jesus me socorreu;</p><p>E, por sua graça, espero</p><p>Transportar-me para o Céu.</p><p>Eu, perdido, procurou-me,</p><p>Longe do meu Deus, sem luz;</p><p>Maculado e vil, lavou-me,</p><p>Com seu sangue o bom Jesus.</p><p></p><p>3. Devedor à Tua graça</p><p>Cada dia e hora sou;</p><p>Teu desvelo sempre faça</p><p>Com que eu ame a Ti, Senhor.</p><p>Eis minha alma vacilante:</p><p>Toma-a, prende-a com amor,</p><p>Sela o coração volante,</p><p>Para o céu, meu Salvador.</p>",
+    "createdAt": "2025-05-30T22:07:05.695Z",
+    "updatedAt": "2025-05-30T22:07:05.695Z",
+    "idiomaId": 1,
+    "Idioma": {
+      "id": 1,
+      "nome": "Português",
+      "createdAt": "2025-03-19T15:23:32.323Z",
+      "updatedAt": "2025-03-19T15:23:32.323Z"
+    }
+  },
+  {
+    "id": 73,
+    "numero": 18,
+    "titulo": "(Música: Lyra 16)",
+    "letra": "<p>1. Jesus, és a Palavra eterna de Deus;</p><p>Senhor, sim, de graça e de paz.</p><p>Nós te imploramos, vem pois escutar-nos;</p><p>Vem dar-nos esperança e alegria.</p><p></p><p>2. Vem, faz-nos perfeitos, p'ra andarmos direitos,</p><p>Vem já, sim nos tirar a cegueira.</p><p>Perdoa nossas faltas, vem purificar-nos.</p><p>Vem dar-nos a vida dos céus.</p><p></p><p>3. Fortifica esta casa, de adoração viva;</p><p>Que seja a entrada dos céus.</p><p>Os corações fracos encontrem descanso;</p><p>Os enfermos encontrem a cura.</p><p></p><p>4. Vem fortificar sim, os corações fracos,</p><p>Afasta-os de toda a impureza.</p><p>Enchê-los de paz e propensos a justiça;</p><p>Que sejam pertença de Cristo.</p><p></p><p>5. Ó Pai, e Filho, e Espírito Santo,</p><p>Excelso em poder e em graça.</p><p>A Ti só, pertencem honra e louvor;</p><p>Ó Deus Salvador sempiterno.</p>",
+    "createdAt": "2025-05-30T22:08:06.145Z",
+    "updatedAt": "2025-05-30T22:08:06.145Z",
+    "idiomaId": 1,
+    "Idioma": {
+      "id": 1,
+      "nome": "Português",
+      "createdAt": "2025-03-19T15:23:32.323Z",
+      "updatedAt": "2025-03-19T15:23:32.323Z"
+    }
+  },
+  {
+    "id": 74,
+    "numero": 19,
+    "titulo": "Música: C.C. 406)",
+    "letra": "<p>1. Que delícia é crer em Cristo,</p><p>Em seu nome confiar,</p><p>Aceitar os seus ensinos</p><p>E as promessas desfrutar!</p><p></p><p><strong><em>Cristo! Cristo! Já confio</em></strong></p><p><strong><em>Em Teu nome, em Teu poder;</em></strong></p><p><strong><em>Cristo! Cristo, Bem-amado!</em></strong></p><p><strong><em>Faze minha fé crescer.</em></strong></p><p></p><p>2. Oh! que bênção crer em Cristo,</p><p>Crer no sangue que verteu,</p><p>Pois os meus pecados todos</p><p>Deus por Ele removeu.</p><p></p><p>3. Oh! que gozo é crer em Cristo,</p><p>Ter certeza de perdão!</p><p>Receber de Cristo mesmo</p><p>Vida, paz e salvação.</p><p></p><p>4. Bem feliz eu sou em Cristo,</p><p>Sempre d'Ele quero ser;</p><p>Quero agora mui submisso,</p><p>Sempre a Ele obedecer.</p>",
+    "createdAt": "2025-05-30T22:09:02.531Z",
+    "updatedAt": "2025-05-30T22:09:02.531Z",
+    "idiomaId": 1,
+    "Idioma": {
+      "id": 1,
+      "nome": "Português",
+      "createdAt": "2025-03-19T15:23:32.323Z",
+      "updatedAt": "2025-03-19T15:23:32.323Z"
+    }
+  },
+  {
+    "id": 75,
+    "numero": 20,
+    "titulo": "(Música: S.H.195 Lyra 12)",
+    "letra": "<p>1. Se eu pudesse celebrar,</p><p>Com hino digno e voz sem par,</p><p>A glória de Jesus</p><p>Com os anjos eu alternaria</p><p>Em doce e terna melodia,</p><p>Ao pé da Sua cruz,</p><p>Ao pé da Sua cruz.</p><p></p><p>2. Diria o sangue que verteu,</p><p>As dores que por mim sofreu</p><p>Maldito pela lei!</p><p>E cantaria em grato ardor</p><p>A majestade do Senhor,</p><p>Meu sacrossanto Rei.</p><p>Meu sacrossanto Rei</p><p></p><p>3. O dia alegre chegará,</p><p>Quando meu Pai me levará</p><p>Remido à Sua luz!</p><p>Ali, em êxtase de amor,</p><p>No céu eu cantarei melhor,</p><p>Salvo por meu Jesus!</p><p>Salvo por meu Jesus.</p>",
+    "createdAt": "2025-05-30T22:10:02.893Z",
+    "updatedAt": "2025-05-30T22:10:02.893Z",
+    "idiomaId": 1,
+    "Idioma": {
+      "id": 1,
+      "nome": "Português",
+      "createdAt": "2025-03-19T15:23:32.323Z",
+      "updatedAt": "2025-03-19T15:23:32.323Z"
+    }
+  },
+  {
+    "id": 76,
+    "numero": 21,
+    "titulo": "Música: H.C.c/M.578)",
+    "letra": "<p>1. Santo, santo, santo é o Senhor;</p><p>Sempre exaltado seja o Seu nome!</p><p>Santo, santo, santo é o Senhor;</p><p>Dai-lhe adoração, toda a terra!</p><p>Cantai louvores, sim, triunfantes,</p><p>Ao glorioso Cristo cantai.</p><p>Santo, santo, santo é o Senhor</p><p>Exaltado seja o Seu Nome.</p><p></p><p>2. Justo, justo, justo é o Senhor;</p><p>No Seu governo sempre há justiça!</p><p>Justo, justo, justo é o Senhor;</p><p>Equidade vem com o Seu reino!</p><p>Seu santo trono estabelecido,</p><p>Garante a glória do Seu poder.</p><p>Justo, justo, justo é o Senhor</p><p>Equidade vem com Seu reino.</p><p></p><p>3. Terno, terno, terno é o Senhor;</p><p>Cheio de compaixão e de graça!</p><p>Terno, terno, terno é o Senhor</p><p>Como nós em tudo tentado!</p><p>Alto refúgio, fonte de graça</p><p>Para Seu povo, Deus Salvador.</p><p>Terno, terno, terno é o Senhor;</p><p>Cheio de ternura e de graça.</p><p></p><p>4. Compassivo sempre é o Senhor;</p><p>Tudo sabendo, tudo sentindo!</p><p>Compassivo sempre é o Senhor;</p><p>Nossas dores todas levando!</p><p>Mesmo na morte a todos amando,</p><p>Dando-Se a Si por nós sobre a cruz.</p><p>Compassivo sempre é o Senhor.</p><p>Nossas dores todas levando!</p>",
+    "createdAt": "2025-05-30T22:10:42.646Z",
+    "updatedAt": "2025-05-30T22:10:42.646Z",
+    "idiomaId": 1,
+    "Idioma": {
+      "id": 1,
+      "nome": "Português",
+      "createdAt": "2025-03-19T15:23:32.323Z",
+      "updatedAt": "2025-03-19T15:23:32.323Z"
+    }
+  },
+  {
+    "id": 77,
+    "numero": 22,
+    "titulo": "(Música: Lyra 21; H.C.c/M.579)",
+    "letra": "<p>1. Ó Cristão, tem esperança,</p><p>Cristo é teu fiel amigo,</p><p>Tua luz e confiança;</p><p>Ele é teu amor.</p><p></p><p>2. Ó Jesus em Ti confio;</p><p>Fui por tua morte salvo,</p><p>Salvo enfim além do rio</p><p>Viverei feliz.</p><p></p><p>3. Te verei na glória eterna,</p><p>Sobre o trono majestoso.</p><p>Cantarei canção suprema,</p><p>Dando a Ti louvor.</p><p></p><p>4. Glória a Ti, Jesus clemente,</p><p>Seja dada aqui na terra;</p><p>Glória a Ti, eternamente</p><p>Lá nos altos céus.</p>",
+    "createdAt": "2025-05-30T22:11:08.748Z",
+    "updatedAt": "2025-05-30T22:11:08.748Z",
+    "idiomaId": 1,
+    "Idioma": {
+      "id": 1,
+      "nome": "Português",
+      "createdAt": "2025-03-19T15:23:32.323Z",
+      "updatedAt": "2025-03-19T15:23:32.323Z"
+    }
+  },
+  {
+    "id": 78,
+    "numero": 23,
+    "titulo": "(Música: Lyra 23)",
+    "letra": "<p>1. Vinde louvai ao Senhor;</p><p>Adorai-o com fervor.</p><p></p><p><strong><em>Grande é seu poder e amor;</em></strong></p><p><strong><em>Sempiterno Criador.</em></strong></p><p></p><p>2. Ele omnipotente Deus</p><p>Fez as águas, terra e céus.</p><p></p><p>3. Sol e lua e estrela são</p><p>Obra da divina mão,</p><p></p><p>4. Com mão forte ao povo seu</p><p>Grandiosa herança deu.</p><p></p><p>5. Príncipes e reis feriu</p><p>E Seu povo redimiu.</p><p></p><p>6. Sua misericórdia traz</p><p>Aos humildes gozo e paz.</p>",
+    "createdAt": "2025-05-30T22:12:06.399Z",
+    "updatedAt": "2025-05-30T22:12:06.399Z",
+    "idiomaId": 1,
+    "Idioma": {
+      "id": 1,
+      "nome": "Português",
+      "createdAt": "2025-03-19T15:23:32.323Z",
+      "updatedAt": "2025-03-19T15:23:32.323Z"
+    }
+  },
+  {
+    "id": 79,
+    "numero": 24,
+    "titulo": "(Música: Lyra 24; C.A. 10)",
+    "letra": "<p>1. Glória a Deus, o Pai Eterno,</p><p>Cujo trono é os Céus:</p><p>O universo lhe pertence,</p><p>Glória sim, ao nosso Deus.</p><p></p><p><strong><em>Eu te louvo! Eu te louvo!</em></strong></p><p><strong><em>Oh! Jesus meu Salvador!</em></strong></p><p><strong><em>Dai-lhe glória ó remidos!</em></strong></p><p><strong><em>Pois seu sangue limpa o pecador.</em></strong></p><p></p><p>2. Glória ao Filho mui amado,</p><p>Que merece o louvor,</p><p>Demos glória ao Seu nome,</p><p>Ao Cordeiro, ao Redentor.</p><p></p><p>3. Demos nós, ao Santo Espírito</p><p>Mil louvores por Seu dom;</p><p>Por sua graça tão imensa,</p><p>Glória, a Ele. Ele é bom!</p><p></p><p>4. Glória, glória ao Pai Bendito,</p><p>Glória, glória a Jesus;</p><p>Glória dai ao Santo Espírito,</p><p>Ao Deus trino nossa luz.</p>",
+    "createdAt": "2025-05-30T22:12:48.504Z",
+    "updatedAt": "2025-05-30T22:12:48.504Z",
+    "idiomaId": 1,
+    "Idioma": {
+      "id": 1,
+      "nome": "Português",
+      "createdAt": "2025-03-19T15:23:32.323Z",
+      "updatedAt": "2025-03-19T15:23:32.323Z"
+    }
+  },
+  {
+    "id": 80,
+    "numero": 25,
+    "titulo": "(Música: C.C. 305)",
+    "letra": "<p>1. Teu divinal amor veio-me buscar;</p><p>Tudo com gratidão quero consagrar.</p><p>Aceita, meu Senhor, de um grato pecador</p><p>Tributo de louvor, dado com fervor.</p><p></p><p>2. Atende, meu Jesus, essa petição;</p><p>Tão débil sou, e mau é meu coração.</p><p>Teu nome a exaltar, a nova a publicar,</p><p>Teu reino a dilatar, vem-me habilitar.</p><p></p><p>3. Oh! Dá-me mais paixão de um amor real,</p><p>P’ra Te servir e ser muito mais leal!</p><p>As almas a ganhar, sempre na luz a andar,</p><p>E os filhos a amar, vem-me habilitar.</p><p></p><p>4. Tudo o que sou, Senhor, eu Te votarei;</p><p>Do mundo vil e mau nunca mais serei;</p><p>Teu rosto quando vir, amor no Céu luzir,</p><p>A glória do porvir vou enfim fruir.</p>",
+    "createdAt": "2025-05-30T22:13:26.524Z",
+    "updatedAt": "2025-05-30T22:13:26.524Z",
+    "idiomaId": 1,
+    "Idioma": {
+      "id": 1,
+      "nome": "Português",
+      "createdAt": "2025-03-19T15:23:32.323Z",
+      "updatedAt": "2025-03-19T15:23:32.323Z"
+    }
+  },
+  {
+    "id": 81,
+    "numero": 26,
+    "titulo": "(Música: Lyra 329)",
+    "letra": "<p>1. Deus é o Criador;</p><p>Eternamente é Rei.</p><p>Ele criou o universo;</p><p>Eternamente é Rei.</p><p>Ele criou o mar;</p><p>Eternamente é Rei.</p><p>Ele criou o sol;</p><p>Eternamente é Rei.</p><p></p><p><strong><em>Adorai, adorai, adorai, adorai,</em></strong></p><p><strong><em>Eternamente é Rei.</em></strong></p><p><strong><em>Cantai, cantai, cantai, cantai,</em></strong></p><p><strong><em>Eternamente é Rei.</em></strong></p><p><strong><em>É Santo, é Santo, é Santo, é Santo,</em></strong></p><p><strong><em>Eternamente é Rei.</em></strong></p><p></p><p>2. Deus é o Criador;</p><p>Ele criou a chuva;</p><p>Ele criou o vento;</p><p>Ele criou o arvoredo;</p><p></p><p>3. Deus é o Criador;</p><p>Ele criou a vida;</p><p>Ele criou o homem;</p><p>Ele criou o mantimento;</p><p></p><p>4. Enviou Jesus Cristo;</p><p>Ele é o Salvador dos homens;</p><p>E é Espírito Santo;</p><p>Limpa o coração;</p>",
+    "createdAt": "2025-05-30T22:14:19.135Z",
+    "updatedAt": "2025-05-30T22:14:19.135Z",
+    "idiomaId": 1,
+    "Idioma": {
+      "id": 1,
+      "nome": "Português",
+      "createdAt": "2025-03-19T15:23:32.323Z",
+      "updatedAt": "2025-03-19T15:23:32.323Z"
+    }
+  },
+  {
+    "id": 82,
+    "numero": 27,
+    "titulo": "(Música: C.C 6)",
+    "letra": "<p>1. A nosso Pai no Céu</p><p>Tributa lábio meu,</p><p>O Teu louvor.</p><p>Jesus o Filho deu.</p><p>O qual na cruz morreu,</p><p>Do mal nos defendeu.</p><p>A Deus louvai.</p><p></p><p>2. A nosso Salvador,</p><p>A nosso Redentor,</p><p>Demos louvor.</p><p>Seu corpo se partiu,</p><p>E ao pobre pecador</p><p>Na cruz o céu lhe abriu.</p><p>A Deus louvai.</p><p></p><p>3. A Deus Consolador</p><p>Mandado por Jesus</p><p>Demos louvor.</p><p>De Cristo o grande amor</p><p>Revela Instruidor.</p><p>Sê meu renovador</p><p>A Deus louvai.</p><p></p><p>4. Louvemos com ardor,</p><p>Com gozo e com fervor</p><p>O trino Deus!</p><p>Eternamente ali,</p><p>Em canto abrasador,</p><p>Trindade santa, a Ti</p><p>Louvor nos céus!</p>",
+    "createdAt": "2025-05-30T22:15:24.739Z",
+    "updatedAt": "2025-05-30T22:15:24.739Z",
+    "idiomaId": 1,
+    "Idioma": {
+      "id": 1,
+      "nome": "Português",
+      "createdAt": "2025-03-19T15:23:32.323Z",
+      "updatedAt": "2025-03-19T15:23:32.323Z"
+    }
+  },
+  {
+    "id": 83,
+    "numero": 28,
+    "titulo": "Música: C.C. 5)",
+    "letra": "<p>1. Omnipotente Rei,</p><p>Aqui presente sê</p><p>No teu poder;</p><p>O Teu excelso amor,</p><p>Inspira-nos louvor;</p><p>Queremos-te, Senhor,</p><p>Engrandecer.</p><p></p><p>2. Ó encarnado Deus,</p><p>Nos ouve lá dos céus</p><p>A petição.</p><p>Vem-nos abençoar,</p><p>E vem fazer brotar</p><p>O que se semear</p><p>No coração.</p><p></p><p>3. Vem tu, Consolador,</p><p>Sê testificador</p><p>Da redenção.</p><p>No templo vem entrar,</p><p>A obra completar.</p><p>Das manchas vem limpar</p><p>O coração.</p><p></p><p>4. Ó grande trino Deus,</p><p>Sim, te adoramos nós,</p><p>E só a Ti!</p><p>Santificar-nos-ás,</p><p>Ao céu nos levarás,</p><p>A glória nos darás,</p><p>Contigo aí.</p>",
+    "createdAt": "2025-05-30T22:16:14.145Z",
+    "updatedAt": "2025-05-30T22:16:14.145Z",
+    "idiomaId": 1,
+    "Idioma": {
+      "id": 1,
+      "nome": "Português",
+      "createdAt": "2025-03-19T15:23:32.323Z",
+      "updatedAt": "2025-03-19T15:23:32.323Z"
+    }
+  },
+  {
+    "id": 84,
+    "numero": 29,
+    "titulo": "(Música: Lyra 22)",
+    "letra": "<p>1. Oh! com júbilo cantemos;</p><p>Aleluia!</p><p>Oh! com gratidão cantemos;</p><p>Aleluia!</p><p>Com os sons harmoniosos,</p><p>Adoremos nosso Deus.</p><p>Seu amor é tão imenso.</p><p>Aleluia!</p><p></p><p>2. Alegrem-se os corações;</p><p>Aleluia!</p><p>Exaltai o Salvador;</p><p>Aleluia!</p><p>Jesus é o nosso Guia,</p><p>E também o nosso refúgio;</p><p>Sua compaixão é imensa</p><p>Aleluia!</p><p></p><p>3. O louvor não cesse nunca;</p><p>Aleluia!</p><p>Tanto aqui como no céu,</p><p>Aleluia!</p><p>Testemunhas da esperança;</p><p>Somos os da Boa-Nova;</p><p>Vamos divulgá-la ao mundo;</p><p>Aleluia!</p>",
+    "createdAt": "2025-05-30T22:17:02.528Z",
+    "updatedAt": "2025-05-30T22:17:02.528Z",
+    "idiomaId": 1,
+    "Idioma": {
+      "id": 1,
+      "nome": "Português",
+      "createdAt": "2025-03-19T15:23:32.323Z",
+      "updatedAt": "2025-03-19T15:23:32.323Z"
+    }
+  },
+  {
+    "id": 85,
+    "numero": 30,
+    "titulo": "(Música: Lyra 195; 2ª Mús. C.C. 131)",
+    "letra": "<p>1. Bendize, ó tu, meu coração,</p><p>Bendize ao Salvador,</p><p>E tudo quanto houver em mim,</p><p>Derrame-lhe louvor.</p><p></p><p>2. Bendize, ó tu, meu coração,</p><p>Bendize ao Salvador,</p><p>Não fiques esquecido, pois,</p><p>Do Seu divino amor.</p><p></p><p>3. Ele os delitos, com amor</p><p>E graça perdoou,</p><p>E com divina compaixão</p><p>Jesus te aliviou.</p><p></p><p>4. O teu desejo satisfaz</p><p>Com verdadeiros bens;</p><p>A vida renovada assim,</p><p>Tu, como as águias tens.</p>",
+    "createdAt": "2025-05-30T22:18:10.522Z",
+    "updatedAt": "2025-05-30T22:18:10.522Z",
+    "idiomaId": 1,
+    "Idioma": {
+      "id": 1,
+      "nome": "Português",
+      "createdAt": "2025-03-19T15:23:32.323Z",
+      "updatedAt": "2025-03-19T15:23:32.323Z"
+    }
+  },
+  {
+    "id": 86,
+    "numero": 31,
+    "titulo": "(Música: C.C.15)",
+    "letra": "<p>1. A Deus dêmos glória, com grande fervor;</p><p>Seu Filho bendito por nós todos deu;</p><p>A graça concede ao mais vil pecador,</p><p>Abrindo-lhe a porta de entrada no Céu.</p><p></p><p><strong><em>Exultai! Exultai!</em></strong></p><p><strong><em>Vinde todos louvar</em></strong></p><p><strong><em>A Jesus, Salvador:</em></strong></p><p><strong><em>A Jesus Redentor;</em></strong></p><p><strong><em>A Deus demos glória,</em></strong></p><p><strong><em>Porquanto do Céu,</em></strong></p><p><strong><em>Seu Filho bendito por nós todos deu.</em></strong></p><p></p><p>2. Óh! graça real, foi assim que Jesus,</p><p>Morrendo, Seu sangue por nós derramou!</p><p>Herança nos céus, com os santos em luz,</p><p>Comprou-nos Jesus, pois o preço pagou.</p><p></p><p>3. A crer nos convida tal rasgo de amor,</p><p>Nos merecimentos do Filho de Deus;</p><p>E quem, pois confia no seu Salvador,</p><p>Vai vê-lo sentado na glória dos céus.</p>",
+    "createdAt": "2025-05-30T22:19:00.438Z",
+    "updatedAt": "2025-05-30T22:19:00.438Z",
+    "idiomaId": 1,
+    "Idioma": {
+      "id": 1,
+      "nome": "Português",
+      "createdAt": "2025-03-19T15:23:32.323Z",
+      "updatedAt": "2025-03-19T15:23:32.323Z"
+    }
+  },
+  {
+    "id": 87,
+    "numero": 32,
+    "titulo": "Música: S.H. 231; H.C.c/M.500)",
+    "letra": "<p>1. Saudai o nome de Jesus!</p><p>Arcanjos, vos prostrai!</p><p>Ao filho do eterno Deus</p><p>Com glória coroai.</p><p></p><p>2. Ó escolhida geração</p><p>Do bom eterno Pai:</p><p>Ao grande Autor da Salvação,</p><p>Com glória coroai.</p><p></p><p>3. Ó perdoados, cujo amor</p><p>Bem triunfante vai,</p><p>Ao Deus-Varão, Conquistador,</p><p>Com glória coroai.</p><p></p><p>4. Ó raças, tribos e nações,</p><p>Ao Rei do mundo honrai;</p><p>A quem quebrou vossos grilhões</p><p>Com glória coroai.</p>",
+    "createdAt": "2025-05-30T22:20:30.678Z",
+    "updatedAt": "2025-05-30T22:20:30.678Z",
+    "idiomaId": 1,
+    "Idioma": {
+      "id": 1,
+      "nome": "Português",
+      "createdAt": "2025-03-19T15:23:32.323Z",
+      "updatedAt": "2025-03-19T15:23:32.323Z"
+    }
+  },
+  {
+    "id": 88,
+    "numero": 500,
+    "titulo": "Teste feito 01062025",
+    "letra": "<p>fdsfsfd</p>",
+    "createdAt": "2025-06-01T20:21:57.076Z",
+    "updatedAt": "2025-06-01T20:21:57.076Z",
+    "idiomaId": 9,
+    "Idioma": {
+      "id": 9,
+      "nome": "Adicionais",
+      "createdAt": "2025-05-30T21:40:25.937Z",
+      "updatedAt": "2025-05-30T21:40:25.937Z"
+    }
+  },
+  {
+    "id": 89,
+    "numero": 300,
+    "titulo": "Teste do dia 01/06/2025",
+    "letra": "Vamos lá",
+    "createdAt": "2025-06-01T20:22:14.975Z",
+    "updatedAt": "2025-06-01T20:22:14.975Z",
+    "idiomaId": 9,
+    "Idioma": {
+      "id": 9,
+      "nome": "Adicionais",
+      "createdAt": "2025-05-30T21:40:25.937Z",
+      "updatedAt": "2025-05-30T21:40:25.937Z"
+    }
+  }
+]

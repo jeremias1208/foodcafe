@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Text, View } from "react-native";
-import hinos from "../database/hinario.json"; // Importação direta
+import hinos from "../database/Hino.json"; // Importação direta
 
 export default function HinoList() {
   const [dados, setDados] = useState([]);

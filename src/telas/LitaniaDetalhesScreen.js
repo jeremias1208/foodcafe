@@ -1,13 +1,13 @@
 // screens/HinoDetalhesScreen.js
 import React from "react";
 import { View, Text, ScrollView, StyleSheet, Linking, Share} from "react-native";
-import { ChevronLeftIcon, MusicalNoteIcon } from "react-native-heroicons/solid";
+import { ChevronLeftIcon, BookOpenIcon } from "react-native-heroicons/solid";
 import HTMLView from "react-native-htmlview";
 import Footer from "../componentes_aula/Footer";
 import Cabecalho from "../componentes_aula/cabecalho";
 
-export default function HinoDetalhesScreen({ route, navigation }) {
-  const { hino } = route.params;
+export default function LitaniaDetalhesScreen({ route, navigation }) {
+  const { litania } = route.params;
   const [isFavorito, setIsFavorito] = React.useState(false);
   const [fontSize, setFontSize] = React.useState(20);
   const [isDarkMode, setIsDarkMode] = React.useState(false);
@@ -15,7 +15,7 @@ export default function HinoDetalhesScreen({ route, navigation }) {
   const handleCompartilhar = async () => {
     try {
       await Share.share({
-        message: `Hino ${hino.numero} - ${hino.titulo}\n\n${hino.letra.replace(
+        message: `Litania ${litania.numero} - ${litania.titulo}\n\n${litania.replace(
           /<[^>]*>/g,
           ""
         )}`,
@@ -36,14 +36,17 @@ export default function HinoDetalhesScreen({ route, navigation }) {
   const stylesheet = StyleSheet.create({
     p: {
       fontSize: fontSize,
-      lineHeight: fontSize * 0.5,
+      lineHeight: fontSize * 1,
       color: isDarkMode ? "#ddd" : "#444",
       textAlign: "center",
       alignItems: "center",
       justifyContent: "center",
       fontFamily: "Roboto",
       fontVariant: "Roboto",
-      padding:20
+      marginBottom:0,
+       borderWidth: 2,         // Largura da borda
+    borderColor: 'blue',
+      
       
     },
     b: {
@@ -52,7 +55,8 @@ export default function HinoDetalhesScreen({ route, navigation }) {
     i: {
       fontStyle: "italic",
     },
-    
+   
+   
     div: {
       fontSize: fontSize,
       lineHeight: fontSize * 1,
@@ -82,18 +86,18 @@ export default function HinoDetalhesScreen({ route, navigation }) {
   return (
     <View style={containerStyle}>
       <Cabecalho
-        title={`Hino ${hino.numero}`}
-        centerIcon={MusicalNoteIcon}
+        title={`Litania ${litania.numero}`}
+        centerIcon={BookOpenIcon}
         LeftIcon={ChevronLeftIcon}
       />
 
       <ScrollView contentContainerStyle={styles.scrollContent}>
         <View style={headerStyle}>
-          <Text style={tituloStyle}>{hino.titulo}</Text>
+          <Text style={tituloStyle}>{litania.titulo}</Text>
         </View>
 
         <HTMLView
-          value={`<div>${hino.letra}</div>`}
+          value={`<div>${litania.descricao}</div>`}
           stylesheet={stylesheet}
           onLinkPress={(url) => Linking.openURL(url)}
           textComponentProps={{ style: styles.letra }}
@@ -141,7 +145,7 @@ const styles = StyleSheet.create({
   },
   letra: {
     fontSize: 16,
-    lineHeight: 24,
+    
     
   },
 });

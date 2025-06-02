@@ -15,7 +15,7 @@ import {
 } from "react-native-heroicons/solid";
 import Head from "../componentes_aula/Head";
 import MenuLateral from "../componentes_aula/MenuLateral";
-import hinos from "../database/hinario.json";
+import hinos from "../database/Hino.json";
 
 
 export default function Hinos({ navigation }) {
@@ -66,7 +66,7 @@ export default function Hinos({ navigation }) {
   return (
     <View >
       <Head
-        title={"Hinário"}
+        title={"Hinos"}
         leftIcon={Bars4Icon}
         centerIcon={MusicalNoteIcon}
         rightIcon={HeartIcon}

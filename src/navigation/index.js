@@ -16,6 +16,8 @@ import HinoList from "../telas/HinoList";
 import HinoDetalhesScreen from "../telas/HinoDetalhesScreen";
 import Splash from "../telas/Splash";
 import Sobre from "../telas/sobre";
+import LitaniaDetalhesScreen from "../telas/LitaniaDetalhesScreen";
+import SalmoDetalhesScreen from "../telas/SalmoDetalhesScreen";
 
 const Stack = createNativeStackNavigator();
 
@@ -45,10 +47,9 @@ export default function AppNavigation() {
         <Stack.Screen name="Splash" component={Splash} />
         <Stack.Screen name="Sobre" component={Sobre} />
 
-        <Stack.Screen
-          name="HinoDetalhesScreen"
-          component={HinoDetalhesScreen} options={{ headerShown: false }}
-        />
+        <Stack.Screen name="HinoDetalhesScreen" component={HinoDetalhesScreen} options={{ headerShown: false }} />
+        <Stack.Screen name="LitaniaDetalhesScreen" component={LitaniaDetalhesScreen} options={{ headerShown: false }} />
+        <Stack.Screen name="SalmoDetalhesScreen" component={SalmoDetalhesScreen} options={{ headerShown: false }} />
       </Stack.Navigator>
     </NavigationContainer>
   );

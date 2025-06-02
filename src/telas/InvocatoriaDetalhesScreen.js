@@ -52,7 +52,9 @@ export default function HinoDetalhesScreen({ route, navigation }) {
     i: {
       fontStyle: "italic",
     },
-    
+    br: {
+      height: 5,
+    },
     div: {
       fontSize: fontSize,
       lineHeight: fontSize * 1,

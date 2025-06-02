@@ -3,7 +3,7 @@ const fs = require("fs");
 
 // Configuração
 const API_URL = "http://localhost:5500/hinos";
-const JSON_FILE = "hinario_1.json";
+const JSON_FILE = "Hino.json";
 
 async function main() {
   try {
