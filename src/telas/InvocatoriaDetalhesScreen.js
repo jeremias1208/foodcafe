@@ -1,13 +1,14 @@
-// screens/HinoDetalhesScreen.js
+      backgroundColor:"red"
+// screens/salmoDetalhesScreen.js
 import React from "react";
 import { View, Text, ScrollView, StyleSheet, Linking, Share} from "react-native";
-import { ChevronLeftIcon, MusicalNoteIcon } from "react-native-heroicons/solid";
+import { ChevronLeftIcon, FireIcon } from "react-native-heroicons/solid";
 import HTMLView from "react-native-htmlview";
 import Footer from "../componentes_aula/Footer";
 import Cabecalho from "../componentes_aula/cabecalho";
 
-export default function HinoDetalhesScreen({ route, navigation }) {
-  const { hino } = route.params;
+export default function SalmoDetalhesScreen({ route, navigation }) {
+  const { salmo } = route.params;
   const [isFavorito, setIsFavorito] = React.useState(false);
   const [fontSize, setFontSize] = React.useState(20);
   const [isDarkMode, setIsDarkMode] = React.useState(false);
@@ -15,7 +16,7 @@ export default function HinoDetalhesScreen({ route, navigation }) {
   const handleCompartilhar = async () => {
     try {
       await Share.share({
-        message: `Hino ${hino.numero} - ${hino.titulo}\n\n${hino.letra.replace(
+        message: `salmo ${salmo.numero} - ${salmo.titulo}\n\n${salmo.deescricao.replace(
           /<[^>]*>/g,
           ""
         )}`,
@@ -34,16 +35,17 @@ export default function HinoDetalhesScreen({ route, navigation }) {
   };
 
   const stylesheet = StyleSheet.create({
-    p: {
+   p: {
       fontSize: fontSize,
-      lineHeight: fontSize * 0.5,
+      lineHeight: fontSize * 1,
       color: isDarkMode ? "#ddd" : "#444",
-      textAlign: "center",
+      textAlign: "justify",
       alignItems: "center",
       justifyContent: "center",
       fontFamily: "Roboto",
-      fontVariant: "Roboto",
-      padding:20
+      fontVariant: "Roboto",  
+
+      
       
     },
     b: {
@@ -52,15 +54,14 @@ export default function HinoDetalhesScreen({ route, navigation }) {
     i: {
       fontStyle: "italic",
     },
-    br: {
-      height: 5,
-    },
+   
+   
     div: {
       fontSize: fontSize,
       lineHeight: fontSize * 1,
       color: isDarkMode ? "#ddd" : "#444",
       paddingTop:10,
-      paddingBottom:20
+      paddingBottom:30,
 
       
     },
@@ -84,18 +85,18 @@ export default function HinoDetalhesScreen({ route, navigation }) {
   return (
     <View style={containerStyle}>
       <Cabecalho
-        title={`Hino ${hino.numero}`}
-        centerIcon={MusicalNoteIcon}
+        title={`Salmo ${salmo.numero}`}
+        centerIcon={FireIcon}
         LeftIcon={ChevronLeftIcon}
       />
 
       <ScrollView contentContainerStyle={styles.scrollContent}>
         <View style={headerStyle}>
-          <Text style={tituloStyle}>{hino.titulo}</Text>
+          <Text style={tituloStyle}>{salmo.titulo}</Text>
         </View>
 
         <HTMLView
-          value={`<div>${hino.letra}</div>`}
+          value={`<div>${salmo.deescricao}</div>`}
           stylesheet={stylesheet}
           onLinkPress={(url) => Linking.openURL(url)}
           textComponentProps={{ style: styles.letra }}
