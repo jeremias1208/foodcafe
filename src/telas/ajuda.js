@@ -2,7 +2,7 @@ import React from "react";
 import { View, Text, ScrollView, StyleSheet, Linking } from "react-native";
 import Cabecalho from "../componentes_aula/cabecalho";
 import FaqItem from "../componentes_aula/FaqItem";
-import { Cog6ToothIcon, InformationCircleIcon } from "react-native-heroicons/solid";
+import { InformationCircleIcon } from "react-native-heroicons/solid";
 import { useTheme } from "../Context/ThemeContext";
 import AppText from "../componentes_aula/AppText";
 
