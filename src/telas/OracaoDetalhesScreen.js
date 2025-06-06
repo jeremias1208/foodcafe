@@ -1,13 +1,16 @@
-// screens/HinoDetalhesScreen.js
+// screens/oracaoDetalhesScreen.js
 import React from "react";
 import { View, Text, ScrollView, StyleSheet, Linking, Share} from "react-native";
-import { ChevronLeftIcon, MusicalNoteIcon } from "react-native-heroicons/solid";
+import { ChevronLeftIcon, FireIcon } from "react-native-heroicons/solid";
 import HTMLView from "react-native-htmlview";
 import Footer from "../componentes_aula/Footer";
 import Cabecalho from "../componentes_aula/cabecalho";
+import { useTheme } from "../Context/ThemeContext";
 
-export default function HinoDetalhesScreen({ route, navigation }) {
-  const { hino } = route.params;
+export default function OracaoDetalhesScreen({ route, navigation }) {
+  const { colors } = useTheme();
+
+  const { oracao } = route.params;
   const [isFavorito, setIsFavorito] = React.useState(false);
   const [fontSize, setFontSize] = React.useState(20);
   const [isDarkMode, setIsDarkMode] = React.useState(false);
@@ -15,7 +18,7 @@ export default function HinoDetalhesScreen({ route, navigation }) {
   const handleCompartilhar = async () => {
     try {
       await Share.share({
-        message: `Hino ${hino.numero} - ${hino.titulo}\n\n${hino.letra.replace(
+        message: `oracao ${oracao.numero} - ${oracao.titulo}\n\n${oracao.descricao.replace(
           /<[^>]*>/g,
           ""
         )}`,
@@ -34,28 +37,7 @@ export default function HinoDetalhesScreen({ route, navigation }) {
   };
 
   const stylesheet = StyleSheet.create({
-    p: {
-      fontSize: fontSize,
-      lineHeight: fontSize * 0.5,
-      color: isDarkMode ? "#ddd" : "#444",
-      textAlign: "center",
-      alignItems: "center",
-      justifyContent: "center",
-      fontFamily: "Roboto",
-      fontVariant: "Roboto",
-      padding:20
-      
-    },
-    b: {
-      fontWeight: "bold",
-    },
-    i: {
-      fontStyle: "italic",
-    },
-    br: {
-      height: 5,
-    },
-    div: {
+        div: {
       fontSize: fontSize,
       lineHeight: fontSize * 1,
       color: isDarkMode ? "#ddd" : "#444",
@@ -82,20 +64,20 @@ export default function HinoDetalhesScreen({ route, navigation }) {
   };
 
   return (
-    <View style={containerStyle}>
+    <View style={[containerStyle, { backgroundColor: colors.background }]}>
       <Cabecalho
-        title={`Hino ${hino.numero}`}
-        centerIcon={MusicalNoteIcon}
+        title={`Oracao ${oracao.numero}`}
+        centerIcon={FireIcon}
         LeftIcon={ChevronLeftIcon}
       />
 
       <ScrollView contentContainerStyle={styles.scrollContent}>
         <View style={headerStyle}>
-          <Text style={tituloStyle}>{hino.titulo}</Text>
+          <Text style={tituloStyle}>{oracao.titulo}</Text>
         </View>
 
         <HTMLView
-          value={`<div>${hino.letra}</div>`}
+          value={`<div>${oracao.descricao}</div>`}
           stylesheet={stylesheet}
           onLinkPress={(url) => Linking.openURL(url)}
           textComponentProps={{ style: styles.letra }}

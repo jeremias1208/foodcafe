@@ -7,6 +7,7 @@ import {
   TouchableOpacity,
 } from "react-native";
 import { useNavigation } from "@react-navigation/native";
+import AppText from "./AppText";
 
 const placeholderTxt = "Pesquisar por número ou letra";
 export default function Head({
@@ -34,7 +35,7 @@ acaoLeft
         {/* Ícone Central + Título */}
         <View style={Styles.text}>
           {CenterIcon && <CenterIcon size={30} color="white" />}
-          <Text style={Styles.text1}>{title}</Text>
+          <AppText style={Styles.text1}>{title}</AppText>
         </View>
 
         {/* Ícone Direito */}

@@ -15,7 +15,7 @@ import {
 } from "react-native-heroicons/solid";
 import Head from "../componentes_aula/Head";
 import MenuLateral from "../componentes_aula/MenuLateral";
-import hinos from "../database/Hino.json";
+import hinos from "../database/dados/Hinos.json";
 
 
 export default function Hinos({ navigation }) {
@@ -25,26 +25,43 @@ export default function Hinos({ navigation }) {
   const [filteredHinos, setFilteredHinos] = useState([]);
   const [menuVisible, setMenuVisible] = useState(false);
 
+  const idiomaOrdem = ["Português", "Umbundu"];
+  function ordenarPorIdioma(hinoA, hinoB) {
+  const posA = idiomaOrdem.indexOf(hinoA.Idioma.nome);
+  const posB = idiomaOrdem.indexOf(hinoB.Idioma.nome);
+
+  const indexA = posA === -1 ? idiomaOrdem.length : posA;
+  const indexB = posB === -1 ? idiomaOrdem.length : posB;
+
+  // Se os idiomas forem iguais, ordena por número do hino
+  if (indexA === indexB) {
+    return hinoA.numero - hinoB.numero;
+  }
+
+  return indexA - indexB;
+}
   // Inicializa com todos os hinos
-  useEffect(() => {
-    setFilteredHinos(hinos);
-  }, []);
+ useEffect(() => {
+  const hinosOrdenados = [...hinos].sort(ordenarPorIdioma);
+  setFilteredHinos(hinosOrdenados);
+}, []);
 
   // Filtra os hinos conforme o texto de pesquisa
-  useEffect(() => {
-    if (searchText.trim() === "") {
-      setFilteredHinos(hinos);
-    } else {
-      const filtered = hinos.filter(
-        (hino) =>
-          hino.titulo.toLowerCase().includes(searchText) ||
-          hino.letra.toLowerCase().includes(searchText.toLowerCase()) ||
-          hino.numero.toString().includes(searchText) ||
-          hino.Idioma.nome.toLowerCase().includes(searchText)
-      );
-      setFilteredHinos(filtered);
-    }
-  }, [searchText]);
+ useEffect(() => {
+  if (searchText.trim() === "") {
+    const hinosOrdenados = [...hinos].sort(ordenarPorIdioma);
+    setFilteredHinos(hinosOrdenados);
+  } else {
+    const filtered = hinos.filter(
+      (hino) =>
+        hino.letra.toLowerCase().includes(searchText.toLowerCase()) ||
+        hino.numero.toString().includes(searchText) ||
+        hino.Idioma.nome.toLowerCase().includes(searchText)
+    );
+    const filtradosOrdenados = [...filtered].sort(ordenarPorIdioma);
+    setFilteredHinos(filtradosOrdenados);
+  }
+}, [searchText]);
 
   const renderHinoItem = ({ item }) => (
     <TouchableOpacity
@@ -64,7 +81,7 @@ export default function Hinos({ navigation }) {
   );
 
   return (
-    <View >
+    <View className="flex-1 mb-">
       <Head
         title={"Hinos"}
         leftIcon={Bars4Icon}

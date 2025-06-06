@@ -11,13 +11,15 @@ import Litanias from "../telas/Litanias";
 import Home from "../telas/Home";
 import HinosScreen from "../telas/HinosScreen";
 import LitaniaScreen from "../telas/LitaniaScreen";
-import Favorito from "../telas/Favoritod";
-import HinoList from "../telas/HinoList";
+import Favorito from "../telas/Favorito";
 import HinoDetalhesScreen from "../telas/HinoDetalhesScreen";
 import Splash from "../telas/Splash";
 import Sobre from "../telas/sobre";
 import LitaniaDetalhesScreen from "../telas/LitaniaDetalhesScreen";
 import SalmoDetalhesScreen from "../telas/SalmoDetalhesScreen";
+import InvocatoriaDetalhesScreen from "../telas/InvocatoriaDetalhesScreen";
+import OracaoDetalhesScreen from "../telas/OracaoDetalhesScreen";
+import AjudaScreen from "../telas/ajuda";
 
 const Stack = createNativeStackNavigator();
 
@@ -43,13 +45,15 @@ export default function AppNavigation() {
         <Stack.Screen name="HinosScreen" component={HinosScreen} />
         <Stack.Screen name="LitaniaScreen" component={LitaniaScreen} />
         <Stack.Screen name="Favorito" component={Favorito} />
-        <Stack.Screen name="HinoList" component={HinoList} />
         <Stack.Screen name="Splash" component={Splash} />
         <Stack.Screen name="Sobre" component={Sobre} />
+        <Stack.Screen name="Ajuda" component={AjudaScreen} />
 
         <Stack.Screen name="HinoDetalhesScreen" component={HinoDetalhesScreen} options={{ headerShown: false }} />
         <Stack.Screen name="LitaniaDetalhesScreen" component={LitaniaDetalhesScreen} options={{ headerShown: false }} />
         <Stack.Screen name="SalmoDetalhesScreen" component={SalmoDetalhesScreen} options={{ headerShown: false }} />
+        <Stack.Screen name="InvocatoriaDetalhesScreen" component={InvocatoriaDetalhesScreen} options={{ headerShown: false }} />
+        <Stack.Screen name="OracaoDetalhesScreen" component={OracaoDetalhesScreen} options={{ headerShown: false }} />
       </Stack.Navigator>
     </NavigationContainer>
   );

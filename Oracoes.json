@@ -1,0 +1,92 @@
+[
+  {
+    "id": 3,
+    "numero": 1,
+    "titulo": "CREDO APOSTÓLICO",
+    "descricao": "<p>Creio em Deus Pai, Todo-Poderoso, Criador do Céu e da Terra;</p><p><br></p><p>Em Jesus Cristo seu Único Filho, nosso Senhor; o qual foi concebido por obra do Espírito Santo; nasceu da Virgem Maria; Padeceu sob o poder de Pôncio Pilatos; foi crucificado, morto e sepultado; no terceiro dia ressurgiu dos mortos, subiu aos céus, e está sentado à mão direita de Deus Pai, Todo-Poderoso, donde há-de vir julgar os vivos e os mortos.</p><p><br></p><p>Creio no Espírito Santo; na Santa Igreja Universal; na comunhão dos santos; na remissão dos pecados; na ressurreição do corpo; e na vida eterna Ámen.</p>",
+    "createdAt": "2025-05-30T12:56:13.967Z",
+    "updatedAt": "2025-05-30T12:56:13.967Z",
+    "idiomaId": 1,
+    "Idioma": {
+      "id": 1,
+      "nome": "Português",
+      "createdAt": "2025-03-19T15:23:32.323Z",
+      "updatedAt": "2025-03-19T15:23:32.323Z"
+    }
+  },
+  {
+    "id": 4,
+    "numero": 2,
+    "titulo": "ORAÇÃO DO SENHOR",
+    "descricao": "<p>Pai nosso que estás nos céus,</p><p>Santificado seja o teu nome,</p><p>Venha o teu reino,</p><p>Seja feita a tua vontade,</p><p>Assim na terra como no céu,</p><p>O pão nosso de cada dia nos dá hoje,</p><p>Perdoa-nos as nossas dívidas,</p><p>Assim como nós perdoamos aos nossos devedores;</p><p>E não nos deixes cair em tentação;</p><p>Mas livra-nos do mal;</p><p>Pois Teu é o reino, e o poder, e a glória, para sempre.</p><p>Ámen</p>",
+    "createdAt": "2025-05-30T12:56:53.638Z",
+    "updatedAt": "2025-05-30T12:56:53.638Z",
+    "idiomaId": 1,
+    "Idioma": {
+      "id": 1,
+      "nome": "Português",
+      "createdAt": "2025-03-19T15:23:32.323Z",
+      "updatedAt": "2025-03-19T15:23:32.323Z"
+    }
+  },
+  {
+    "id": 5,
+    "numero": 1,
+    "titulo": "OHUMINHO YOKU TAVA",
+    "descricao": "<p>Nava ku suku Tate, o kola,</p><p>Usovoli wovailu kuenda osi,</p><p><br></p><p>Loku Yesu Kristu, omola a Suku wongunga, eye Ñala yetu, haeye wa eciwa le Espiritu Sandu, wa citiwa lufeko Maria; wa tala ohali ku Pondio Pilato, wa nyoñamisua komindikiso, wa fa, wa kendiwa; eteke lia tatu wa pinduka veyambo, wa londa kilu, wa tumala kondio ya Suku, o kola, Isiahe; haiko a ka tunda ha yali ekenga liomanu, ava va kasi lomuenyo lava va fa.</p><p><br></p><p>Nava ke Espiritu Sandu, lokekongelo li kola liokolofeka viosi, lokongongela yavakuesunga lia Suku, loku ecelua akandu, kuenda kepinduko lietimba lomuenyo kopui.</p><p>Amen.</p>",
+    "createdAt": "2025-05-30T13:00:01.418Z",
+    "updatedAt": "2025-05-30T13:00:01.418Z",
+    "idiomaId": 2,
+    "Idioma": {
+      "id": 2,
+      "nome": "Umbundu",
+      "createdAt": "2025-03-19T15:23:41.138Z",
+      "updatedAt": "2025-03-19T15:23:41.138Z"
+    }
+  },
+  {
+    "id": 3,
+    "numero": 1,
+    "titulo": "CREDO APOSTÓLICO",
+    "descricao": "<p>Creio em Deus Pai, Todo-Poderoso, Criador do Céu e da Terra;</p><p><br></p><p>Em Jesus Cristo seu Único Filho, nosso Senhor; o qual foi concebido por obra do Espírito Santo; nasceu da Virgem Maria; Padeceu sob o poder de Pôncio Pilatos; foi crucificado, morto e sepultado; no terceiro dia ressurgiu dos mortos, subiu aos céus, e está sentado à mão direita de Deus Pai, Todo-Poderoso, donde há-de vir julgar os vivos e os mortos.</p><p><br></p><p>Creio no Espírito Santo; na Santa Igreja Universal; na comunhão dos santos; na remissão dos pecados; na ressurreição do corpo; e na vida eterna Ámen.</p>",
+    "createdAt": "2025-05-30T12:56:13.967Z",
+    "updatedAt": "2025-05-30T12:56:13.967Z",
+    "idiomaId": 1,
+    "Idioma": {
+      "id": 1,
+      "nome": "Português",
+      "createdAt": "2025-03-19T15:23:32.323Z",
+      "updatedAt": "2025-03-19T15:23:32.323Z"
+    }
+  },
+  {
+    "id": 4,
+    "numero": 2,
+    "titulo": "ORAÇÃO DO SENHOR",
+    "descricao": "<p>Pai nosso que estás nos céus,</p><p>Santificado seja o teu nome,</p><p>Venha o teu reino,</p><p>Seja feita a tua vontade,</p><p>Assim na terra como no céu,</p><p>O pão nosso de cada dia nos dá hoje,</p><p>Perdoa-nos as nossas dívidas,</p><p>Assim como nós perdoamos aos nossos devedores;</p><p>E não nos deixes cair em tentação;</p><p>Mas livra-nos do mal;</p><p>Pois Teu é o reino, e o poder, e a glória, para sempre.</p><p>Ámen</p>",
+    "createdAt": "2025-05-30T12:56:53.638Z",
+    "updatedAt": "2025-05-30T12:56:53.638Z",
+    "idiomaId": 1,
+    "Idioma": {
+      "id": 1,
+      "nome": "Português",
+      "createdAt": "2025-03-19T15:23:32.323Z",
+      "updatedAt": "2025-03-19T15:23:32.323Z"
+    }
+  },
+  {
+    "id": 5,
+    "numero": 1,
+    "titulo": "OHUMINHO YOKU TAVA",
+    "descricao": "<p>Nava ku suku Tate, o kola,</p><p>Usovoli wovailu kuenda osi,</p><p><br></p><p>Loku Yesu Kristu, omola a Suku wongunga, eye Ñala yetu, haeye wa eciwa le Espiritu Sandu, wa citiwa lufeko Maria; wa tala ohali ku Pondio Pilato, wa nyoñamisua komindikiso, wa fa, wa kendiwa; eteke lia tatu wa pinduka veyambo, wa londa kilu, wa tumala kondio ya Suku, o kola, Isiahe; haiko a ka tunda ha yali ekenga liomanu, ava va kasi lomuenyo lava va fa.</p><p><br></p><p>Nava ke Espiritu Sandu, lokekongelo li kola liokolofeka viosi, lokongongela yavakuesunga lia Suku, loku ecelua akandu, kuenda kepinduko lietimba lomuenyo kopui.</p><p>Amen.</p>",
+    "createdAt": "2025-05-30T13:00:01.418Z",
+    "updatedAt": "2025-05-30T13:00:01.418Z",
+    "idiomaId": 2,
+    "Idioma": {
+      "id": 2,
+      "nome": "Umbundu",
+      "createdAt": "2025-03-19T15:23:41.138Z",
+      "updatedAt": "2025-03-19T15:23:41.138Z"
+    }
+  }
+]

@@ -15,7 +15,7 @@ import {
 } from "react-native-heroicons/solid";
 import Head from "../componentes_aula/Head";
 import MenuLateral from "../componentes_aula/MenuLateral";
-import salmos from "../database/Salmos.json";
+import salmos from "../database/dados/Salmos.json";
 
 
 export default function Salmos({ navigation }) {

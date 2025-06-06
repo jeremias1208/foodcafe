@@ -1,64 +1,66 @@
 const axios = require("axios");
 const fs = require("fs");
+const path = require("path");
 
-// Configuração
-const API_URL = "http://localhost:5500/hinos";
-const JSON_FILE = "Hino.json";
+// Configurações
+const BASE_URL = "http://localhost:5500";
+const DATA_FOLDER = path.join(__dirname, "dados");
+
+const ENDPOINTS = {
+  oracoes: "oracoes",
+  hinos: "hinos",
+  litanias: "litanias",
+  salmos: "salmos",
+  invocatorias: "invocatorias",
+};
 
 async function main() {
-  try {
-    // 1. Buscar hinos da API
-    console.log(`Buscando hinos de ${API_URL}...`);
-    const response = await axios.get(API_URL);
-    const hinos = Array.isArray(response.data)
-      ? response.data
-      : [response.data];
-
-    // 2. Processar e salvar os hinos no ficheiro JSON
-    console.log(`Processando ${hinos.length} hinos...`);
-    salvarHinos(hinos);
-
-    console.log("Dados salvos com sucesso!");
-
-    // 3. Mostrar estatísticas
-    mostrarEstatisticas();
-  } catch (error) {
-    console.error("Erro durante o processo:", error);
+  // Criar pasta se não existir
+  if (!fs.existsSync(DATA_FOLDER)) {
+    fs.mkdirSync(DATA_FOLDER, { recursive: true });
   }
+
+  for (const [tipo, endpoint] of Object.entries(ENDPOINTS)) {
+    const url = `${BASE_URL}/${endpoint}`;
+    const filePath = path.join(DATA_FOLDER, `${capitalize(tipo)}.json`);
+    try {
+      console.log(`🔄 Buscando ${tipo} de ${url}`);
+      const response = await axios.get(url);
+      const dados = Array.isArray(response.data)
+        ? response.data
+        : [response.data];
+
+      const count = salvarDadosSemDuplicar(filePath, dados);
+      console.log(`✅ ${count} novos ${tipo} adicionados em ${filePath}\n`);
+    } catch (error) {
+      console.error(`❌ Erro ao buscar ${tipo}:`, error.message);
+    }
+  }
+
+  console.log("✅ Todos os dados processados!");
 }
 
-function salvarHinos(hinos) {
-  // Carregar os dados existentes, se houver
+function salvarDadosSemDuplicar(filePath, novosDados) {
   let dadosExistentes = [];
-  if (fs.existsSync(JSON_FILE)) {
-    const rawData = fs.readFileSync(JSON_FILE);
-    dadosExistentes = JSON.parse(rawData);
+  if (fs.existsSync(filePath)) {
+    const raw = fs.readFileSync(filePath);
+    dadosExistentes = JSON.parse(raw);
   }
 
-  // Adicionar os novos hinos
-  const dadosAtualizados = [...dadosExistentes, ...hinos];
+  const numerosExistentes = new Set(dadosExistentes.map((d) => d.numero));
+  const dadosFiltrados = novosDados.filter((d) => !numerosExistentes.has(d.numero));
+  const dadosAtualizados = [...dadosExistentes, ...dadosFiltrados];
 
-  // Salvar no ficheiro JSON
-  fs.writeFileSync(JSON_FILE, JSON.stringify(dadosAtualizados, null, 2));
-  console.log("Hinos salvos no ficheiro JSON.");
-}
-
-function mostrarEstatisticas() {
-  if (!fs.existsSync(JSON_FILE)) {
-    console.log("Nenhum dado encontrado.");
-    return;
+  if (dadosFiltrados.length > 0) {
+    fs.writeFileSync(filePath, JSON.stringify(dadosAtualizados, null, 2));
   }
 
-  const rawData = fs.readFileSync(JSON_FILE);
-  const hinos = JSON.parse(rawData);
-
-  console.log("\nEstatísticas:");
-  console.log(`- Total de hinos: ${hinos.length}`);
-
-  // Mostrar alguns hinos como exemplo
-  console.log("\nAlguns hinos armazenados:");
-  hinos.slice(0, 3).forEach((h) => console.log(`#${h.numero} - ${h.titulo}`));
+  return dadosFiltrados.length;
 }
 
-// Executar o processo
+function capitalize(str) {
+  return str.charAt(0).toUpperCase() + str.slice(1);
+}
+
+// Executar
 main();

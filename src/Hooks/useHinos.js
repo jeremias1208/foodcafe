@@ -4,7 +4,7 @@ import {
   fetchAndStoreHinos,
   getLocalHinos,
   refreshHinosData,
-} from "../services/apiService";
+} from "../services/favorito";
 
 export const useHinos = () => {
   const [hinos, setHinos] = useState([]);

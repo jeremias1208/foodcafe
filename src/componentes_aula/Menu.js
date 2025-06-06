@@ -1,6 +1,7 @@
 import React from "react";
 import { TouchableOpacity, View, Text, StyleSheet } from "react-native";
 import { useNavigation } from "@react-navigation/native";
+import AppText from "./AppText";
 
 export default function Menu({ title, icon: Icon, uri, color }) {
   const navigation = useNavigation();
@@ -16,7 +17,7 @@ export default function Menu({ title, icon: Icon, uri, color }) {
       onPress={() => navigation.navigate(uri)}
     >
       {Icon && <Icon size={30} color="white" />}
-      <Text style={Styele.text}>{title}</Text>
+      <AppText style={Styele.text}>{title}</AppText>
     </TouchableOpacity>
   );
 }

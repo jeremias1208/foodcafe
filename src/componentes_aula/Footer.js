@@ -9,6 +9,7 @@ import {
   SunIcon,
   MoonIcon,
 } from "react-native-heroicons/solid";
+import AppText from "./AppText";
 
 const Footer = ({
   isFavorito,
@@ -28,9 +29,9 @@ const Footer = ({
       <TouchableOpacity style={styles.footerButton} onPress={onFavoritoPress}>
         <HeartIcon
           size={tIcon}
-          color={isFavorito ? "red" : isDarkMode ? "#ffff" : "ffff"}
+          color={isDarkMode ? "#ffff" : "#ffff"} 
           />
-        <Text
+        <AppText
           style={[
             styles.footerButtonText,
             isDarkMode && styles.footerButtonTextDark,
@@ -38,12 +39,12 @@ const Footer = ({
           ]}
           >
           {isFavorito ? "Favorito" : "Favoritar"}
-        </Text>
+        </AppText>
       </TouchableOpacity>
 
       <TouchableOpacity style={styles.footerButton} onPress={onDecreaseFont}>
         <MinusIcon size={tIcon} color={isDarkMode ? "#ffff" : "#ffff"} />
-        <Text
+        <AppText
           style={[
             styles.footerButtonText,
             isDarkMode && styles.footerButtonTextDark,
@@ -51,12 +52,12 @@ const Footer = ({
           ]}
           >
           A-
-        </Text>
+        </AppText>
       </TouchableOpacity>
 
       <TouchableOpacity style={styles.footerButton} onPress={onIncreaseFont}>
         <PlusIcon size={tIcon} color={isDarkMode ? "#ffff" : "#ffff"} />
-        <Text
+        <AppText
           style={[
             styles.footerButtonText,
             isDarkMode && styles.footerButtonTextDark,
@@ -64,7 +65,7 @@ const Footer = ({
           ]}
           >
           A+
-        </Text>
+        </AppText>
       </TouchableOpacity>
 
       <TouchableOpacity style={styles.footerButton} onPress={onToggleDarkMode}>
@@ -73,23 +74,23 @@ const Footer = ({
         ) : (
           <MoonIcon size={tIcon} color="#ffff" />
         )}
-        <Text
+        <AppText
           style={[styles.footerButtonText, isDarkMode && { color: "#ffff" }]}
           >
           {isDarkMode ? "Claro" : "Escuro"}
-        </Text>
+        </AppText>
       </TouchableOpacity>
 
       <TouchableOpacity style={styles.footerButton} onPress={onSharePress}>
         <ShareIcon size={tIcon} color={isDarkMode ? "#ffff" : "white"} />
-        <Text
+        <AppText
           style={[
             styles.footerButtonText,
             { color: isDarkMode ? "#ffff" : "#ffff" },
           ]}
           >
           Compartilhar
-        </Text>
+        </AppText>
       </TouchableOpacity>
           </View>
     </View>

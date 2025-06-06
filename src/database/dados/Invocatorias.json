@@ -1,0 +1,857 @@
+[
+  {
+    "id": 4,
+    "numero": 1,
+    "titulo": "O Senhor está no seu santo templo",
+    "descricao": "<p>O Senhor está no seu santo templo: cale-se diante dele toda a terra.<em> (Habacuque. 2:20)</em></p>",
+    "createdAt": "2025-05-30T14:42:29.987Z",
+    "updatedAt": "2025-05-30T14:42:29.987Z",
+    "idiomaId": 1,
+    "Idioma": {
+      "id": 1,
+      "nome": "Português",
+      "createdAt": "2025-03-19T15:23:32.323Z",
+      "updatedAt": "2025-03-19T15:23:32.323Z"
+    }
+  },
+  {
+    "id": 5,
+    "numero": 2,
+    "titulo": "Alegrei-me quando me disseram",
+    "descricao": "<p>Alegrei-me quando me disseram: Vamos à casa do Senhor. Na verdade o Senhor está neste lugar. Esta é a casa de Deus: esta é a porta dos céus. Dai ao Senhor a glória devida ao seu nome, adorai o Senhor na beleza da Sua santidade. (Salmo. 122:1; 29:2; Génesis 28:16-17).</p>",
+    "createdAt": "2025-05-30T14:43:54.328Z",
+    "updatedAt": "2025-05-30T14:43:54.328Z",
+    "idiomaId": 1,
+    "Idioma": {
+      "id": 1,
+      "nome": "Português",
+      "createdAt": "2025-03-19T15:23:32.323Z",
+      "updatedAt": "2025-03-19T15:23:32.323Z"
+    }
+  },
+  {
+    "id": 6,
+    "numero": 3,
+    "titulo": "Senhor quem habitará",
+    "descricao": "<p>Senhor quem habitará no Teu tabernáculo? Quem morará no Teu santo monte? Aquele que anda em sinceridade e pratica a justiça, e fala verazmente, segundo o seu coração. (Salmo 15:1-2)</p>",
+    "createdAt": "2025-05-30T14:44:24.557Z",
+    "updatedAt": "2025-05-30T14:44:24.557Z",
+    "idiomaId": 1,
+    "Idioma": {
+      "id": 1,
+      "nome": "Português",
+      "createdAt": "2025-03-19T15:23:32.323Z",
+      "updatedAt": "2025-03-19T15:23:32.323Z"
+    }
+  },
+  {
+    "id": 7,
+    "numero": 4,
+    "titulo": "Olhai para mim, e sereis salvos",
+    "descricao": "<p>Olhai para mim, e sereis salvos, vós, todos os termos da terra; porque eu Sou Deus, e não há outro. Na verdade a sua salvação está perto dos que o temem. O Senhor Deus é um sol e protecção. O Senhor dará graça e glória; não negará bem algum aos que andam na rectidão. Louvai ao Senhor. (Isaías 45:22; Salmo 85:9; 84:11; 106:1)</p>",
+    "createdAt": "2025-05-30T14:44:57.975Z",
+    "updatedAt": "2025-05-30T14:44:57.975Z",
+    "idiomaId": 1,
+    "Idioma": {
+      "id": 1,
+      "nome": "Português",
+      "createdAt": "2025-03-19T15:23:32.323Z",
+      "updatedAt": "2025-03-19T15:23:32.323Z"
+    }
+  },
+  {
+    "id": 8,
+    "numero": 5,
+    "titulo": "Bom é louvar ao Senhor",
+    "descricao": "<p>Bom é louvar ao Senhor, e cantar louvores ao teu nome, ó Altíssimo; para de manhã anunciar a tua benignidade, e todas as noites, a tua fidelidade. (Salmo 92:1-2)</p>",
+    "createdAt": "2025-05-30T14:45:17.544Z",
+    "updatedAt": "2025-05-30T14:45:17.544Z",
+    "idiomaId": 1,
+    "Idioma": {
+      "id": 1,
+      "nome": "Português",
+      "createdAt": "2025-03-19T15:23:32.323Z",
+      "updatedAt": "2025-03-19T15:23:32.323Z"
+    }
+  },
+  {
+    "id": 9,
+    "numero": 6,
+    "titulo": "Como o cervo brama pelas correntes das águas",
+    "descricao": "<p>Como o cervo brama pelas correntes das águas, assim suspira a minha alma por ti, ó Deus! A minha alma tem sede de Deus, do Deus vivo: Quando entrarei e me apresentarei ante a face de Deus? A minha alma espera somente em Deus; dele vem a minha salvação. Porque a tua benignidade é melhor do que a vida; os meus lábios te louvarão. (Salmo 42: 1-2; 62:1; 63: 3)</p>",
+    "createdAt": "2025-05-30T14:46:16.017Z",
+    "updatedAt": "2025-05-30T14:46:16.017Z",
+    "idiomaId": 1,
+    "Idioma": {
+      "id": 1,
+      "nome": "Português",
+      "createdAt": "2025-03-19T15:23:32.323Z",
+      "updatedAt": "2025-03-19T15:23:32.323Z"
+    }
+  },
+  {
+    "id": 10,
+    "numero": 7,
+    "titulo": "Vós, os que temeis ao Senhor",
+    "descricao": "<p>Vós, os que temeis ao Senhor, confiai no Senhor: ele é seu auxílio e seu escudo. (Salmo 115:11)</p>",
+    "createdAt": "2025-05-30T14:46:36.563Z",
+    "updatedAt": "2025-05-30T14:46:36.563Z",
+    "idiomaId": 1,
+    "Idioma": {
+      "id": 1,
+      "nome": "Português",
+      "createdAt": "2025-03-19T15:23:32.323Z",
+      "updatedAt": "2025-03-19T15:23:32.323Z"
+    }
+  },
+  {
+    "id": 11,
+    "numero": 8,
+    "titulo": "Vinde, e tornemos para o Senhor",
+    "descricao": "<p>Vinde, e tornemos para o Senhor, porque ele despedaçou e nos sarará; fez a ferida e a ligará. Conheçamos, e prossigamos em conhecer ao Senhor; como a alva será a sua saída, e ele a nós virá como a chuva, como chuva serôdia que rega a terra. (Oseias 6:1,3)</p>",
+    "createdAt": "2025-05-30T14:47:05.091Z",
+    "updatedAt": "2025-05-30T14:47:05.091Z",
+    "idiomaId": 1,
+    "Idioma": {
+      "id": 1,
+      "nome": "Português",
+      "createdAt": "2025-03-19T15:23:32.323Z",
+      "updatedAt": "2025-03-19T15:23:32.323Z"
+    }
+  },
+  {
+    "id": 12,
+    "numero": 9,
+    "titulo": "Com que me apresentarei ao Senhor",
+    "descricao": "<p>Com que me apresentarei ao Senhor, e me inclinarei ante o Deus Altíssimo? Ele te declarou, ó homem, o que é bom. E que é o que o Senhor pede de ti, senão que pratiques a justiça, e ames a beneficência, e andes humildemente com o teu Deus? (Miqueias 6-6,8)</p>",
+    "createdAt": "2025-05-30T20:44:54.161Z",
+    "updatedAt": "2025-05-30T20:44:54.161Z",
+    "idiomaId": 1,
+    "Idioma": {
+      "id": 1,
+      "nome": "Português",
+      "createdAt": "2025-03-19T15:23:32.323Z",
+      "updatedAt": "2025-03-19T15:23:32.323Z"
+    }
+  },
+  {
+    "id": 13,
+    "numero": 10,
+    "titulo": "Exaltai ao Senhor, nosso Deus",
+    "descricao": "<p>Exaltai ao Senhor, nosso Deus, e adorai-O no Seu santo monte, porque o Senhor, nosso Deus, é santo. (Salmo 99:9)</p>",
+    "createdAt": "2025-05-30T20:45:55.053Z",
+    "updatedAt": "2025-05-30T20:45:55.053Z",
+    "idiomaId": 1,
+    "Idioma": {
+      "id": 1,
+      "nome": "Português",
+      "createdAt": "2025-03-19T15:23:32.323Z",
+      "updatedAt": "2025-03-19T15:23:32.323Z"
+    }
+  },
+  {
+    "id": 14,
+    "numero": 11,
+    "titulo": "Vinde, cantemos ao Senhor",
+    "descricao": "<p>Vinde, cantemos ao Senhor: cantemos com júbilo à rocha da nossa salvação. Porque o Senhor é Deus grande, e Rei grande, acima de todos os deuses. Ó, vinde, adoremos e prostremo-nos; ajoelhemos diante do Senhor que nos criou. Porque ele é o nosso Deus, e nós, povo do seu pasto e ovelhas da sua mão. Se hoje ouvirdes a sua voz, não endureçais os vossos corações. (Salmo 95:1-3, 6-8)</p>",
+    "createdAt": "2025-05-30T20:46:25.710Z",
+    "updatedAt": "2025-05-30T20:46:25.710Z",
+    "idiomaId": 1,
+    "Idioma": {
+      "id": 1,
+      "nome": "Português",
+      "createdAt": "2025-03-19T15:23:32.323Z",
+      "updatedAt": "2025-03-19T15:23:32.323Z"
+    }
+  },
+  {
+    "id": 15,
+    "numero": 12,
+    "titulo": "O vosso coração viverá",
+    "descricao": "<p>O vosso coração viverá, pois que buscais a Deus. Louvai ao Senhor. (Salmo 69:32;106:1)</p>",
+    "createdAt": "2025-05-30T20:47:03.454Z",
+    "updatedAt": "2025-05-30T20:47:03.454Z",
+    "idiomaId": 1,
+    "Idioma": {
+      "id": 1,
+      "nome": "Português",
+      "createdAt": "2025-03-19T15:23:32.323Z",
+      "updatedAt": "2025-03-19T15:23:32.323Z"
+    }
+  },
+  {
+    "id": 16,
+    "numero": 13,
+    "titulo": "Sabei que o Senhor é Deus",
+    "descricao": "<p>Sabei que o Senhor é Deus: foi ele, e não nós, que nos fez povo seu e ovelhas do seu pasto. Entrai pelas portas dele com louvor, e em seus átrios com hinos: louvai-O e bendizei o seu nome. Porque o Senhor é bom, e eterna a Sua misericórdia; e a sua verdade estende-se de geração em geração. (Salmo 100:3-5)</p>",
+    "createdAt": "2025-05-30T20:47:22.128Z",
+    "updatedAt": "2025-05-30T20:47:22.128Z",
+    "idiomaId": 1,
+    "Idioma": {
+      "id": 1,
+      "nome": "Português",
+      "createdAt": "2025-03-19T15:23:32.323Z",
+      "updatedAt": "2025-03-19T15:23:32.323Z"
+    }
+  },
+  {
+    "id": 17,
+    "numero": 14,
+    "titulo": "De tarde e de manhã e ao meio-dia orarei",
+    "descricao": "<p>De tarde e de manhã e ao meio-dia orarei; e clamarei, e Ele ouvirá a minha voz. Eu te exaltarei, ó Deus, rei meu, e bendirei o teu nome pelos séculos dos séculos. (Salmo 55:17;145:1)</p>",
+    "createdAt": "2025-05-30T20:48:26.014Z",
+    "updatedAt": "2025-05-30T20:48:26.014Z",
+    "idiomaId": 1,
+    "Idioma": {
+      "id": 1,
+      "nome": "Português",
+      "createdAt": "2025-03-19T15:23:32.323Z",
+      "updatedAt": "2025-03-19T15:23:32.323Z"
+    }
+  },
+  {
+    "id": 18,
+    "numero": 15,
+    "titulo": "Porque eu bem sei os pensamentos",
+    "descricao": "<p>Porque eu bem sei os pensamentos que penso de vós, diz o Senhor; pensamentos de paz, e não de mal, para vos dar o fim que esperais. Então me invocareis, e ireis, e orareis a mim, e eu vos ouvirei. E buscar-me-eis, e me achareis, quando me buscardes de todo o vosso coração. (Jeremias 29:11-13)</p>",
+    "createdAt": "2025-05-30T20:48:53.782Z",
+    "updatedAt": "2025-05-30T20:48:53.782Z",
+    "idiomaId": 1,
+    "Idioma": {
+      "id": 1,
+      "nome": "Português",
+      "createdAt": "2025-03-19T15:23:32.323Z",
+      "updatedAt": "2025-03-19T15:23:32.323Z"
+    }
+  },
+  {
+    "id": 19,
+    "numero": 16,
+    "titulo": "Quem subirá ao monte do Senhor",
+    "descricao": "<p>Quem subirá ao monte do Senhor, ou quem estará no seu lugar Santo? Aquele que é limpo de mãos e puro de coração. Este receberá a bênção do Senhor e a justiça do Deus da sua salvação. Bem-aventurados os que trilham caminhos rectos, e andam na lei do Senhor. Bem-aventurados os que guardam os seus testemunhos, e o buscam de todo o coração. (Salmo 24:3-5; 119:1-2)</p>",
+    "createdAt": "2025-05-30T20:49:48.886Z",
+    "updatedAt": "2025-05-30T20:49:48.886Z",
+    "idiomaId": 1,
+    "Idioma": {
+      "id": 1,
+      "nome": "Português",
+      "createdAt": "2025-03-19T15:23:32.323Z",
+      "updatedAt": "2025-03-19T15:23:32.323Z"
+    }
+  },
+  {
+    "id": 20,
+    "numero": 17,
+    "titulo": "Este é o dia que fez o Senhor",
+    "descricao": "<p>Este é o dia que fez o Senhor: regozijemo-nos, e alegremo-nos nele. Dai ao Senhor a glória devida ao seu nome: porque o Senhor nosso Deus é santo. (Salmo118:24; 29:2; 99:9)</p>",
+    "createdAt": "2025-05-30T20:50:20.126Z",
+    "updatedAt": "2025-05-30T20:50:20.126Z",
+    "idiomaId": 1,
+    "Idioma": {
+      "id": 1,
+      "nome": "Português",
+      "createdAt": "2025-03-19T15:23:32.323Z",
+      "updatedAt": "2025-03-19T15:23:32.323Z"
+    }
+  },
+  {
+    "id": 21,
+    "numero": 18,
+    "titulo": "Deus é Espírito, e importa que os que o adoram",
+    "descricao": "<p>Deus é Espírito, e importa que os que o adoram, o adorem em espírito e em verdade. Sejam agradáveis as palavras da minha boca e a meditação do meu coração perante a tua face, Senhor, Rocha minha e Libertador meu! (João 4:24; Salmo 19:14)</p>",
+    "createdAt": "2025-05-30T20:51:46.778Z",
+    "updatedAt": "2025-05-30T20:51:46.778Z",
+    "idiomaId": 1,
+    "Idioma": {
+      "id": 1,
+      "nome": "Português",
+      "createdAt": "2025-03-19T15:23:32.323Z",
+      "updatedAt": "2025-03-19T15:23:32.323Z"
+    }
+  },
+  {
+    "id": 22,
+    "numero": 19,
+    "titulo": "Desde o nascimento do sol até ao ocaso,",
+    "descricao": "<p>Desde o nascimento do sol até ao ocaso, seja louvado o nome do Senhor. Entrai pelas portas dele com louvor, e em seus átrios com hinos. Louvai-O e bendizei o seu nome. (Salmo 113:3; 100:4)</p>",
+    "createdAt": "2025-05-30T20:52:28.267Z",
+    "updatedAt": "2025-05-30T20:52:28.267Z",
+    "idiomaId": 1,
+    "Idioma": {
+      "id": 1,
+      "nome": "Português",
+      "createdAt": "2025-03-19T15:23:32.323Z",
+      "updatedAt": "2025-03-19T15:23:32.323Z"
+    }
+  },
+  {
+    "id": 23,
+    "numero": 20,
+    "titulo": "Porque o mesmo Senhor descerá do céu",
+    "descricao": "<p>Porque o mesmo Senhor descerá do céu, com alarido, e com voz de arcanjo, e com a trombeta de Deus, e os que morreram em Cristo ressuscitarão primeiro. Eis que vem com as nuvens, e todo o olho o verá, até os mesmos que o trespassaram; e todas as tribos da terra se lamentarão sobre ele. Sim. Ámen. (I. Tessalonicenses 4:16; Apolípse 1:7)</p>",
+    "createdAt": "2025-05-30T20:53:13.568Z",
+    "updatedAt": "2025-05-30T20:53:13.568Z",
+    "idiomaId": 1,
+    "Idioma": {
+      "id": 1,
+      "nome": "Português",
+      "createdAt": "2025-03-19T15:23:32.323Z",
+      "updatedAt": "2025-03-19T15:23:32.323Z"
+    }
+  },
+  {
+    "id": 24,
+    "numero": 21,
+    "titulo": "E será, naquele dia, que se tocará uma grande trombeta",
+    "descricao": "<p>E será, naquele dia, que se tocará uma grande trombeta, e os que andavam perdidos pela terra da Assíria, e os que foram desterrados para a terra do Egipto tornarão a vir, e adorarão ao Senhor no monte santo, em Jerusalém. (Isaías 27:13)</p>",
+    "createdAt": "2025-05-30T20:53:47.610Z",
+    "updatedAt": "2025-05-30T20:53:47.610Z",
+    "idiomaId": 1,
+    "Idioma": {
+      "id": 1,
+      "nome": "Português",
+      "createdAt": "2025-03-19T15:23:32.323Z",
+      "updatedAt": "2025-03-19T15:23:32.323Z"
+    }
+  },
+  {
+    "id": 25,
+    "numero": 22,
+    "titulo": "Mas, vindo a plenitude dos tempos",
+    "descricao": "<p>Mas, vindo a plenitude dos tempos, Deus enviou seu Filho, nascido de mulher, nascido sob a lei, para remir os que estavam debaixo da lei, a fim de recebermos a adopção de filhos. (Gálatas 4:4-5)</p>",
+    "createdAt": "2025-05-30T20:54:09.321Z",
+    "updatedAt": "2025-05-30T20:54:09.321Z",
+    "idiomaId": 1,
+    "Idioma": {
+      "id": 1,
+      "nome": "Português",
+      "createdAt": "2025-03-19T15:23:32.323Z",
+      "updatedAt": "2025-03-19T15:23:32.323Z"
+    }
+  },
+  {
+    "id": 26,
+    "numero": 23,
+    "titulo": "E o verbo se fez carne",
+    "descricao": "<p>E o verbo se fez carne, e habitou entre nós, e vimos a sua glória, como a glória do unigénito do Pai, cheio de graça e de verdade. (João 1:14)</p>",
+    "createdAt": "2025-05-30T20:54:34.912Z",
+    "updatedAt": "2025-05-30T20:54:34.912Z",
+    "idiomaId": 1,
+    "Idioma": {
+      "id": 1,
+      "nome": "Português",
+      "createdAt": "2025-03-19T15:23:32.323Z",
+      "updatedAt": "2025-03-19T15:23:32.323Z"
+    }
+  },
+  {
+    "id": 27,
+    "numero": 24,
+    "titulo": "Ainda assim, agora mesmo, diz o Senhor",
+    "descricao": "<p>Ainda assim, agora mesmo, diz o Senhor: Convertei-vos a mim de todo o vosso coração; e isso com jejuns, e com choro, e com pranto. E rasgai o vosso coração, e não os vossos vestidos, e convertei-vos ao Senhor vosso Deus; porque ele é misericordioso, e compassivo, e tardio em irar-se, e grande em beneficência. (Joel 2:12-13)</p>",
+    "createdAt": "2025-05-30T20:56:20.424Z",
+    "updatedAt": "2025-05-30T20:56:20.424Z",
+    "idiomaId": 1,
+    "Idioma": {
+      "id": 1,
+      "nome": "Português",
+      "createdAt": "2025-03-19T15:23:32.323Z",
+      "updatedAt": "2025-03-19T15:23:32.323Z"
+    }
+  },
+  {
+    "id": 28,
+    "numero": 25,
+    "titulo": "Hosana ao Filho de David",
+    "descricao": "<p>Hosana ao Filho de David; bendito o que vem em nome do Senhor! Dizei à folha de Sião: Eis que o teu Rei virá a ti, Justo de Salvador. Bendito o Rei que vem em nome do Senhor! Paz no céu e glória nas alturas! Assim o Senhor seja convosco.</p>",
+    "createdAt": "2025-05-30T20:56:53.160Z",
+    "updatedAt": "2025-05-30T20:56:53.160Z",
+    "idiomaId": 1,
+    "Idioma": {
+      "id": 1,
+      "nome": "Português",
+      "createdAt": "2025-03-19T15:23:32.323Z",
+      "updatedAt": "2025-03-19T15:23:32.323Z"
+    }
+  },
+  {
+    "id": 29,
+    "numero": 26,
+    "titulo": "Diziam: Ressuscitou verdadeiramente o Senhor",
+    "descricao": "<p>Diziam: Ressuscitou verdadeiramente o Senhor, e já apareceu a Simão. Porque, se cremos que Jesus morreu e ressuscitou, assim, também, aos que em Jesus dormem, Deus os tornará a trazer com ele. (Luc. 24:34;1Tes 4:14)</p>",
+    "createdAt": "2025-05-30T20:57:24.351Z",
+    "updatedAt": "2025-05-30T20:57:24.351Z",
+    "idiomaId": 1,
+    "Idioma": {
+      "id": 1,
+      "nome": "Português",
+      "createdAt": "2025-03-19T15:23:32.323Z",
+      "updatedAt": "2025-03-19T15:23:32.323Z"
+    }
+  },
+  {
+    "id": 30,
+    "numero": 27,
+    "titulo": "Se o Espírito daquele que dos mortos ressuscitou a Jesus",
+    "descricao": "<p>Se o Espírito daquele que dos mortos ressuscitou a Jesus habita em vós, aquele que dos mortos ressuscitou a Cristo também vivificará os vossos corpos mortais, pelo seu Espírito que em vós habita. (Rom.8:11)</p>",
+    "createdAt": "2025-05-30T20:58:07.125Z",
+    "updatedAt": "2025-05-30T20:58:07.125Z",
+    "idiomaId": 1,
+    "Idioma": {
+      "id": 1,
+      "nome": "Português",
+      "createdAt": "2025-03-19T15:23:32.323Z",
+      "updatedAt": "2025-03-19T15:23:32.323Z"
+    }
+  },
+  {
+    "id": 31,
+    "numero": 28,
+    "titulo": "E há-de ser que, depois, derramarei o meu Espírito",
+    "descricao": "<p>E há-de ser que, depois, derramarei o meu Espírito sobre toda a carne, e vossos filhos e vossas filhas profetizarão, os vossos velhos terão sonhos, os vossos mancebos terão visões. E, também, sobre os servos e sobre as servas, naqueles dias, derramarei o meu Espírito. (Joel 2:28-29)</p>",
+    "createdAt": "2025-05-30T20:58:54.411Z",
+    "updatedAt": "2025-05-30T20:58:54.411Z",
+    "idiomaId": 1,
+    "Idioma": {
+      "id": 1,
+      "nome": "Português",
+      "createdAt": "2025-03-19T15:23:32.323Z",
+      "updatedAt": "2025-03-19T15:23:32.323Z"
+    }
+  },
+  {
+    "id": 32,
+    "numero": 1,
+    "titulo": "Yehova o kasi vonembele yaye yikola",
+    "descricao": "<p>Yehova o kasi vonembele yaye yikola. Omanu vosi vohile kovaso aye. (Hav.2:20)</p>",
+    "createdAt": "2025-06-04T17:23:31.150Z",
+    "updatedAt": "2025-06-04T17:23:31.150Z",
+    "idiomaId": 2,
+    "Idioma": {
+      "id": 2,
+      "nome": "Umbundu",
+      "createdAt": "2025-03-19T15:23:41.138Z",
+      "updatedAt": "2025-03-19T15:23:41.138Z"
+    }
+  },
+  {
+    "id": 33,
+    "numero": 2,
+    "titulo": "Nda yolela eci va mañinya vati",
+    "descricao": "<p>Nda yolela eci va mañinya vati, tu endi konjo ya Yehova. Ocili Suku o kasi kulo; kulo konjo ya Suku; kulo kombundi yokilu. Muisi Yehova ulamba wa posokela onduko yaye. Fendeli Yehova loku posoka kuesunga. (Osm.122:1;Eft. 28:16-7; Osm.29:1-2)</p>",
+    "createdAt": "2025-06-04T17:24:05.032Z",
+    "updatedAt": "2025-06-04T17:24:05.032Z",
+    "idiomaId": 2,
+    "Idioma": {
+      "id": 2,
+      "nome": "Umbundu",
+      "createdAt": "2025-03-19T15:23:41.138Z",
+      "updatedAt": "2025-03-19T15:23:41.138Z"
+    }
+  },
+  {
+    "id": 34,
+    "numero": 3,
+    "titulo": "A Yehova, o tumãla vonembele yove helie",
+    "descricao": "<p>A Yehova, o tumãla vonembele yove helie? Helie o tunga vomunda yove yi kola? Yu omuenyo waye wa pua eko, haeye o lingainga esunga, vutima waye mu tunda olondaka viocili. (Osm. 15:1-2)</p>",
+    "createdAt": "2025-06-04T17:24:47.042Z",
+    "updatedAt": "2025-06-04T17:24:47.042Z",
+    "idiomaId": 2,
+    "Idioma": {
+      "id": 2,
+      "nome": "Umbundu",
+      "createdAt": "2025-03-19T15:23:41.138Z",
+      "updatedAt": "2025-03-19T15:23:41.138Z"
+    }
+  },
+  {
+    "id": 35,
+    "numero": 4,
+    "titulo": "Asukiyo oluali, njimbi ovaso ho popeliwa",
+    "descricao": "<p>Asukiyo oluali, njimbi ovaso ho popeliwa. Momo ame ndi Suku, ka kuli yikuavo. Ocili, eyovo liaye li kasi ocipepi lava vo sumbila, momo Suku eye ekumbi, haeye ombindikiyo. Yehova ecaeca esumuluho lekemainyo. Lacimue ciwa a limila ava va endaenda lesunguluko. Sivayi Yehova.<em> (Is. 45:22, Osm. 85:9;84:11;106:1)</em></p>",
+    "createdAt": "2025-06-04T17:25:35.828Z",
+    "updatedAt": "2025-06-04T17:25:35.828Z",
+    "idiomaId": 2,
+    "Idioma": {
+      "id": 2,
+      "nome": "Umbundu",
+      "createdAt": "2025-03-19T15:23:41.138Z",
+      "updatedAt": "2025-03-19T15:23:41.138Z"
+    }
+  },
+  {
+    "id": 36,
+    "numero": 5,
+    "titulo": "Ca posoka oku pandula Yehova",
+    "descricao": "<p>Ca posoka oku pandula Yehova, loku imbila onduko yove esivayo, a Tõlo; loku sapula, omele, ocisola cove ka ci pui, locili cove, oñolosi.<em> (Osm. 92:1-2)</em></p>",
+    "createdAt": "2025-06-04T17:26:19.249Z",
+    "updatedAt": "2025-06-04T17:26:19.249Z",
+    "idiomaId": 2,
+    "Idioma": {
+      "id": 2,
+      "nome": "Umbundu",
+      "createdAt": "2025-03-19T15:23:41.138Z",
+      "updatedAt": "2025-03-19T15:23:41.138Z"
+    }
+  },
+  {
+    "id": 37,
+    "numero": 6,
+    "titulo": "Ndeci osonge yi livela olondui viovava",
+    "descricao": "<p>Ndeci osonge yi livela olondui viovava, haico utima wange u ku livela, a Suku. Utima wange u kasi lenyona lia Suku, Suku ukuamuenyo. Eteke lipi njiya, si moli ocipala ca Suku? Utima wange u felevela Suku lika, loku uhã. Kokuaye ku tunda eyovo liange. Omo ocisola Cove ka ci pui, ca velapo, okuti omuenyo u sule. (Osm.42:2;62:1;63:3)</p>",
+    "createdAt": "2025-06-04T21:37:20.314Z",
+    "updatedAt": "2025-06-04T21:37:20.314Z",
+    "idiomaId": 2,
+    "Idioma": {
+      "id": 2,
+      "nome": "Umbundu",
+      "createdAt": "2025-03-19T15:23:41.138Z",
+      "updatedAt": "2025-03-19T15:23:41.138Z"
+    }
+  },
+  {
+    "id": 38,
+    "numero": 7,
+    "titulo": "Ene wa sumbili Yehova",
+    "descricao": "<p>Ene wa sumbili Yehova, koleli Yehova. Eye oñuatisi yene, haeye ombindikiyo yene. <em>(Osm.115:11)</em></p>",
+    "createdAt": "2025-06-04T21:37:50.149Z",
+    "updatedAt": "2025-06-04T21:37:50.149Z",
+    "idiomaId": 2,
+    "Idioma": {
+      "id": 2,
+      "nome": "Umbundu",
+      "createdAt": "2025-03-19T15:23:41.138Z",
+      "updatedAt": "2025-03-19T15:23:41.138Z"
+    }
+  },
+  {
+    "id": 39,
+    "numero": 8,
+    "titulo": "Enjui, tu tiukili ku Yehova",
+    "descricao": "<p>Enjui, tu tiukili ku Yehova; momo eye wa tu velisa okuti o tu sakula; haye wa tu tonyõla okuti o tu itika. Tu kulihisi Yehova. Tu kuati ombili yoku u kuliha. Iya kokuetu ndombela yomandavela yina yi yulisa osi. (Hos.6:1,3)</p>",
+    "createdAt": "2025-06-04T21:38:11.815Z",
+    "updatedAt": "2025-06-04T21:38:11.815Z",
+    "idiomaId": 2,
+    "Idioma": {
+      "id": 2,
+      "nome": "Umbundu",
+      "createdAt": "2025-03-19T15:23:41.138Z",
+      "updatedAt": "2025-03-19T15:23:41.138Z"
+    }
+  },
+  {
+    "id": 40,
+    "numero": 9,
+    "titulo": "Ngambata nye, eci njiya ku Yehova",
+    "descricao": "<p>Ngambata nye, eci njiya ku Yehova? Ngambata nye, eci fendela Suku yovailu? Amunu, Suku wa ku lekisa eci ciwa. Yehova o yongola nye love, hateko oku linga esunga, lo cisola; Ohenda kuenda oku endaenda la Suku yove lesuluviko? (Mik. 6:6,8.)</p>",
+    "createdAt": "2025-06-04T21:39:07.610Z",
+    "updatedAt": "2025-06-04T21:39:07.610Z",
+    "idiomaId": 2,
+    "Idioma": {
+      "id": 2,
+      "nome": "Umbundu",
+      "createdAt": "2025-03-19T15:23:41.138Z",
+      "updatedAt": "2025-03-19T15:23:41.138Z"
+    }
+  },
+  {
+    "id": 41,
+    "numero": 10,
+    "titulo": "Kemainyi Yehova Suku Yetu",
+    "descricao": "<p>Kemainyi Yehova Suku Yetu. Fendeli vomunda yaye yi kola, momo Yehova Suku yetu o kola. (Osm. 99:9)</p>",
+    "createdAt": "2025-06-04T21:39:35.657Z",
+    "updatedAt": "2025-06-05T06:40:56.247Z",
+    "idiomaId": 2,
+    "Idioma": {
+      "id": 2,
+      "nome": "Umbundu",
+      "createdAt": "2025-03-19T15:23:41.138Z",
+      "updatedAt": "2025-03-19T15:23:41.138Z"
+    }
+  },
+  {
+    "id": 42,
+    "numero": 11,
+    "titulo": "Kokeli, tu imbili Yehova ovisungo",
+    "descricao": "<p>Kokeli, tu imbili Yehova ovisungo. Tu uluili ewe lieyovo lietu. Tu kokeli kokuaye lolopandu, tu wimbili lonjolela ovisungo viesivayo. Momo eye Suku yinene, haeye Soma yinene ya piãla olosuku viosi. Kokeli, tu fendeli loku petama. Tu kekameli kovaso a Yehova, utungi wetu. Momo eye Suku yetu, letu tumanu vaye, o tu lisalisa, haetu tulomeme vi songuilua leka liaye. (Osm. 95:1-3,6-8)</p>",
+    "createdAt": "2025-06-04T21:39:54.566Z",
+    "updatedAt": "2025-06-04T21:39:54.566Z",
+    "idiomaId": 2,
+    "Idioma": {
+      "id": 2,
+      "nome": "Umbundu",
+      "createdAt": "2025-03-19T15:23:41.138Z",
+      "updatedAt": "2025-03-19T15:23:41.138Z"
+    }
+  },
+  {
+    "id": 43,
+    "numero": 12,
+    "titulo": "Lene wakuakusanda Suku",
+    "descricao": "<p>Lene wakuakusanda Suku, ovitima viene vi kuate omuenyo. Sivayi Yehova.<em> (Osm. 69:32;106:1)</em></p>",
+    "createdAt": "2025-06-04T21:40:22.143Z",
+    "updatedAt": "2025-06-04T21:40:22.143Z",
+    "idiomaId": 2,
+    "Idioma": {
+      "id": 2,
+      "nome": "Umbundu",
+      "createdAt": "2025-03-19T15:23:41.138Z",
+      "updatedAt": "2025-03-19T15:23:41.138Z"
+    }
+  },
+  {
+    "id": 44,
+    "numero": 13,
+    "titulo": "Limbuki Yehova okuti eye Suku",
+    "descricao": "<p>Limbuki Yehova okuti eye Suku. Eye wa tu lulika, kuenje tuvaye. Tumanu vaye, tulomeme o tu lisalisa. Iñili volombundi viaye loku imba, lolopandu; vovitali viaye, lesivayo. U panduli, sivayi onduko yaye. Momo Yehova uwa. Ocisola caye ka ci pui, ci enda ño hu. Ocili caye ci enda ño-o, kovitumbulukila viosi. <em>(Osm.100:3-5)</em></p>",
+    "createdAt": "2025-06-04T21:40:53.040Z",
+    "updatedAt": "2025-06-04T21:40:53.040Z",
+    "idiomaId": 2,
+    "Idioma": {
+      "id": 2,
+      "nome": "Umbundu",
+      "createdAt": "2025-03-19T15:23:41.138Z",
+      "updatedAt": "2025-03-19T15:23:41.138Z"
+    }
+  },
+  {
+    "id": 45,
+    "numero": 14,
+    "titulo": "Loñolosi, lomele, lekumbi pongunji",
+    "descricao": "<p>Loñolosi, lomele, lekumbi pongunji, ndi litetela loku lisiõsiõla, kuenje o yeva ondaka yange. Hu kemainya, a Suku yange, a Soma yange. Manduila onduko yove oloneke viosi. <em>(Osm. 55:17;145:1)</em></p>",
+    "createdAt": "2025-06-04T21:41:22.235Z",
+    "updatedAt": "2025-06-04T21:41:22.235Z",
+    "idiomaId": 2,
+    "Idioma": {
+      "id": 2,
+      "nome": "Umbundu",
+      "createdAt": "2025-03-19T15:23:41.138Z",
+      "updatedAt": "2025-03-19T15:23:41.138Z"
+    }
+  },
+  {
+    "id": 46,
+    "numero": 15,
+    "titulo": "Momo nda kũliha ovisimilo nãsi loku vu simila",
+    "descricao": "<p>Momo nda kũliha ovisimilo nãsi loku vu simila; ovisimilo viaco vioku u kuatisi, havioku u lingako civi, haivio vioku waveli elavoko lioloneke viya. Kotembo yaco vu mbilikiya; wiyi oku likutilila kokuange, kuenje ndu yevi. Vu sanda, kuenje vu sanga. Oco ca popia Yehova. <em>(Yer. 29:11-13)</em></p>",
+    "createdAt": "2025-06-04T21:41:52.294Z",
+    "updatedAt": "2025-06-04T21:41:52.294Z",
+    "idiomaId": 2,
+    "Idioma": {
+      "id": 2,
+      "nome": "Umbundu",
+      "createdAt": "2025-03-19T15:23:41.138Z",
+      "updatedAt": "2025-03-19T15:23:41.138Z"
+    }
+  },
+  {
+    "id": 47,
+    "numero": 16,
+    "titulo": "O lamana komunda ya Yehova helie",
+    "descricao": "<p>O lamana komunda ya Yehova helie? Helie o talama kocitali caye ci kola? U o kasi lovaka a yela lutima wa pua eviho. U ka tiamisile utima waye kuhembi. U ka likuminyile lesanda. Eye o mola ku Yehova esumuluho, lesunga ku Suku ukueyovo liaye. Va sumuluha ava va endaenda lovihandeleko via Yehova. Va sumuluha vakuaku linga ovovangi aye, haivo vo vanjalaiya lutima wavo wosi, momo ohenda yaye yalua, ocili ca Yehova ka ci pui. <em>(Osm. 24:3-5; 119:1-3: 136:1)</em></p>",
+    "createdAt": "2025-06-04T21:42:19.750Z",
+    "updatedAt": "2025-06-04T21:42:19.750Z",
+    "idiomaId": 2,
+    "Idioma": {
+      "id": 2,
+      "nome": "Umbundu",
+      "createdAt": "2025-03-19T15:23:41.138Z",
+      "updatedAt": "2025-03-19T15:23:41.138Z"
+    }
+  },
+  {
+    "id": 48,
+    "numero": 17,
+    "titulo": "Lilo olio eteke lia sovola Yehova",
+    "descricao": "<p>Lilo olio eteke lia sovola Yehova: tu li yolela, loku li sanjukila. Kemainyi Yehova, Suku yetu; Fendeli vomunda yaye yi kola, momo Yehova Suku yetu o kola. <em>(Osm.118;24;99:9)</em></p>",
+    "createdAt": "2025-06-04T21:42:45.312Z",
+    "updatedAt": "2025-06-04T21:42:45.312Z",
+    "idiomaId": 2,
+    "Idioma": {
+      "id": 2,
+      "nome": "Umbundu",
+      "createdAt": "2025-03-19T15:23:41.138Z",
+      "updatedAt": "2025-03-19T15:23:41.138Z"
+    }
+  },
+  {
+    "id": 49,
+    "numero": 18,
+    "titulo": "Suku Espiritu",
+    "descricao": "<p>Suku Espiritu, kuenje ca sesamela ava vo fendaila oku u fendela lespiritu, locili. Olondaka viomela wange, lovisimilo viutima wange, vi sunguluke kokuove, a Yehova, wucikolo cange, haive wunjovoli yange. <em>(Yoam. 4:24; Osm:19:140)</em></p>",
+    "createdAt": "2025-06-04T21:43:24.043Z",
+    "updatedAt": "2025-06-04T21:43:24.043Z",
+    "idiomaId": 2,
+    "Idioma": {
+      "id": 2,
+      "nome": "Umbundu",
+      "createdAt": "2025-03-19T15:23:41.138Z",
+      "updatedAt": "2025-03-19T15:23:41.138Z"
+    }
+  },
+  {
+    "id": 50,
+    "numero": 19,
+    "titulo": "Tunde pokutunda kuekumbi toke pokuiñila kualio",
+    "descricao": "<p>Tunde pokutunda kuekumbi toke pokuiñila kualio, onduko ya Yehova yi sivayiwe. Iñili volombundi viaye lolupandu, vovitali viaye lesivayo. U panduli, sivayi onduko yaye. <em>(Osm. 113;3; 100;4)</em></p>",
+    "createdAt": "2025-06-04T21:43:55.127Z",
+    "updatedAt": "2025-06-04T21:43:55.127Z",
+    "idiomaId": 2,
+    "Idioma": {
+      "id": 2,
+      "nome": "Umbundu",
+      "createdAt": "2025-03-19T15:23:41.138Z",
+      "updatedAt": "2025-03-19T15:23:41.138Z"
+    }
+  },
+  {
+    "id": 51,
+    "numero": 20,
+    "titulo": "Olondaka viomela wange",
+    "descricao": "<p>Olondaka viomela wange lovisimilo viutima wange, vi sunguluke kokuove a Yehova, wucikolo cange, haive wunjovoli yange. (Osm.19)</p>",
+    "createdAt": "2025-06-04T21:44:25.095Z",
+    "updatedAt": "2025-06-04T21:44:25.095Z",
+    "idiomaId": 2,
+    "Idioma": {
+      "id": 2,
+      "nome": "Umbundu",
+      "createdAt": "2025-03-19T15:23:41.138Z",
+      "updatedAt": "2025-03-19T15:23:41.138Z"
+    }
+  },
+  {
+    "id": 52,
+    "numero": 21,
+    "titulo": "Momo Ñala, eye muele",
+    "descricao": "<p>Momo Ñala, eye muele, wa tunda kilu levilikiyo, londaka yungelo unene, Kuenda lolumbeta lua Suku. Kuenje ava va fa vu Kristu va pinduka tete. Ota, iya. Endela valende, kuenje ovaso osi vo mola, ndãno vava vo toma, lapata osi o kilu lieve o va litetelela, eye muele. Amene. <em>(1Tes.4;16;Esit.1:7)</em></p>",
+    "createdAt": "2025-06-04T21:45:33.075Z",
+    "updatedAt": "2025-06-04T21:45:33.075Z",
+    "idiomaId": 2,
+    "Idioma": {
+      "id": 2,
+      "nome": "Umbundu",
+      "createdAt": "2025-03-19T15:23:41.138Z",
+      "updatedAt": "2025-03-19T15:23:41.138Z"
+    }
+  },
+  {
+    "id": 53,
+    "numero": 22,
+    "titulo": "Kuenda vali keteke liaco olumbeta lunene lu sika",
+    "descricao": "<p>Kuenda vali keteke liaco olumbeta lunene lu sika, kuenje ava va nyelela vofeka ya Asuria, lava va takumuhila ve Engito, va tiuka, va fendela Yehova komunda yi kola, yo ko Yelusalãi. <em>(Isy.27:13)</em></p>",
+    "createdAt": "2025-06-04T21:46:05.999Z",
+    "updatedAt": "2025-06-04T21:46:05.999Z",
+    "idiomaId": 2,
+    "Idioma": {
+      "id": 2,
+      "nome": "Umbundu",
+      "createdAt": "2025-03-19T15:23:41.138Z",
+      "updatedAt": "2025-03-19T15:23:41.138Z"
+    }
+  },
+  {
+    "id": 54,
+    "numero": 23,
+    "titulo": "Eci otembo ya telã",
+    "descricao": "<p>Eci otembo ya telã, oco Suku wa tuma Omõlaye, wa citiwa lukãi, haeye wa citiwa kotembo yovihandeleko. Wo tuma oku yovola ava va tiamela kovihandeleko, ha va moli omangu yo ku linga omalã vaye.</p>",
+    "createdAt": "2025-06-04T21:46:31.659Z",
+    "updatedAt": "2025-06-04T21:46:31.659Z",
+    "idiomaId": 2,
+    "Idioma": {
+      "id": 2,
+      "nome": "Umbundu",
+      "createdAt": "2025-03-19T15:23:41.138Z",
+      "updatedAt": "2025-03-19T15:23:41.138Z"
+    }
+  },
+  {
+    "id": 55,
+    "numero": 24,
+    "titulo": "Oco Ndaka wa linga omunu",
+    "descricao": "<p>Oco Ndaka wa linga omunu, kuenje wa tunga pokati ketu, yu we yuka ocali, locili. Tua mola ulamba waye. Ulamba waco, ulamba wa Mõla wongunga wa Isia. <em>(Yoano.1:14)</em></p>",
+    "createdAt": "2025-06-04T21:47:08.616Z",
+    "updatedAt": "2025-06-04T21:47:08.616Z",
+    "idiomaId": 2,
+    "Idioma": {
+      "id": 2,
+      "nome": "Umbundu",
+      "createdAt": "2025-03-19T15:23:41.138Z",
+      "updatedAt": "2025-03-19T15:23:41.138Z"
+    }
+  },
+  {
+    "id": 56,
+    "numero": 25,
+    "titulo": "Puãi, ndãno cilo",
+    "descricao": "<p>Puãi, ndãno cilo, lopo Yehova oli loku tu laleka, hati: Pongolokeli kokuange lutima wosi, loku likandangiya okulia, lokulila kuenda okulitetela. Ko ka toli olonanga, toli puãi itima. Pongolokeli ku Yehova, Suku yene, momo eye ukuahenda, haeye ukuacikembe, o livala konyeño, otembo yosi o kasi locisola ka ci pongoloka. <strong>(Yoel.2:12-13)</strong></p>",
+    "createdAt": "2025-06-04T21:47:56.303Z",
+    "updatedAt": "2025-06-04T21:47:56.303Z",
+    "idiomaId": 2,
+    "Idioma": {
+      "id": 2,
+      "nome": "Umbundu",
+      "createdAt": "2025-03-19T15:23:41.138Z",
+      "updatedAt": "2025-03-19T15:23:41.138Z"
+    }
+  },
+  {
+    "id": 57,
+    "numero": 26,
+    "titulo": "Hosana ku Mola a Ndaviti",
+    "descricao": "<p>Hosana ku Mola a Ndaviti. U iyilila onduko ya Ñala a sivayiwe! Popi lomola a Siono ukãi hoti, Tala eyovo liove liya: tala, onima yahe yi kasi laye, kuenje upange wahe wenda kovaso aye. Soma iyilila onduko ya Ñala a sivayiwe. Kilu va vilikiye Hosana. Suku a kale lene.</p><p><br></p>",
+    "createdAt": "2025-06-04T21:49:17.018Z",
+    "updatedAt": "2025-06-04T21:49:17.018Z",
+    "idiomaId": 2,
+    "Idioma": {
+      "id": 2,
+      "nome": "Umbundu",
+      "createdAt": "2025-03-19T15:23:41.138Z",
+      "updatedAt": "2025-03-19T15:23:41.138Z"
+    }
+  },
+  {
+    "id": 58,
+    "numero": 24,
+    "titulo": "Va popia vati, Nãla wa pinduka muele",
+    "descricao": "<p>Va popia vati, Nãla wa pinduka muele, yu wa moleha ku Simono. Omo tu kolela okuti Yesu wa fa, kuenje wa pinduka, oco ava va pekela vu Yesu, Suku o va pindula kumuamue laye. <em>(Luk.24:34; Tes.4:14)</em></p>",
+    "createdAt": "2025-06-04T21:50:09.099Z",
+    "updatedAt": "2025-06-04T21:50:09.099Z",
+    "idiomaId": 2,
+    "Idioma": {
+      "id": 2,
+      "nome": "Umbundu",
+      "createdAt": "2025-03-19T15:23:41.138Z",
+      "updatedAt": "2025-03-19T15:23:41.138Z"
+    }
+  },
+  {
+    "id": 59,
+    "numero": 27,
+    "titulo": "Puãi, nda Espiritu liu wa pindula Yesu kuava va fa",
+    "descricao": "<p>Puãi, nda Espiritu liu wa pindula Yesu kuava va fa, li tunga vovitima viene, oco, U wa pindula Kristu kuava va fa omuisa omuenyo atimba ene a fafa. O ci linga loku talavaya le Espiritu liaye lina li kasi vovitima viene. <em>(Rom.8:11)</em></p>",
+    "createdAt": "2025-06-04T21:50:38.960Z",
+    "updatedAt": "2025-06-04T21:50:38.960Z",
+    "idiomaId": 2,
+    "Idioma": {
+      "id": 2,
+      "nome": "Umbundu",
+      "createdAt": "2025-03-19T15:23:41.138Z",
+      "updatedAt": "2025-03-19T15:23:41.138Z"
+    }
+  },
+  {
+    "id": 60,
+    "numero": 28,
+    "titulo": "Kuenje, noke ci iya okuti",
+    "descricao": "<p>Kuenje, noke ci iya okuti, ndi sukumuila Espiritu liange komanu vosi. Omãla vene valume, lomãla vene vakãi va imba owanji; olosekulu viene vi lota olonjoi, lamalehe vene va mola ovinjoinjoi. Koloneke viaco, ndãno kakuenje lokafeko, vakuopange, ndi va sukumuila Espiritu liange. <em>(Yoel.2:28-29)</em></p>",
+    "createdAt": "2025-06-04T21:51:49.956Z",
+    "updatedAt": "2025-06-04T21:51:49.956Z",
+    "idiomaId": 2,
+    "Idioma": {
+      "id": 2,
+      "nome": "Umbundu",
+      "createdAt": "2025-03-19T15:23:41.138Z",
+      "updatedAt": "2025-03-19T15:23:41.138Z"
+    }
+  }
+]

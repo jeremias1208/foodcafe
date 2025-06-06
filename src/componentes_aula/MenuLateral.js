@@ -92,10 +92,10 @@ export default function MenuLateral({ visible, onClose, navigation }) {
            <TouchableOpacity onPress={() => { onClose(); navigation.navigate("Favorito"); }}>
             <Text style={styles.menuItem}>Favoritos</Text>
           </TouchableOpacity>
-          <TouchableOpacity onPress={() => { onClose(); navigation.navigate("Sobre"); }}>
-            <Text style={styles.menuItem}>Sobre</Text>
+          <TouchableOpacity onPress={() => { onClose(); navigation.navigate("Ajuda"); }}>
+            <Text style={styles.menuItem}>Ajuda</Text>
           </TouchableOpacity>
-          <TouchableOpacity onPress={() => { onClose(); alert("Sobre o App"); }}>
+          <TouchableOpacity onPress={() => { onClose(); navigation.navigate("Sobre"); }}>
             <Text style={styles.menuItem}>Sobre</Text>
           </TouchableOpacity>
           </View>

@@ -15,7 +15,7 @@ import {
 } from "react-native-heroicons/solid";
 import Head from "../componentes_aula/Head";
 import MenuLateral from "../componentes_aula/MenuLateral";
-import litanias from "../database/Litanias.json";
+import litanias from "../database/dados/Litanias.json";
 
 
 export default function Litanias({ navigation }) {
@@ -65,13 +65,11 @@ export default function Litanias({ navigation }) {
   );
 
   return (
-    <View >
+    <View className="flex-1 mb-5">
       <Head
         title={"Litanias"}
         leftIcon={Bars4Icon}
-        centerIcon={BookOpenIcon
-
-        }
+        centerIcon={BookOpenIcon        }
         rightIcon={HeartIcon}
         searchIcon={MagnifyingGlassIcon}
         acao={setSearchText}
@@ -80,29 +78,6 @@ export default function Litanias({ navigation }) {
         placeholder="Pesquisar por número, título ou letra..."
       />
 
-       <MenuLateral
-        visible={menuVisible}
-        onClose={() => setMenuVisible(false)}
-        navigation={navigation}
-      />
-
-      {/* Lista de Litanias */}
-      {loading ? (
-        <ActivityIndicator size="large" className="mt-8" />
-      ) : error ? (
-        <Text className="text-red-500 text-center mt-8">{error}</Text>
-      ) : (
-        <FlatList
-          data={filteredLitanias}
-          keyExtractor={(item) => item.id.toString()}
-          renderItem={renderLitaniaItem}
-          ListEmptyComponent={
-            <Text className="text-gray-500 text-center mt-8">
-              Nenhum litania encontrado
-            </Text>
-          }
-        />
-      )}
     </View>
   );
 }
