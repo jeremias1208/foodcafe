@@ -1,5 +1,5 @@
 import React from "react";
-import { View, Text, ScrollView, StyleSheet, Linking } from "react-native";
+import { View, ScrollView, StyleSheet, Linking } from "react-native";
 import Cabecalho from "../componentes_aula/cabecalho";
 import FaqItem from "../componentes_aula/FaqItem";
 import { InformationCircleIcon } from "react-native-heroicons/solid";
