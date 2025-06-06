@@ -8,6 +8,7 @@ import {
   Animated,
   PanResponder,
 } from "react-native";
+import AppText from "./AppText";
 
 const { width } = Dimensions.get("window");
 
@@ -70,33 +71,33 @@ export default function MenuLateral({ visible, onClose, navigation }) {
       {...panResponder.panHandlers}
     >
      <View style={styles.menu}>
-          <Text style={[styles.menuTitle, { color: "#FF7E82" }]}>Menu</Text>
+          <AppText style={[styles.menuTitle, { color: "#FF7E82" }]}>Menu</AppText>
           <TouchableOpacity onPress={() => { onClose(); navigation.navigate("Home"); }}>
-            <Text style={styles.menuItem}>Início</Text>
+            <AppText style={styles.menuItem}>Início</AppText>
           </TouchableOpacity>
            <TouchableOpacity onPress={() => { onClose(); navigation.navigate("Hinos"); }}>
-            <Text style={styles.menuItem}>Hinos</Text>
+            <AppText style={styles.menuItem}>Hinos</AppText>
           </TouchableOpacity>
            <TouchableOpacity onPress={() => { onClose(); navigation.navigate("Litanias"); }}>
-            <Text style={styles.menuItem}>Litanias</Text>
+            <AppText style={styles.menuItem}>Litanias</AppText>
           </TouchableOpacity>
            <TouchableOpacity onPress={() => { onClose(); navigation.navigate("Salmos"); }}>
-            <Text style={styles.menuItem}>Salmos</Text>
+            <AppText style={styles.menuItem}>Salmos</AppText>
           </TouchableOpacity>
            <TouchableOpacity onPress={() => { onClose(); navigation.navigate("Invocatorias"); }}>
-            <Text style={styles.menuItem}>Invocatórias</Text>
+            <AppText style={styles.menuItem}>Invocatórias</AppText>
           </TouchableOpacity>
            <TouchableOpacity onPress={() => { onClose(); navigation.navigate("Oracoes"); }}>
-            <Text style={styles.menuItem}>Orações</Text>
+            <AppText style={styles.menuItem}>Orações</AppText>
           </TouchableOpacity>
            <TouchableOpacity onPress={() => { onClose(); navigation.navigate("Favorito"); }}>
-            <Text style={styles.menuItem}>Favoritos</Text>
+            <AppText style={styles.menuItem}>Favoritos</AppText>
           </TouchableOpacity>
           <TouchableOpacity onPress={() => { onClose(); navigation.navigate("Ajuda"); }}>
-            <Text style={styles.menuItem}>Ajuda</Text>
+            <AppText style={styles.menuItem}>Ajuda</AppText>
           </TouchableOpacity>
           <TouchableOpacity onPress={() => { onClose(); navigation.navigate("Sobre"); }}>
-            <Text style={styles.menuItem}>Sobre</Text>
+            <AppText style={styles.menuItem}>Sobre</AppText>
           </TouchableOpacity>
           </View>
     </Animated.View>

@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import { View, Text, TouchableOpacity, StyleSheet, LayoutAnimation,  Linking } from "react-native";
 import { ChevronDownIcon, ChevronUpIcon } from "react-native-heroicons/outline";
 import { useTheme } from "../Context/ThemeContext";
+import AppText from "./AppText";
+
 
 // Habilita animações no Android
 
@@ -17,7 +19,7 @@ export default function FaqItem({ pergunta, resposta, acao }) {
   return (
     <View style={[styles.container, { backgroundColor: colors.background }]}>
       <TouchableOpacity onPress={toggleExpandido} style={styles.perguntaContainer}>
-        <Text style={[styles.perguntaTexto, { color: colors.text }]}>{pergunta}</Text>
+        <AppText style={[styles.perguntaTexto, { color: colors.text }]}>{pergunta}</AppText>
         {expandido ? (
           <ChevronUpIcon size={20} color="#FF7E82" />
         ) : (
@@ -26,7 +28,7 @@ export default function FaqItem({ pergunta, resposta, acao }) {
       </TouchableOpacity>
       {expandido && (
         <TouchableOpacity style={styles.respostaContainer} onPress={acao}>
-            <Text style={[styles.respostaTexto, { color: colors.text }]}>{resposta}</Text>
+            <AppText style={[styles.respostaTexto, { color: colors.text }]}>{resposta}</AppText>
          </TouchableOpacity>
       )}
     </View>

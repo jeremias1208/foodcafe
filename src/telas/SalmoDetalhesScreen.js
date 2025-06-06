@@ -1,7 +1,7 @@
 import React from "react";
 import DetalhesGenerico from "../componentes_aula/DetalhesGenerico";
 import salmo from "../database/dados/Salmos.json";
-import {  FireIcon } from "react-native-heroicons/solid";
+import {  ChatBubbleBottomCenterTextIcon } from "react-native-heroicons/solid";
 
 export default function SalmoDetalhesScreen({ route, navigation }) {
   return (
@@ -9,7 +9,7 @@ export default function SalmoDetalhesScreen({ route, navigation }) {
         navigation={navigation}
         route={route}
         dataSource={salmo}
-        iconeCabecalho={FireIcon}
+        iconeCabecalho={ChatBubbleBottomCenterTextIcon}
         secaoTitulo="Salmo"
       />
     );

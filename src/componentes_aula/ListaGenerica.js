@@ -3,64 +3,82 @@ import {
   View,
   Text,
   FlatList,
-  TextInput,
   TouchableOpacity,
   ActivityIndicator,
 } from "react-native";
+import {
+  MagnifyingGlassIcon,
+  HeartIcon,
+  Bars4Icon,
+  BookOpenIcon,
+} from "react-native-heroicons/solid";
 import Head from "../componentes_aula/Head";
 import MenuLateral from "../componentes_aula/MenuLateral";
-import { Bars4Icon, HeartIcon, MagnifyingGlassIcon } from "react-native-heroicons/solid";
 import AppText from "./AppText";
 
-export default function ListaGenerica({
-  dados,
+export default function ListaComBusca({
   navigation,
-  nomeSessao, // Ex: "Hinos"
-  iconeCentro, // Ex: MusicalNoteIcon
-  renderItemCustom,
-  rotaDetalhes,
-  campoBusca = ["letra", "numero", "Idioma.nome"],
-  ordenarPor,
+  dados,
+  icone = BookOpenIcon,
+  titulo = "Lista",
+  nomeDetalhes = "",
+  placeholder = "Pesquisar...",
+  nomeDaProp
 }) {
-  const [searchText, setSearchText] = useState("");
-  const [filtrados, setFiltrados] = useState([]);
-  const [menuVisible, setMenuVisible] = useState(false);
   const [loading, setLoading] = useState(false);
+  const [error, setError] = useState(null);
+  const [searchText, setSearchText] = useState("");
+  const [dadosFiltrados, setDadosFiltrados] = useState([]);
+  const [menuVisible, setMenuVisible] = useState(false);
 
   useEffect(() => {
-    const ordenados = ordenarPor ? [...dados].sort(ordenarPor) : dados;
-    setFiltrados(ordenados);
-  }, []);
+    setDadosFiltrados(dados);
+  }, [dados]);
 
   useEffect(() => {
-    if (!searchText.trim()) {
-      const ordenados = ordenarPor ? [...dados].sort(ordenarPor) : dados;
-      setFiltrados(ordenados);
+    if (searchText.trim() === "") {
+      setDadosFiltrados(dados);
     } else {
       const texto = searchText.toLowerCase();
-      const filtrado = dados.filter((item) =>
-        campoBusca.some((campo) => {
-          const valor = campo.split('.').reduce((o, i) => o?.[i], item);
-          return valor?.toString().toLowerCase().includes(texto);
-        })
+      const filtrados = dados.filter((item) =>
+        item.numero.toString().includes(texto) ||
+        item.titulo?.toLowerCase().includes(texto) ||
+        item.descricao?.toLowerCase().includes(texto) ||
+        item?.Idioma?.nome?.toLowerCase().includes(texto)
       );
-      const ordenados = ordenarPor ? [...filtrado].sort(ordenarPor) : filtrado;
-      setFiltrados(ordenados);
+      setDadosFiltrados(filtrados);
     }
-  }, [searchText]);
+  }, [searchText, dados]);
+
+  const renderItem = ({ item }) => (
+    <TouchableOpacity
+      className="border-b border-gray-200 py-3 px-4 mx-4 mt-2"
+       onPress={() => navigation.navigate(nomeDetalhes, { [nomeDaProp]: item })}
+    >
+      <View className="flex-row items-center">
+        <View className="bg-blue-100 rounded-full w-8 h-8 items-center justify-center mr-3">
+          <AppText className="text-blue-800 font-bold text-xl">{item.numero}</AppText>
+        </View>
+        <AppText className="text-gray-800 flex-1 text-xl" numberOfLines={1}>
+          {item.titulo?.replace(/<[^>]*>/g, "")}
+        </AppText>
+        {icone && React.createElement(icone, { size: 25, color: "#3b82f6" })}
+      </View>
+    </TouchableOpacity>
+  );
 
   return (
-    <View className="flex-1">
+    <View className="flex-1 mb-2">
       <Head
-        title={nomeSessao}
+        title={titulo}
         leftIcon={Bars4Icon}
-        centerIcon={iconeCentro}
+        centerIcon={icone}
         rightIcon={HeartIcon}
         searchIcon={MagnifyingGlassIcon}
         acao={setSearchText}
         value={searchText}
         acaoLeft={() => setMenuVisible(true)}
-        placeholder={`Pesquisar ${nomeSessao.toLowerCase()}...`}
+        placeholder={placeholder}
       />
 
       <MenuLateral
@@ -71,23 +89,16 @@ export default function ListaGenerica({
 
       {loading ? (
         <ActivityIndicator size="large" className="mt-8" />
+      ) : error ? (
+        <AppText className="text-red-500 text-center mt-8">{error}</AppText>
       ) : (
         <FlatList
-          data={filtrados}
+          data={dadosFiltrados}
           keyExtractor={(item) => item.id.toString()}
-          renderItem={({ item }) =>
-            renderItemCustom ? renderItemCustom(item) : (
-              <TouchableOpacity
-                className="border-b border-gray-200 py-3 px-4 mx-4 mt-2"
-                onPress={() => navigation.navigate(rotaDetalhes, { item })}
-              >
-                <AppText className="text-lg text-gray-800">{JSON.stringify(item)}</AppText>
-              </TouchableOpacity>
-            )
-          }
+          renderItem={renderItem}
           ListEmptyComponent={
             <AppText className="text-gray-500 text-center mt-8">
-              Nenhum resultado encontrado
+              Nenhum item encontrado
             </AppText>
           }
         />

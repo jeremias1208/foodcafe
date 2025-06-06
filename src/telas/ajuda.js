@@ -4,6 +4,7 @@ import Cabecalho from "../componentes_aula/cabecalho";
 import FaqItem from "../componentes_aula/FaqItem";
 import { Cog6ToothIcon, InformationCircleIcon } from "react-native-heroicons/solid";
 import { useTheme } from "../Context/ThemeContext";
+import AppText from "../componentes_aula/AppText";
 
 
 const listaFaq = [
@@ -49,7 +50,7 @@ export default function AjudaScreen() {
         visible={false}
       />
       <ScrollView contentContainerStyle={styles.scroll}>
-        <Text style={[styles.titulo,  { color: colors.text }]}>Perguntas Frequentes</Text>
+        <AppText style={[styles.titulo,  { color: colors.text }]}>Perguntas Frequentes</AppText>
         {listaFaq.map((item, index) => (
           <FaqItem
             key={index}
